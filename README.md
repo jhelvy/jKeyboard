@@ -4,6 +4,5 @@ This repository contains the files for creating my custom keyboard:
 - The `karabiner` folder contains all the files for my [Karabiner-Elements](https://pqrs.org/osx/karabiner/) settings.
 
 The keyboard looks like this:
-(https://raw.github.com/jhelvy/jKeyboard/master/wasd_files/keyboard_preview.jpg | width=80)
-![alt text](https://raw.github.com/jhelvy/jKeyboard/master/wasd_files/keyboard_preview.jpg "Keyboard Layout" | width=80)
+![alt text](https://raw.github.com/jhelvy/jKeyboard/master/wasd_files/keyboard_preview.jpg "Keyboard Layout")
 
