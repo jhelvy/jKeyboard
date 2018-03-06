@@ -8,3 +8,5 @@ The keyboard looks like this:
 
 ![alt text](./wasd_files/keyboard_preview.jpg =250x)
 
+![alt text](https://raw.github.com/jhelvy/jKeyboard/master/wasd_files/keyboard_preview.jpg =250x)
+
