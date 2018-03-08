@@ -161,19 +161,6 @@
                                 "type": "basic"
                             },
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Trigger + Spacebar = Fn
 
                             {
@@ -332,6 +319,18 @@
                                 "type": "basic"
                             },
 
+
+
+
+
+
+
+
+
+
+
+
+
 // Go to Start/End of Line
 
                             {
@@ -403,6 +402,17 @@
                                 ],
                                 "type": "basic"
                             },
+
+
+
+
+
+
+
+
+
+
+
 
 // Trigger + A = Switch to vi_visual_mode for selecting text
 
@@ -569,6 +579,14 @@
                                 ],
                                 "type": "basic"
                             },
+
+
+
+// Trigger + A + U/O = Select until Start/End of Line
+
+
+
+
                             {
                                 "conditions": [
                                     {
@@ -630,6 +648,21 @@
                                 ],
                                 "type": "basic"
                             },
+
+
+
+
+
+
+
+
+
+
+
+
+// Trigger + A + B/W = Select until Start/End of Next Word
+
+
                             {
                                 "conditions": [
                                     {
@@ -694,6 +727,16 @@
                                 ],
                                 "type": "basic"
                             },
+
+
+
+
+// Trigger + A + Open/Close Bracket = Select until Start/End the Paragraph
+
+
+
+
+
                             {
                                 "conditions": [
                                     {
@@ -760,6 +803,32 @@
                                 ],
                                 "type": "basic"
                             },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// All the other junk
+
+
                             {
                                 "conditions": [
                                     {
