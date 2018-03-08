@@ -15,7 +15,7 @@
                 },
                 "rules": [
                     {
-                        "description": "Vi Mode [Cap_Lock as Trigger Key] (recommended)",
+                        "description": "jhelvy Mode [Cap_Lock as Trigger Key]",
                         "manipulators": [
                             {
                                 "from": {
