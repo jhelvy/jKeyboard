@@ -10,3 +10,6 @@ Trigger + A + J/I/K/L = Select Text
 Trigger + A + U/O = Select until Start/End of Next Word
 Trigger + A + 9/0 = Select until Start/End of Line
 Trigger + A + Open/Close Bracket = Select until Start/End the Paragraph
+
+Trigger + H = Forward Delete
+Trigger + N = Delete
