@@ -8,15 +8,14 @@
         {
             "complex_modifications": {
                 "parameters": {
+                    "basic.simultaneous_threshold_milliseconds": 50,
                     "basic.to_delayed_action_delay_milliseconds": 500,
-                    "basic.to_if_alone_timeout_milliseconds": 1000
+                    "basic.to_if_alone_timeout_milliseconds": 1000,
+                    "basic.to_if_held_down_threshold_milliseconds": 500
                 },
                 "rules": [
-
-// Set Cap_Lock as the Trigger Key
-
                     {
-                        "description": "Vi Mode [Cap_Lock as Trigger Key]",
+                        "description": "Vi Mode [Cap_Lock as Trigger Key] (recommended)",
                         "manipulators": [
                             {
                                 "from": {
@@ -45,9 +44,6 @@
                                 ],
                                 "type": "basic"
                             },
-
-// Trigger + J/I/K/L = Arrow Keys
-
                             {
                                 "conditions": [
                                     {
@@ -160,9 +156,74 @@
                                 ],
                                 "type": "basic"
                             },
-
-// Trigger + Spacebar = Fn
-
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "vi_mode",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    },
+                                    {
+                                        "name": "vi_visual_mode",
+                                        "type": "variable_if",
+                                        "value": 0
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "u",
+                                    "modifiers": {
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "left_arrow",
+                                        "modifiers": [
+                                            "left_control"
+                                        ]
+                                    },
+                                    {
+                                        "key_code": "vk_none"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "vi_mode",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    },
+                                    {
+                                        "name": "vi_visual_mode",
+                                        "type": "variable_if",
+                                        "value": 0
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "o",
+                                    "modifiers": {
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "right_arrow",
+                                        "modifiers": [
+                                            "left_control"
+                                        ]
+                                    },
+                                    {
+                                        "key_code": "vk_none"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
                             {
                                 "conditions": [
                                     {
@@ -191,9 +252,6 @@
                                 ],
                                 "type": "basic"
                             },
-
-// Trigger + Spacebar + J/I/K/L = Home / Page Down / Page Up / End
-
                             {
                                 "conditions": [
                                     {
@@ -318,21 +376,6 @@
                                 ],
                                 "type": "basic"
                             },
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Go to Start/End of Line
-
                             {
                                 "conditions": [
                                     {
@@ -349,6 +392,9 @@
                                 "from": {
                                     "key_code": "u",
                                     "modifiers": {
+                                        "mandatory": [
+                                            "fn"
+                                        ],
                                         "optional": [
                                             "caps_lock"
                                         ]
@@ -383,6 +429,9 @@
                                 "from": {
                                     "key_code": "o",
                                     "modifiers": {
+                                        "mandatory": [
+                                            "fn"
+                                        ],
                                         "optional": [
                                             "caps_lock",
                                             "shift"
@@ -402,20 +451,6 @@
                                 ],
                                 "type": "basic"
                             },
-
-
-
-
-
-
-
-
-
-
-
-
-// Trigger + A = Switch to vi_visual_mode for selecting text
-
                             {
                                 "conditions": [
                                     {
@@ -579,14 +614,6 @@
                                 ],
                                 "type": "basic"
                             },
-
-
-
-// Trigger + A + U/O = Select until Start/End of Line
-
-
-
-
                             {
                                 "conditions": [
                                     {
@@ -648,21 +675,6 @@
                                 ],
                                 "type": "basic"
                             },
-
-
-
-
-
-
-
-
-
-
-
-
-// Trigger + A + B/W = Select until Start/End of Next Word
-
-
                             {
                                 "conditions": [
                                     {
@@ -727,16 +739,6 @@
                                 ],
                                 "type": "basic"
                             },
-
-
-
-
-// Trigger + A + Open/Close Bracket = Select until Start/End the Paragraph
-
-
-
-
-
                             {
                                 "conditions": [
                                     {
@@ -803,32 +805,6 @@
                                 ],
                                 "type": "basic"
                             },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// All the other junk
-
-
                             {
                                 "conditions": [
                                     {
