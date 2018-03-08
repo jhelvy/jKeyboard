@@ -890,6 +890,108 @@
                                         "name": "vi_mode",
                                         "type": "variable_if",
                                         "value": 1
+                                    },
+                                    {
+                                        "name": "vi_visual_mode",
+                                        "type": "variable_if",
+                                        "value": 0
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "s",
+                                    "modifiers": {
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "x",
+                                        "modifiers": [
+                                            "left_command"
+                                        ]
+                                    },
+                                    {
+                                        "key_code": "vk_none"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "vi_mode",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    },
+                                    {
+                                        "name": "vi_visual_mode",
+                                        "type": "variable_if",
+                                        "value": 0
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "d",
+                                    "modifiers": {
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "c",
+                                        "modifiers": [
+                                            "left_command"
+                                        ]
+                                    },
+                                    {
+                                        "key_code": "vk_none"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "vi_mode",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    },
+                                    {
+                                        "name": "vi_visual_mode",
+                                        "type": "variable_if",
+                                        "value": 0
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "f",
+                                    "modifiers": {
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "v",
+                                        "modifiers": [
+                                            "left_command"
+                                        ]
+                                    },
+                                    {
+                                        "key_code": "vk_none"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "vi_mode",
+                                        "type": "variable_if",
+                                        "value": 1
                                     }
                                 ],
                                 "from": {

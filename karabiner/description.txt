@@ -13,3 +13,7 @@ Trigger + A + Open/Close Bracket = Select until Start/End the Paragraph
 
 Trigger + H = Forward Delete
 Trigger + N = Delete
+
+Trigger + S = Cut
+Trigger + D = Copy
+Trigger + F = Paste
