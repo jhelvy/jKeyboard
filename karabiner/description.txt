@@ -7,6 +7,6 @@ Trigger + Spacebar + J/I/K/L = Home / Page Down / Page Up / End
 Trigger + Spacebar + U/O = Go to Start/End of Line
 
 Trigger + A + J/I/K/L = Select Text
-Trigger + A + U/O = Select until Start/End of Line
-Trigger + A + B/W = Select until Start/End of Next Word
+Trigger + A + U/O = Select until Start/End of Next Word
+Trigger + A + 9/0 = Select until Start/End of Line
 Trigger + A + Open/Close Bracket = Select until Start/End the Paragraph
