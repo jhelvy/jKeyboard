@@ -45,6 +45,9 @@
                                 ],
                                 "type": "basic"
                             },
+
+// Trigger + J/I/K/L = Arrow Keys
+
                             {
                                 "conditions": [
                                     {
@@ -157,6 +160,22 @@
                                 ],
                                 "type": "basic"
                             },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Trigger + Spacebar = Fn
+
                             {
                                 "conditions": [
                                     {
@@ -185,6 +204,9 @@
                                 ],
                                 "type": "basic"
                             },
+
+// Trigger + Spacebar + J/I/K/L = Home / Page Down / Page Up / End
+
                             {
                                 "conditions": [
                                     {
@@ -309,6 +331,9 @@
                                 ],
                                 "type": "basic"
                             },
+
+// Go to Start/End of Line
+
                             {
                                 "conditions": [
                                     {
@@ -378,6 +403,9 @@
                                 ],
                                 "type": "basic"
                             },
+
+// Trigger + A = Switch to vi_visual_mode for selecting text
+
                             {
                                 "conditions": [
                                     {
