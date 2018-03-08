@@ -17,3 +17,6 @@ Trigger + N = Delete
 Trigger + S = Cut
 Trigger + D = Copy
 Trigger + F = Paste
+
+Trigger + R = Undo
+Trigger + T = Redo
