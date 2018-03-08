@@ -12,8 +12,11 @@
                     "basic.to_if_alone_timeout_milliseconds": 1000
                 },
                 "rules": [
+
+// Set Cap_Lock as the Trigger Key
+
                     {
-                        "description": "Vi Mode [Cap_Lock as Trigger Key] (recommended)",
+                        "description": "Vi Mode [Cap_Lock as Trigger Key]",
                         "manipulators": [
                             {
                                 "from": {
