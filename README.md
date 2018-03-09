@@ -15,16 +15,16 @@ The Karabiner-Elements settings can be found in the `karabiner` folder. There ar
 2. The `jSettings_macbook` file contains the settings for my Macbook. The only difference between the two is that the main `jSettings` has a couple extra shortcuts to toggle the `finder` and `Alfred` windows.
 
 ## Navigation
-|           Key Combination              |    Action    |
-|:---------------------------------------|:-------------|
-|`Caps_lock`                             |Trigger Key|
-|`Caps_lock` + `J/I/K/L`                 |Arrow Keys|
-|`Caps_lock` + `U/O`                     |Go to Start / End of Next Word|
-|`Caps_lock` + `Left_Command` + `U/O`    |Go to Start / End of Line|
-|`Caps_lock` + `Left_Command` + `J/I/K/L`|`Left_Command` + Arrow Keys|
-|`Caps_lock` + `Spacebar`                |Fn|
-|`Caps_lock` + `Spacebar` + `J/I/K/L`    |Home / Page Down / Page Up / End|
-|`Caps_lock` + `Spacebar` + `U/O`        |Go to Start / End of Line|
+|           Key Combination            |    Action    |
+|:-------------------------------------|:-------------|
+|`Caps_lock`                           |Trigger Key|
+|`Caps_lock` + `J/I/K/L`               |Arrow Keys (Left / Up / Down / Right)|
+|`Caps_lock` + `Left_Command` + `J/I/K/L` |`Left_Command` + Arrow Keys (Start of Line / Home / End / End of Line)|
+|`Caps_lock` + `U/O`                   |Go to Start / End of Next Word|
+|`Caps_lock` + `Spacebar`              |Fn|
+|`Caps_lock` + `Spacebar` + `I/K`      |Page Up / Page Down|
+|`Caps_lock` + `Spacebar` + `J/L`      |Home / End|
+|`Caps_lock` + `Spacebar` + `U/O`      |Go to Start / End of Line|
 
 ## Selecting Text
 |           Key Combination              |    Action    |
