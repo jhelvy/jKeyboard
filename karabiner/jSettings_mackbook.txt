@@ -24,7 +24,7 @@
                                 "to": [
                                     {
                                         "set_variable": {
-                                            "name": "vi_mode",
+                                            "name": "nav_mode",
                                             "value": 1
                                         }
                                     }
@@ -32,7 +32,7 @@
                                 "to_after_key_up": [
                                     {
                                         "set_variable": {
-                                            "name": "vi_mode",
+                                            "name": "nav_mode",
                                             "value": 0
                                         }
                                     }
@@ -47,12 +47,12 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "vi_mode",
+                                        "name": "nav_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     },
                                     {
-                                        "name": "vi_visual_mode",
+                                        "name": "select_mode",
                                         "type": "variable_if",
                                         "value": 0
                                     }
@@ -75,12 +75,12 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "vi_mode",
+                                        "name": "nav_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     },
                                     {
-                                        "name": "vi_visual_mode",
+                                        "name": "select_mode",
                                         "type": "variable_if",
                                         "value": 0
                                     }
@@ -106,12 +106,12 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "vi_mode",
+                                        "name": "nav_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     },
                                     {
-                                        "name": "vi_visual_mode",
+                                        "name": "select_mode",
                                         "type": "variable_if",
                                         "value": 0
                                     }
@@ -134,12 +134,12 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "vi_mode",
+                                        "name": "nav_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     },
                                     {
-                                        "name": "vi_visual_mode",
+                                        "name": "select_mode",
                                         "type": "variable_if",
                                         "value": 0
                                     }
@@ -165,12 +165,12 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "vi_mode",
+                                        "name": "nav_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     },
                                     {
-                                        "name": "vi_visual_mode",
+                                        "name": "select_mode",
                                         "type": "variable_if",
                                         "value": 0
                                     }
@@ -193,12 +193,12 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "vi_mode",
+                                        "name": "nav_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     },
                                     {
-                                        "name": "vi_visual_mode",
+                                        "name": "select_mode",
                                         "type": "variable_if",
                                         "value": 0
                                     }
@@ -224,12 +224,12 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "vi_mode",
+                                        "name": "nav_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     },
                                     {
-                                        "name": "vi_visual_mode",
+                                        "name": "select_mode",
                                         "type": "variable_if",
                                         "value": 0
                                     }
@@ -252,12 +252,12 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "vi_mode",
+                                        "name": "nav_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     },
                                     {
-                                        "name": "vi_visual_mode",
+                                        "name": "select_mode",
                                         "type": "variable_if",
                                         "value": 0
                                     }
@@ -283,12 +283,12 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "vi_mode",
+                                        "name": "nav_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     },
                                     {
-                                        "name": "vi_visual_mode",
+                                        "name": "select_mode",
                                         "type": "variable_if",
                                         "value": 0
                                     }
@@ -317,12 +317,12 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "vi_mode",
+                                        "name": "nav_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     },
                                     {
-                                        "name": "vi_visual_mode",
+                                        "name": "select_mode",
                                         "type": "variable_if",
                                         "value": 0
                                     }
@@ -351,12 +351,12 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "vi_mode",
+                                        "name": "nav_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     },
                                     {
-                                        "name": "vi_visual_mode",
+                                        "name": "select_mode",
                                         "type": "variable_if",
                                         "value": 0
                                     }
@@ -379,12 +379,12 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "vi_mode",
+                                        "name": "nav_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     },
                                     {
-                                        "name": "vi_visual_mode",
+                                        "name": "select_mode",
                                         "type": "variable_if",
                                         "value": 0
                                     }
@@ -410,12 +410,12 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "vi_mode",
+                                        "name": "nav_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     },
                                     {
-                                        "name": "vi_visual_mode",
+                                        "name": "select_mode",
                                         "type": "variable_if",
                                         "value": 0
                                     }
@@ -441,12 +441,12 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "vi_mode",
+                                        "name": "nav_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     },
                                     {
-                                        "name": "vi_visual_mode",
+                                        "name": "select_mode",
                                         "type": "variable_if",
                                         "value": 0
                                     }
@@ -478,12 +478,12 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "vi_mode",
+                                        "name": "nav_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     },
                                     {
-                                        "name": "vi_visual_mode",
+                                        "name": "select_mode",
                                         "type": "variable_if",
                                         "value": 0
                                     }
@@ -516,7 +516,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "vi_mode",
+                                        "name": "nav_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -532,7 +532,7 @@
                                 "to": [
                                     {
                                         "set_variable": {
-                                            "name": "vi_visual_mode",
+                                            "name": "select_mode",
                                             "value": 1
                                         }
                                     }
@@ -540,7 +540,7 @@
                                 "to_after_key_up": [
                                     {
                                         "set_variable": {
-                                            "name": "vi_visual_mode",
+                                            "name": "select_mode",
                                             "value": 0
                                         }
                                     }
@@ -555,7 +555,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "vi_visual_mode",
+                                        "name": "select_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -586,7 +586,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "vi_visual_mode",
+                                        "name": "select_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -617,7 +617,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "vi_visual_mode",
+                                        "name": "select_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -648,7 +648,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "vi_visual_mode",
+                                        "name": "select_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -679,7 +679,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "vi_visual_mode",
+                                        "name": "select_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -709,7 +709,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "vi_visual_mode",
+                                        "name": "select_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -740,7 +740,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "vi_visual_mode",
+                                        "name": "select_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -772,7 +772,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "vi_visual_mode",
+                                        "name": "select_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -804,7 +804,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "vi_visual_mode",
+                                        "name": "select_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -837,7 +837,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "vi_visual_mode",
+                                        "name": "select_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -870,7 +870,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "vi_visual_mode",
+                                        "name": "select_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -893,12 +893,12 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "vi_mode",
+                                        "name": "nav_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     },
                                     {
-                                        "name": "vi_visual_mode",
+                                        "name": "select_mode",
                                         "type": "variable_if",
                                         "value": 0
                                     }
@@ -921,12 +921,12 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "vi_mode",
+                                        "name": "nav_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     },
                                     {
-                                        "name": "vi_visual_mode",
+                                        "name": "select_mode",
                                         "type": "variable_if",
                                         "value": 0
                                     }
@@ -949,12 +949,12 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "vi_mode",
+                                        "name": "nav_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     },
                                     {
-                                        "name": "vi_visual_mode",
+                                        "name": "select_mode",
                                         "type": "variable_if",
                                         "value": 0
                                     }
@@ -983,12 +983,12 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "vi_mode",
+                                        "name": "nav_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     },
                                     {
-                                        "name": "vi_visual_mode",
+                                        "name": "select_mode",
                                         "type": "variable_if",
                                         "value": 0
                                     }
@@ -1017,12 +1017,12 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "vi_mode",
+                                        "name": "nav_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     },
                                     {
-                                        "name": "vi_visual_mode",
+                                        "name": "select_mode",
                                         "type": "variable_if",
                                         "value": 0
                                     }
@@ -1051,12 +1051,12 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "vi_mode",
+                                        "name": "nav_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     },
                                     {
-                                        "name": "vi_visual_mode",
+                                        "name": "select_mode",
                                         "type": "variable_if",
                                         "value": 0
                                     }
@@ -1085,12 +1085,12 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "vi_mode",
+                                        "name": "nav_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     },
                                     {
-                                        "name": "vi_visual_mode",
+                                        "name": "select_mode",
                                         "type": "variable_if",
                                         "value": 0
                                     }
@@ -1119,12 +1119,12 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "vi_mode",
+                                        "name": "nav_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     },
                                     {
-                                        "name": "vi_visual_mode",
+                                        "name": "select_mode",
                                         "type": "variable_if",
                                         "value": 0
                                     }
@@ -1153,12 +1153,12 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "vi_mode",
+                                        "name": "nav_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     },
                                     {
-                                        "name": "vi_visual_mode",
+                                        "name": "select_mode",
                                         "type": "variable_if",
                                         "value": 0
                                     }
@@ -1187,12 +1187,12 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "vi_mode",
+                                        "name": "nav_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     },
                                     {
-                                        "name": "vi_visual_mode",
+                                        "name": "select_mode",
                                         "type": "variable_if",
                                         "value": 0
                                     }
@@ -1222,12 +1222,12 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "vi_mode",
+                                        "name": "nav_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     },
                                     {
-                                        "name": "vi_visual_mode",
+                                        "name": "select_mode",
                                         "type": "variable_if",
                                         "value": 0
                                     }
@@ -1253,12 +1253,12 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "vi_mode",
+                                        "name": "nav_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     },
                                     {
-                                        "name": "vi_visual_mode",
+                                        "name": "select_mode",
                                         "type": "variable_if",
                                         "value": 0
                                     }
@@ -1281,12 +1281,12 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "vi_mode",
+                                        "name": "nav_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     },
                                     {
-                                        "name": "vi_visual_mode",
+                                        "name": "select_mode",
                                         "type": "variable_if",
                                         "value": 0
                                     }
@@ -1309,12 +1309,12 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "vi_mode",
+                                        "name": "nav_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     },
                                     {
-                                        "name": "vi_visual_mode",
+                                        "name": "select_mode",
                                         "type": "variable_if",
                                         "value": 0
                                     }
@@ -1337,12 +1337,12 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "vi_mode",
+                                        "name": "nav_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     },
                                     {
-                                        "name": "vi_visual_mode",
+                                        "name": "select_mode",
                                         "type": "variable_if",
                                         "value": 0
                                     }
@@ -1365,12 +1365,12 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "vi_mode",
+                                        "name": "nav_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     },
                                     {
-                                        "name": "vi_visual_mode",
+                                        "name": "select_mode",
                                         "type": "variable_if",
                                         "value": 0
                                     }
@@ -1399,12 +1399,12 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "vi_mode",
+                                        "name": "nav_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     },
                                     {
-                                        "name": "vi_visual_mode",
+                                        "name": "select_mode",
                                         "type": "variable_if",
                                         "value": 0
                                     }
@@ -1433,12 +1433,12 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "vi_mode",
+                                        "name": "nav_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     },
                                     {
-                                        "name": "vi_visual_mode",
+                                        "name": "select_mode",
                                         "type": "variable_if",
                                         "value": 0
                                     }
@@ -1467,12 +1467,12 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "vi_mode",
+                                        "name": "nav_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     },
                                     {
-                                        "name": "vi_visual_mode",
+                                        "name": "select_mode",
                                         "type": "variable_if",
                                         "value": 0
                                     }
@@ -1502,12 +1502,12 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "vi_mode",
+                                        "name": "nav_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     },
                                     {
-                                        "name": "vi_visual_mode",
+                                        "name": "select_mode",
                                         "type": "variable_if",
                                         "value": 0
                                     }
