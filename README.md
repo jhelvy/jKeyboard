@@ -22,10 +22,8 @@ The Karabiner-Elements settings can be found in the `karabiner` folder. There ar
 |`Caps_lock` + `Left_Command` + `J/I/K/L` |`Left_Command` + Arrow Keys|
 |`Caps_lock` + `U/O`                   |Go to Start / End of Line|
 |`Caps_lock` + `Spacebar`              |Fn|
-|`Caps_lock` + `Spacebar` + `J/I/K/L`  |Home / Page Up / Page Down / End|
-|`Caps_lock` + `Spacebar` + `U/O`      |Go to Start / End of Next Word|
-
-
+|`Caps_lock` + `Spacebar` + `I/K/`     |Page Up / Page Down|
+|`Caps_lock` + `Spacebar` + `J/L`      |Go to Start / End of Next Word|
 
 ## Selecting Text
 |           Key Combination              |    Action    |
