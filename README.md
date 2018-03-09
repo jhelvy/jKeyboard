@@ -59,3 +59,19 @@ The Karabiner-Elements settings can be found in the `karabiner` folder. There ar
 |`Caps_lock` + `Y`        |`Control` + `Y` (My Sublime Text shortcut to send selected text to a REPL)|
 |`Caps_lock` + `9`        |`Control` + `9` (My Sublime Text shortcut to shift focus to the LEFT panel)|
 |`Caps_lock` + `0`        |`Control` + `0` (My Sublime Text shortcut to shift focus to the RIGHT panel)|
+
+## Function Keys
+|     Key      |    Action    |
+|:-------------|:-------------|
+|  f1          |Brightness Decrease|
+|  f2          |Brightness Increase|
+|  f3          |Mission Control|
+|  f4          |Dashboard|
+|  f5          |Open Gmail in Google Chrome|
+|  f6          |Open Google Calendar in Google Chrome|
+|  f7          |Open Facebook in Google Chrome|
+|  f8          |Open Intellicast Weather in Google Chrome|
+|  f9          |Screen Shot|
+|  f10         |Mute|
+|  f11         |Volume Decrease|
+|  f12         |Volume Increase|
