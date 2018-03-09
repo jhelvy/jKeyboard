@@ -10,7 +10,9 @@ The keyboard looks like this:
 The most significant thing about this design is the blue "hyper" key that is in place of the "Caps_lock" key. I use Karabiner-Elements to modify the keyboard such that when this "hyper" key is held down the functionality of many other keys also change, which is indicated by the small blue icons in the lower-right corners of each key.
 
 # Karabiner-Elements Settings
-The current settings found in './karabiner/jSettings.txt' result in the following functionality:
+The Karabiner-Elements settings can be found in the `karabiner` folder. There are two versions:
+1. The `jSettings` file contains the settings for my WASD custom keyboard, which I use with a Mac Mini
+2. The `jSettings_macbook` file contains the settings for my Macbook. The only difference between the two is that the main `jSettings` has a couple extra shortcuts to toggle the `finder` and `Alfred` windows.
 
 ## Navigation
 |           Key Combination              |    Action    |
