@@ -54,6 +54,7 @@ The Karabiner-Elements settings can be found in the `karabiner` folder. There ar
 |`Caps_lock` + `C`        |Open Google Chrome|
 |`Caps_lock` + `Z`        |Open the file `'foo.txt'` in my Dropbox Folder|
 |`Caps_lock` + `8`        |Open Terminal|
+|`Caps_lock` + `2`        |`Left_Command` + `Left_Option` + `2` (Split Sublime Text into Two Windows)|
 |`Caps_lock` + `G`        |Type my usual email send off ("Cheers, John")|
 |`Caps_lock` + `Y`        |`Control` + `Y` (My Sublime Text shortcut to send selected text to a REPL)|
 |`Caps_lock` + `9`        |`Control` + `9` (My Sublime Text shortcut to shift focus to the LEFT panel)|
