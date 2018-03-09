@@ -31,15 +31,16 @@ The current settings found in './karabiner/jSettings.txt' result in the followin
 |`Caps_lock` + `A` + `Open/Close Bracket`|Select until Start/End the Paragraph|
 
 ## Common Shortcuts
-|           Key Combination              |    Action    |
-|:---------------------------------------|:-------------|
-|`Caps_lock` + `H`                       |Forward Delete|
-|`Caps_lock` + `N`                       |Delete|
-|`Caps_lock` + `S`                       |Cut|
-|`Caps_lock` + `D`                       |Copy|
-|`Caps_lock` + `F`                       |Paste|
-|`Caps_lock` + `R`                       |Undo|
-|`Caps_lock` + `T`                       |Redo|
-|`Caps_lock` + `M`                       |Find|
-|`Caps_lock` + `Comma`                   |Find Previous|
-|`Caps_lock` + `Period`                  |Find Next|
+|     Key Combination     |    Action    |
+|:------------------------|:-------------|
+|`Caps_lock` + `H`        |Forward Delete|
+|`Caps_lock` + `N`        |Delete|
+|`Caps_lock` + `S`        |Cut|
+|`Caps_lock` + `D`        |Copy|
+|`Caps_lock` + `F`        |Paste|
+|`Caps_lock` + `R`        |Undo|
+|`Caps_lock` + `T`        |Redo|
+|`Caps_lock` + `M`        |Find|
+|`Caps_lock` + `Comma`    |Find Previous|
+|`Caps_lock` + `Period`   |Find Next|
+|`Caps_lock` + `E`        |Escape|
