@@ -58,12 +58,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "j",
-                                    "modifiers": {
-                                        "optional": [
-                                            "caps_lock"
-                                        ]
-                                    }
+                                    "key_code": "j"
                                 },
                                 "to": [
                                     {
@@ -117,12 +112,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "k",
-                                    "modifiers": {
-                                        "optional": [
-                                            "caps_lock"
-                                        ]
-                                    }
+                                    "key_code": "k"
                                 },
                                 "to": [
                                     {
@@ -176,12 +166,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "i",
-                                    "modifiers": {
-                                        "optional": [
-                                            "caps_lock"
-                                        ]
-                                    }
+                                    "key_code": "i"
                                 },
                                 "to": [
                                     {
@@ -235,12 +220,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "l",
-                                    "modifiers": {
-                                        "optional": [
-                                            "caps_lock"
-                                        ]
-                                    }
+                                    "key_code": "l"
                                 },
                                 "to": [
                                     {
@@ -294,12 +274,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "u",
-                                    "modifiers": {
-                                        "optional": [
-                                            "caps_lock"
-                                        ]
-                                    }
+                                    "key_code": "u"
                                 },
                                 "to": [
                                     {
@@ -328,12 +303,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "o",
-                                    "modifiers": {
-                                        "optional": [
-                                            "caps_lock"
-                                        ]
-                                    }
+                                    "key_code": "o"
                                 },
                                 "to": [
                                     {
@@ -362,12 +332,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "spacebar",
-                                    "modifiers": {
-                                        "optional": [
-                                            "caps_lock"
-                                        ]
-                                    }
+                                    "key_code": "spacebar"
                                 },
                                 "to": [
                                     {
@@ -522,12 +487,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "a",
-                                    "modifiers": {
-                                        "optional": [
-                                            "caps_lock"
-                                        ]
-                                    }
+                                    "key_code": "a"
                                 },
                                 "to": [
                                     {
@@ -561,12 +521,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "j",
-                                    "modifiers": {
-                                        "optional": [
-                                            "caps_lock"
-                                        ]
-                                    }
+                                    "key_code": "j"
                                 },
                                 "to": [
                                     {
@@ -592,12 +547,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "k",
-                                    "modifiers": {
-                                        "optional": [
-                                            "caps_lock"
-                                        ]
-                                    }
+                                    "key_code": "k"
                                 },
                                 "to": [
                                     {
@@ -623,12 +573,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "i",
-                                    "modifiers": {
-                                        "optional": [
-                                            "caps_lock"
-                                        ]
-                                    }
+                                    "key_code": "i"
                                 },
                                 "to": [
                                     {
@@ -654,12 +599,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "l",
-                                    "modifiers": {
-                                        "optional": [
-                                            "caps_lock"
-                                        ]
-                                    }
+                                    "key_code": "l"
                                 },
                                 "to": [
                                     {
@@ -685,12 +625,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "u",
-                                    "modifiers": {
-                                        "optional": [
-                                            "caps_lock"
-                                        ]
-                                    }
+                                    "key_code": "u"
                                 },
                                 "to": [
                                     {
@@ -746,12 +681,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "comma",
-                                    "modifiers": {
-                                        "optional": [
-                                            "caps_lock"
-                                        ]
-                                    }
+                                    "key_code": "comma"
                                 },
                                 "to": [
                                     {
@@ -778,12 +708,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "period",
-                                    "modifiers": {
-                                        "optional": [
-                                            "caps_lock"
-                                        ]
-                                    }
+                                    "key_code": "period"
                                 },
                                 "to": [
                                     {
@@ -904,12 +829,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "h",
-                                    "modifiers": {
-                                        "optional": [
-                                            "caps_lock"
-                                        ]
-                                    }
+                                    "key_code": "h"
                                 },
                                 "to": [
                                     {
@@ -932,12 +852,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "n",
-                                    "modifiers": {
-                                        "optional": [
-                                            "caps_lock"
-                                        ]
-                                    }
+                                    "key_code": "n"
                                 },
                                 "to": [
                                     {
@@ -960,12 +875,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "s",
-                                    "modifiers": {
-                                        "optional": [
-                                            "caps_lock"
-                                        ]
-                                    }
+                                    "key_code": "s"
                                 },
                                 "to": [
                                     {
@@ -994,12 +904,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "d",
-                                    "modifiers": {
-                                        "optional": [
-                                            "caps_lock"
-                                        ]
-                                    }
+                                    "key_code": "d"
                                 },
                                 "to": [
                                     {
@@ -1028,12 +933,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "f",
-                                    "modifiers": {
-                                        "optional": [
-                                            "caps_lock"
-                                        ]
-                                    }
+                                    "key_code": "f"
                                 },
                                 "to": [
                                     {
@@ -1062,12 +962,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "r",
-                                    "modifiers": {
-                                        "optional": [
-                                            "caps_lock"
-                                        ]
-                                    }
+                                    "key_code": "r"
                                 },
                                 "to": [
                                     {
@@ -1096,12 +991,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "t",
-                                    "modifiers": {
-                                        "optional": [
-                                            "caps_lock"
-                                        ]
-                                    }
+                                    "key_code": "t"
                                 },
                                 "to": [
                                     {
@@ -1130,12 +1020,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "m",
-                                    "modifiers": {
-                                        "optional": [
-                                            "caps_lock"
-                                        ]
-                                    }
+                                    "key_code": "m"
                                 },
                                 "to": [
                                     {
@@ -1164,12 +1049,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "period",
-                                    "modifiers": {
-                                        "optional": [
-                                            "caps_lock"
-                                        ]
-                                    }
+                                    "key_code": "period"
                                 },
                                 "to": [
                                     {
@@ -1198,12 +1078,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "comma",
-                                    "modifiers": {
-                                        "optional": [
-                                            "caps_lock"
-                                        ]
-                                    }
+                                    "key_code": "comma"
                                 },
                                 "to": [
                                     {
@@ -1233,12 +1108,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "e",
-                                    "modifiers": {
-                                        "optional": [
-                                            "caps_lock"
-                                        ]
-                                    }
+                                    "key_code": "e"
                                 },
                                 "to": [
                                     {
@@ -1264,12 +1134,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "c",
-                                    "modifiers": {
-                                        "optional": [
-                                            "caps_lock"
-                                        ]
-                                    }
+                                    "key_code": "c"
                                 },
                                 "to": [
                                     {
@@ -1292,12 +1157,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "f5",
-                                    "modifiers": {
-                                        "optional": [
-                                            "caps_lock"
-                                        ]
-                                    }
+                                    "key_code": "f5"
                                 },
                                 "to": [
                                     {
@@ -1320,12 +1180,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "z",
-                                    "modifiers": {
-                                        "optional": [
-                                            "caps_lock"
-                                        ]
-                                    }
+                                    "key_code": "z"
                                 },
                                 "to": [
                                     {
@@ -1348,12 +1203,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "8",
-                                    "modifiers": {
-                                        "optional": [
-                                            "caps_lock"
-                                        ]
-                                    }
+                                    "key_code": "8"
                                 },
                                 "to": [
                                     {
@@ -1376,12 +1226,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "y",
-                                    "modifiers": {
-                                        "optional": [
-                                            "caps_lock"
-                                        ]
-                                    }
+                                    "key_code": "y"
                                 },
                                 "to": [
                                     {
@@ -1410,12 +1255,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "9",
-                                    "modifiers": {
-                                        "optional": [
-                                            "caps_lock"
-                                        ]
-                                    }
+                                    "key_code": "9"
                                 },
                                 "to": [
                                     {
@@ -1444,12 +1284,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "0",
-                                    "modifiers": {
-                                        "optional": [
-                                            "caps_lock"
-                                        ]
-                                    }
+                                    "key_code": "0"
                                 },
                                 "to": [
                                     {
@@ -1478,12 +1313,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "2",
-                                    "modifiers": {
-                                        "optional": [
-                                            "caps_lock"
-                                        ]
-                                    }
+                                    "key_code": "2"
                                 },
                                 "to": [
                                     {
@@ -1513,12 +1343,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "g",
-                                    "modifiers": {
-                                        "optional": [
-                                            "caps_lock"
-                                        ]
-                                    }
+                                    "key_code": "g"
                                 },
                                 "to": [
                                     {
