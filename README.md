@@ -44,3 +44,8 @@ The current settings found in './karabiner/jSettings.txt' result in the followin
 |`Caps_lock` + `Comma`    |Find Previous|
 |`Caps_lock` + `Period`   |Find Next|
 |`Caps_lock` + `E`        |Escape|
+
+## Other Shortcuts
+|     Key Combination     |    Action    |
+|:------------------------|:-------------|
+|`Caps_lock` + `C`        |Open Google Chrome|
