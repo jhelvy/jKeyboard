@@ -1,7 +1,7 @@
 Trigger = Caps_lock
 
 Trigger + J/I/K/L            = Arrow Keys
-Trigger + U/O                = Go to Start/End of Next Word
+Trigger + U/O                = d9
 Trigger + Spacebar           = Fn
 Trigger + Spacebar + J/I/K/L = Home / Page Down / Page Up / End
 Trigger + Spacebar + U/O     = Go to Start/End of Line
