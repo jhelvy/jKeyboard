@@ -86,7 +86,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "j",
+                                    "key_code": "u",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_command"
@@ -263,7 +263,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "l",
+                                    "key_code": "o",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_command"
