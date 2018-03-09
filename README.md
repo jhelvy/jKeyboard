@@ -22,7 +22,7 @@ The Karabiner-Elements settings can be found in the `karabiner` folder. There ar
 |`Caps_lock` + `Left_Command` + `J/I/K/L` |`Left_Command` + Arrow Keys|
 |`Caps_lock` + `U/O`                   |Go to Start / End of Line|
 |`Caps_lock` + `Spacebar`              |Fn|
-|`Caps_lock` + `Spacebar` + `I/K/`     |Page Up / Page Down|
+|`Caps_lock` + `Spacebar` + `I/K`     |Page Up / Page Down|
 |`Caps_lock` + `Spacebar` + `J/L`      |Go to Start / End of Next Word|
 
 ## Selecting Text
@@ -53,6 +53,7 @@ The Karabiner-Elements settings can be found in the `karabiner` folder. There ar
 |:------------------------|:-------------|
 |`Caps_lock` + `C`        |Open Google Chrome|
 |`Caps_lock` + `Z`        |Open the file `'foo.txt'` in my Dropbox Folder|
+|`Caps_lock` + `8`        |Open Terminal|
 |`Caps_lock` + `Y`        |`Control` + `Y` (My Sublime Text shortcut to send selected text to a REPL)|
 |`Caps_lock` + `9`        |`Control` + `9` (My Sublime Text shortcut to shift focus to the LEFT panel)|
 |`Caps_lock` + `0`        |`Control` + `0` (My Sublime Text shortcut to shift focus to the RIGHT panel)|
