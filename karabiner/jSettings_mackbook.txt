@@ -747,7 +747,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "9",
+                                    "key_code": "u",
                                     "modifiers": {
                                         "optional": [
                                             "caps_lock"
@@ -777,7 +777,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "0",
+                                    "key_code": "o",
                                     "modifiers": {
                                         "optional": [
                                             "caps_lock",
@@ -808,7 +808,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "u",
+                                    "key_code": "comma",
                                     "modifiers": {
                                         "optional": [
                                             "caps_lock"
@@ -840,7 +840,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "o",
+                                    "key_code": "period",
                                     "modifiers": {
                                         "optional": [
                                             "caps_lock"

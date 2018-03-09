@@ -29,8 +29,8 @@ The Karabiner-Elements settings can be found in the `karabiner` folder. There ar
 |           Key Combination              |    Action    |
 |:---------------------------------------|:-------------|
 |`Caps_lock` + `A` + `J/I/K/L`           |Select Text|
-|`Caps_lock` + `A` + `U/O`               |Select until Start/End of Next Word|
-|`Caps_lock` + `A` + `9/0`               |Select until Start/End of Line|
+|`Caps_lock` + `A` + `U/O`               |Select until Start/End of Line|
+|`Caps_lock` + `A` + `Comma/Period`      |Select until Start/End of Next Word|
 |`Caps_lock` + `A` + `Open/Close Bracket`|Select until Start/End the Paragraph|
 
 ## Common Shortcuts
