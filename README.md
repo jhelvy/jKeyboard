@@ -12,31 +12,34 @@ The most significant thing about this design is the blue "hyper" key that is in 
 # Karabiner-Elements Settings
 The current settings found in './karabiner/jSettings.txt' result in the following functionality:
 
+## Navigation
 |           Key Combination              |    Action    |
 |:---------------------------------------|:-------------|
 |`Caps_lock`                             |Trigger Key|
 |`Caps_lock` + `J/I/K/L`                 |Arrow Keys|
 |`Caps_lock` + `U/O`                     |Go to Start / End of Next Word|
-
 |`Caps_lock` + `Spacebar`                |Fn|
 |`Caps_lock` + `Spacebar` + `J/I/K/L`    |Home / Page Down / Page Up / End|
 |`Caps_lock` + `Spacebar` + `U/O`        |Go to Start / End of Line|
 
+## Selecting Text
+|           Key Combination              |    Action    |
+|:---------------------------------------|:-------------|
 |`Caps_lock` + `A` + `J/I/K/L`           |Select Text|
 |`Caps_lock` + `A` + `U/O`               |Select until Start/End of Next Word|
 |`Caps_lock` + `A` + `9/0`               |Select until Start/End of Line|
 |`Caps_lock` + `A` + `Open/Close Bracket`|Select until Start/End the Paragraph|
 
+## Common Shortcuts
+|           Key Combination              |    Action    |
+|:---------------------------------------|:-------------|
 |`Caps_lock` + `H`                       |Forward Delete|
 |`Caps_lock` + `N`                       |Delete|
-
 |`Caps_lock` + `S`                       |Cut|
 |`Caps_lock` + `D`                       |Copy|
 |`Caps_lock` + `F`                       |Paste|
-
 |`Caps_lock` + `R`                       |Undo|
 |`Caps_lock` + `T`                       |Redo|
-
 |`Caps_lock` + `M`                       |Find|
 |`Caps_lock` + `Comma`                   |Find Previous|
 |`Caps_lock` + `Period`                  |Find Next|
