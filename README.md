@@ -51,3 +51,4 @@ The Karabiner-Elements settings can be found in the `karabiner` folder. There ar
 |     Key Combination     |    Action    |
 |:------------------------|:-------------|
 |`Caps_lock` + `C`        |Open Google Chrome|
+|`Caps_lock` + `Z`        |Open the file `'foo.txt'` in my Dropbox Folder|
