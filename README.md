@@ -5,8 +5,6 @@ This repository contains the files for creating my custom keyboard:
 - The `./karabiner` folder contains the json files for my [Karabiner-Elements](https://pqrs.org/osx/karabiner/) settings.
 
 # Table of Contents
-- [jKeyboard](#jkeyboard)
-- [Table of Contents](#table-of-contents)
 - [Customized WASD Keyboard](#customized-wasd-keyboard)
 - [Karabiner-Elements Settings](#karabiner-elements-settings)
   - [Installation (mac)](#installation--mac-)
