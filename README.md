@@ -100,7 +100,7 @@ open ~/.config
 |:-------------|:-------------|
 | Tap <kbd>Left ⇧</kbd>  | <kbd>(</kbd> |
 | Tap <kbd>Right ⇧</kbd> | <kbd>)</kbd> |
-| Hold `Esc  ⎋`   | <kbd>⌘</kbd> + <kbd>W</kbd> (Close Window) |
+| Hold <kbd>Esc</kbd>   | <kbd>⌘</kbd> + <kbd>W</kbd> (Close Window) |
 
 ## WASD-Specific Keys
 These only work on my WASD keyboard (not a standard Apple keyboard):
