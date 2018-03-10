@@ -7,8 +7,8 @@ This repository contains the files for creating my custom keyboard:
 # Table of Contents
 - [Customized WASD Keyboard](#customized-wasd-keyboard)
 - [Karabiner-Elements Settings](#karabiner-elements-settings)
-  - [Installation (mac)](#installation--mac-)
-  - [jhelvy caps_lock keyboard](#jhelvy-caps-lock-keyboard)
+  - [Installation (mac)](#installation-mac)
+  - [jhelvy caps_lock keyboard](#jhelvy-caps_lock-keyboard)
     - [Navigation](#navigation)
     - [Selecting Text](#selecting-text)
     - [Common Shortcuts](#common-shortcuts)
