@@ -19,24 +19,19 @@ The Karabiner-Elements settings can be found in the `karabiner` folder. There ar
 |:-------------------------------------|:-------------|
 | <kbd>caps lock</kbd> |Trigger Key|
 | <kbd>caps lock</kbd> + <kbd>J</kbd> / <kbd>I</kbd> / <kbd>K</kbd> / <kbd>L</kbd> | <kbd>←</kbd> / <kbd>↑</kbd> / <kbd>↓</kbd> / <kbd>→</kbd> |
-
-|<kbd>caps lock</kbd> + <kbd>left ⌘</kbd> + <kbd>J</kbd> / <kbd>I</kbd> / <kbd>K</kbd> / <kbd>L</kbd> | <kbd>left ⌘</kbd> + <kbd>←</kbd> / <kbd>↑</kbd> / <kbd>↓</kbd> / <kbd>→</kbd>|
-
-|<kbd>caps lock</kbd> + <kbd>U</kbd> / <kbd>O</kbd> | <kbd>left ⌘</kbd> + <kbd>←</kbd> / <kbd>→</kbd> (Go to Start / End of Line)|
-
+|<kbd>caps lock</kbd> + <kbd>left ⌘</kbd> + <kbd>J</kbd> / <kbd>I</kbd> / <kbd>K</kbd> / <kbd>L</kbd> | <kbd>left ⌘</kbd> + <kbd>←</kbd> / <kbd>↑</kbd> / <kbd>↓</kbd> / <kbd>→</kbd> |
+|<kbd>caps lock</kbd> + <kbd>U</kbd> / <kbd>O</kbd> | <kbd>left ⌘</kbd> + <kbd>←</kbd> / <kbd>→</kbd> (Go to Start / End of Line) |
 |<kbd>caps lock</kbd> + <kbd>spacebar</kbd> | <kbd>fn</kbd> |
-
-|<kbd>caps lock</kbd> + <kbd>spacebar</kbd> + <kbd>I</kbd> / <kbd>K</kbd> | <kbd>⇞</kbd> / <kbd>⇟</kbd> (Page Up / Page Down)|
-
-|<kbd>caps lock</kbd> + <kbd>spacebar</kbd> + <kbd>J</kbd> / <kbd>L</kbd> | <kbd>left ⌃</kbd> + <kbd>←</kbd> / <kbd>→</kbd>(Go to Start / End of Next Word)|
+|<kbd>caps lock</kbd> + <kbd>spacebar</kbd> + <kbd>I</kbd> / <kbd>K</kbd> | <kbd>⇞</kbd> / <kbd>⇟</kbd> (Page Up / Page Down) |
+|<kbd>caps lock</kbd> + <kbd>spacebar</kbd> + <kbd>J</kbd> / <kbd>L</kbd> | <kbd>left ⌃</kbd> + <kbd>←</kbd> / <kbd>→</kbd> (Go to Start / End of Next Word) |
 
 ## Selecting Text
 |           Key Combination              |    Action    |
 |:---------------------------------------|:-------------|
-|<kbd>caps lock</kbd> + <kbd>A</kbd> + <kbd>J</kbd> / <kbd>I</kbd> / <kbd>K</kbd> / <kbd>L</kbd> | <kbd>shift</kbd> + <kbd>←</kbd> / <kbd>↑</kbd> / <kbd>↓</kbd> / <kbd>→</kbd> (Select Text)|
+|<kbd>caps lock</kbd> + <kbd>A</kbd> + <kbd>J</kbd> / <kbd>I</kbd> / <kbd>K</kbd> / <kbd>L</kbd> | <kbd>shift</kbd> + <kbd>←</kbd> / <kbd>↑</kbd> / <kbd>↓</kbd> / <kbd>→</kbd> (Select Text) |
 |<kbd>caps lock</kbd> + <kbd>A</kbd> + <kbd>U</kbd> / <kbd>O</kbd> | <kbd>shift</kbd> + <kbd>left ⌘</kbd> + <kbd>←</kbd> / <kbd>→</kbd> (Select until Start/End of Line) |
-|<kbd>caps lock</kbd> + <kbd>A</kbd> + <kbd>,</kbd> / <kbd>.</kbd> | Select until Start/End of Next Word |
-|<kbd>caps lock</kbd> + <kbd>A</kbd> + <kbd>[</kbd> / <kbd>]</kbd> | Select until Start/End the Paragraph |
+|<kbd>caps lock</kbd> + <kbd>A</kbd> + <kbd>,</kbd> / <kbd>.</kbd> | <kbd>shift</kbd> + <kbd>left ⌃</kbd> + <kbd>←</kbd> / <kbd>→</kbd> (Select until Start/End of Next Word) |
+|<kbd>caps lock</kbd> + <kbd>A</kbd> + <kbd>[</kbd> / <kbd>]</kbd> | <kbd>shift</kbd> + <kbd>left ⌥</kbd> + <kbd>←</kbd> / <kbd>→</kbd> (Select until Start/End the Paragraph) |
 
 ## Common Shortcuts
 |     Key Combination     |    Action    |
