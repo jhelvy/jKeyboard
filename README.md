@@ -94,6 +94,12 @@ open ~/.config
 |  <kbd>f11</kbd> | Volume Decrease |
 |  <kbd>f12</kbd> | Volume Increase |
 
+### Other
+|     Key      |    Action    |
+|:-------------|:-------------|
+|  Tap <kbd>Left ⇧</kbd>  | <kbd>(</kbd> |
+|  Tap <kbd>Right ⇧</kbd> | <kbd>)</kbd> |
+
 ## WASD-Specific Keys
 These only work on my WASD keyboard (not a standard Apple keyboard)
 
