@@ -17,7 +17,7 @@ The Karabiner-Elements settings can be found in the `karabiner` folder. There ar
 ## Navigation
 |           Key Combination            |    Action    |
 |:-------------------------------------|:-------------|
-|`Caps_lock`                           |Trigger Key|
+|<kbd>Caps_lock</kbd>                           |Trigger Key|
 |`Caps_lock` + `J/I/K/L`               |Arrow Keys (Left / Up / Down / Right)|
 |`Caps_lock` + `Left_Command` + `J/I/K/L` |`Left_Command` + Arrow Keys|
 |`Caps_lock` + `U/O`                   |Go to Start / End of Line|
