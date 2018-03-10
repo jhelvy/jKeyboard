@@ -18,12 +18,12 @@ The Karabiner-Elements settings can be found in the `karabiner` folder. There ar
 |           Key Combination            |    Action    |
 |:-------------------------------------|:-------------|
 | <kbd>caps lock</kbd> |Trigger Key|
-| <kbd>caps lock</kbd> + <kbd>J</kbd> /<kbd>I</kbd> /<kbd>K</kbd>/<kbd>L</kbd> | <kbd>←</kbd> / <kbd>↑</kbd> / <kbd>↓</kbd> / <kbd>→</kbd>|
-|<kbd>caps lock</kbd> + `Left_Command` + `J/I/K/L` |`Left_Command` + Arrow Keys|
-|<kbd>caps lock</kbd> + `U/O`                   |Go to Start / End of Line|
-|<kbd>caps lock</kbd> + `Spacebar`              |Fn|
-|<kbd>caps lock</kbd> + `Spacebar` + `I/K`     |Page Up / Page Down|
-|<kbd>caps lock</kbd> + `Spacebar` + `J/L`      |Go to Start / End of Next Word|
+| <kbd>caps lock</kbd> + <kbd>J</kbd> / <kbd>I</kbd> / <kbd>K</kbd> / <kbd>L</kbd> | <kbd>←</kbd> / <kbd>↑</kbd> / <kbd>↓</kbd> / <kbd>→</kbd>|
+|<kbd>caps lock</kbd> + <kbd>Left ⌘</kbd> + <kbd>J</kbd> / <kbd>I</kbd> / <kbd>K</kbd> / <kbd>L</kbd> | <kbd>Left ⌘</kbd> + <kbd>←</kbd> / <kbd>↑</kbd> / <kbd>↓</kbd> / <kbd>→</kbd>|
+|<kbd>caps lock</kbd> + <kbd>U</kbd> / <kbd>O</kbd> |Go to Start / End of Line|
+|<kbd>caps lock</kbd> + <kbd>spacebar</kbd> | <kbd>fn</kbd> |
+|<kbd>caps lock</kbd> + <kbd>spacebar</kbd> + <kbd>I</kbd> / <kbd>K</kbd> |Page Up / Page Down|
+|<kbd>caps lock</kbd> + <kbd>spacebar</kbd> + <kbd>J</kbd> / <kbd>L</kbd> |Go to Start / End of Next Word|
 
 ## Selecting Text
 |           Key Combination              |    Action    |
