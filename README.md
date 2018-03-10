@@ -1,16 +1,17 @@
+
 # jKeyboard
 This repository contains the files for creating my custom keyboard:
-- The `./wasd_files` folder contains all the Adobe Illustrator files for making my [WASD keyboard](http://www.wasdkeyboards.com/).
-- The `./karabiner` folder contains all the files for my [Karabiner-Elements](https://pqrs.org/osx/karabiner/) settings.
+- The `./wasd_files` folder contains all the Adobe Illustrator files for making my customized [WASD keyboard](http://www.wasdkeyboards.com/).
+- The `./karabiner` folder contains the json files for my [Karabiner-Elements](https://pqrs.org/osx/karabiner/) settings.
 
 # Table of Contents
 
 
 # Customized WASD Keyboard
-My WASD keyboard looks like this:
+My [WASD keyboard](http://www.wasdkeyboards.com/) looks like this:
 ![alt text](https://raw.github.com/jhelvy/jKeyboard/master/wasd_files/keyboard_preview.jpg "Keyboard Layout")
 
-In addition to adding a bunch of customized icons (e.g. the function keys), I changed the  <kbd>caps lock</kbd> key to a blue <kbd>hyper</kbd> key that when held down (with the help of [Karabiner-Elements](https://pqrs.org/osx/karabiner/)) essentially creates another keyboard with an entirely different functionality (indicated by the small blue icons in the lower-right corners of each key). The json files in the `./karabiner` folder are the settings to create this keyboard.
+In addition to adding a bunch of customized icons (e.g. the function keys), I changed the  <kbd>caps lock</kbd> key to a blue <kbd>hyper</kbd> key that when held down (with the help of [Karabiner-Elements](https://pqrs.org/osx/karabiner/)) essentially creates another keyboard with an entirely different functionality (indicated by the small blue icons in the lower-right corners of each key).
 
 # Karabiner-Elements Settings
 The [Karabiner-Elements](https://pqrs.org/osx/karabiner/) json settings files can be found in the `./karabiner` folder. There are two versions:
@@ -18,7 +19,7 @@ The [Karabiner-Elements](https://pqrs.org/osx/karabiner/) json settings files ca
 1. The `jKeyboard_wasd.json` file contains the settings for my WASD custom keyboard, which I use with a Mac Mini
 2. The `jKeyboard_mac.json` file contains the settings for my Macbook.
 
-The only difference between the two is that the main `jKeyboard_wasd.json` has a couple [extra shortcuts](#wasd-specific-keys) that work with my WASD keyboard. Otherwise, I use the `jKeyboard_mac.json` settings for my laptop or any standard Apple keyboard.
+The only difference between the two is that the main `jKeyboard_wasd.json` has a couple [extra custom commands](#wasd-specific-keys) that are specific to my WASD keyboard. Otherwise, I use the `jKeyboard_mac.json` settings for my laptop or any standard Apple keyboard.
 
 ## Installation (mac)
 1. Download [Karabiner-Elements](https://pqrs.org/osx/karabiner/) and Install.
@@ -30,7 +31,7 @@ open ~/.config
 
 3. Copy-paste the settings in one of the json files in the `./karabiner/` folder in this repo to overwrite the default karabiner.json file.
 
-## Functionality
+## jhelvy caps_lock keyboard
 
 ### Navigation
 |   Key Combination  |    Maps to    |   Description  |
@@ -78,7 +79,7 @@ open ~/.config
 |<kbd>caps lock</kbd> + <kbd>9</kbd> |<kbd>⌃</kbd> + <kbd>9</kbd> (my Sublime Text shortcut to shift focus to the LEFT panel) |
 |<kbd>caps lock</kbd> + <kbd>0</kbd> |<kbd>⌃</kbd> + <kbd>0</kbd> (my Sublime Text shortcut to shift focus to the RIGHT panel) |
 
-### Function Keys
+## jhelvy function keys
 |     Key      |    Action    |
 |:-------------|:-------------|
 |  <kbd>f1</kbd>  | Brightness Decrease |
@@ -94,16 +95,16 @@ open ~/.config
 |  <kbd>f11</kbd> | Volume Decrease |
 |  <kbd>f12</kbd> | Volume Increase |
 
-### Other
+## Other Custom Keys
 |     Key      |    Action    |
 |:-------------|:-------------|
 |  Tap <kbd>Left ⇧</kbd>  | <kbd>(</kbd> |
 |  Tap <kbd>Right ⇧</kbd> | <kbd>)</kbd> |
 
 ## WASD-Specific Keys
-These only work on my WASD keyboard (not a standard Apple keyboard)
+These only work on my WASD keyboard (not a standard Apple keyboard):
 
-## Symbol Reference
+# Symbol Reference
 
 | Symbol  | Key    |
 |:--------|:-------|
