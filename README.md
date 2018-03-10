@@ -18,7 +18,7 @@ The Karabiner-Elements settings can be found in the `karabiner` folder. There ar
 |           Key Combination            |    Action    |
 |:-------------------------------------|:-------------|
 | <kbd>caps lock</kbd> |Trigger Key|
-| <kbd>caps lock</kbd> + <kbd>J</kbd> / <kbd>I</kbd> / <kbd>K</kbd> / <kbd>L</kbd> | <kbd>←</kbd> / <kbd>↑</kbd> / <kbd>↓</kbd> / <kbd>→</kbd>|
+| <kbd>caps lock</kbd> + <kbd>J</kbd> / <kbd>I</kbd> / <kbd>K</kbd> / <kbd>L</kbd> | <kbd>←</kbd> / <kbd>↑</kbd> / <kbd>↓</kbd> / <kbd>→</kbd> |
 |<kbd>caps lock</kbd> + <kbd>Left ⌘</kbd> + <kbd>J</kbd> / <kbd>I</kbd> / <kbd>K</kbd> / <kbd>L</kbd> | <kbd>Left ⌘</kbd> + <kbd>←</kbd> / <kbd>↑</kbd> / <kbd>↓</kbd> / <kbd>→</kbd>|
 |<kbd>caps lock</kbd> + <kbd>U</kbd> / <kbd>O</kbd> |Go to Start / End of Line|
 |<kbd>caps lock</kbd> + <kbd>spacebar</kbd> | <kbd>fn</kbd> |
@@ -28,10 +28,10 @@ The Karabiner-Elements settings can be found in the `karabiner` folder. There ar
 ## Selecting Text
 |           Key Combination              |    Action    |
 |:---------------------------------------|:-------------|
-|<kbd>caps lock</kbd> + `A` + `J/I/K/L`           |Select Text|
-|<kbd>caps lock</kbd> + `A` + `U/O`               |Select until Start/End of Line|
-|<kbd>caps lock</kbd> + `A` + `Comma/Period`      |Select until Start/End of Next Word|
-|<kbd>caps lock</kbd> + `A` + `Open/Close Bracket`|Select until Start/End the Paragraph|
+|<kbd>caps lock</kbd> + <kbd>A</kbd> + <kbd>J</kbd> / <kbd>I</kbd> / <kbd>K</kbd> / <kbd>L</kbd> | <kbd>shift</kbd> + <kbd>←</kbd> / <kbd>↑</kbd> / <kbd>↓</kbd> / <kbd>→</kbd> (Select Text)|
+|<kbd>caps lock</kbd> + <kbd>A</kbd> + <kbd>U</kbd> / <kbd>O</kbd> | Select until Start/End of Line |
+|<kbd>caps lock</kbd> + <kbd>A</kbd> + <kbd>,</kbd> / <kbd>.</kbd> | Select until Start/End of Next Word |
+|<kbd>caps lock</kbd> + <kbd>A</kbd> + <kbd>[</kbd> / <kbd>]</kbd> | Select until Start/End the Paragraph |
 
 ## Common Shortcuts
 |     Key Combination     |    Action    |
