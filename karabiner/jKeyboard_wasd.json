@@ -15,7 +15,7 @@
                 },
                 "rules": [
                     {
-                        "description": "jhelvy Uber Caps_Lock",
+                        "description": "jhelvy caps_lock keyboard",
                         "manipulators": [
                             {
                                 "from": {
@@ -1394,7 +1394,7 @@
                         ]
                     },
                     {
-                        "description": "jhelvy Function Keys",
+                        "description": "jhelvy function keys",
                         "manipulators": [
                             {
                                 "from": {
