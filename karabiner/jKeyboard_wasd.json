@@ -1464,6 +1464,11 @@
                                 "from": {
                                     "key_code": "left_shift"
                                 },
+                                "to": [
+                                    {
+                                        "key_code": "left_shift"
+                                    }
+                                ],
                                 "to_if_alone": [
                                     {
                                         "key_code": "9",
@@ -1472,28 +1477,23 @@
                                         ]
                                     }
                                 ],
-                                "to": [
-                                    {
-                                        "key_code": "left_shift"
-                                    }
-                                ],
                                 "type": "basic"
                             },
                             {
                                 "from": {
                                     "key_code": "right_shift"
                                 },
+                                "to": [
+                                    {
+                                        "key_code": "right_shift"
+                                    }
+                                ],
                                 "to_if_alone": [
                                     {
                                         "key_code": "0",
                                         "modifiers": [
                                             "right_shift"
                                         ]
-                                    }
-                                ],
-                                "to": [
-                                    {
-                                        "key_code": "right_shift"
                                     }
                                 ],
                                 "type": "basic"
@@ -1521,6 +1521,25 @@
                                         "key_code": "w",
                                         "modifiers": [
                                             "left_command"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "WASD-specific keys",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "right_control"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "a",
+                                        "modifiers": [
+                                            "right_option"
                                         ]
                                     }
                                 ],

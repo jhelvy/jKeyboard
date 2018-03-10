@@ -105,6 +105,10 @@ open ~/.config
 ## WASD-Specific Keys
 These only work on my WASD keyboard (not a standard Apple keyboard):
 
+|     Key      |    Action    |
+|:-------------|:-------------|
+| <kbd>Right ⌃</kbd> | <kbd>⌥</kbd> + <kbd>A</kbd> (My Alfred Shortcut) |
+
 # Symbol Reference
 
 | Symbol  | Key    |
