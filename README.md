@@ -14,7 +14,7 @@ The Karabiner-Elements settings can be found in the `karabiner` folder. There ar
 1. The `jSettings` file contains the settings for my WASD custom keyboard, which I use with a Mac Mini
 2. The `jSettings_macbook` file contains the settings for my Macbook. The only difference between the two is that the main `jSettings` has a couple extra shortcuts to toggle the `finder` and `Alfred` windows.
 
-## The <kbd>caps lock</kbd> Keyboard
+## The jhelvy <kbd>caps lock</kbd> Keyboard
 Using my [Karabiner-Elements](https://pqrs.org/osx/karabiner/) settings, holding down the <kbd>caps lock</kbd> key essentially creates another keyboard with the following functionality:
 
 ### Navigation
@@ -34,7 +34,7 @@ Using my [Karabiner-Elements](https://pqrs.org/osx/karabiner/) settings, holding
 |<kbd>caps lock</kbd> + <kbd>A</kbd> + <kbd>J</kbd> / <kbd>I</kbd> / <kbd>K</kbd> / <kbd>L</kbd> | <kbd>shift</kbd> + <kbd>←</kbd> / <kbd>↑</kbd> / <kbd>↓</kbd> / <kbd>→</kbd> (Select Text) |
 |<kbd>caps lock</kbd> + <kbd>A</kbd> + <kbd>U</kbd> / <kbd>O</kbd> | <kbd>⌘</kbd> + <kbd>shift</kbd> + <kbd>←</kbd> / <kbd>→</kbd> (Select until Start/End of Line) |
 |<kbd>caps lock</kbd> + <kbd>A</kbd> + <kbd>,</kbd> / <kbd>.</kbd> | <kbd>⌃</kbd> + <kbd>shift</kbd> + <kbd>←</kbd> / <kbd>→</kbd> (Select until Start/End of Next Word) |
-|<kbd>caps lock</kbd> + <kbd>A</kbd> + <kbd>[</kbd> / <kbd>]</kbd> | <kbd>⌥</kbd> + <kbd>shift</kbd> + <kbd>←</kbd> / <kbd>→</kbd> (Select until Start/End the Paragraph) |
+|<kbd>caps lock</kbd> + <kbd>A</kbd> + <kbd>[</kbd> / <kbd>]</kbd> | <kbd>⌥</kbd> + <kbd>shift</kbd> + <kbd>↑</kbd> / <kbd>↓</kbd> (Select until Start/End the Paragraph) |
 
 ### Common Shortcuts
 |     Key Combination     |    Action    |
@@ -63,7 +63,7 @@ Using my [Karabiner-Elements](https://pqrs.org/osx/karabiner/) settings, holding
 |<kbd>caps lock</kbd> + <kbd>9</kbd> |<kbd>⌃</kbd> + <kbd>9</kbd> (my Sublime Text shortcut to shift focus to the LEFT panel) |
 |<kbd>caps lock</kbd> + <kbd>0</kbd> |<kbd>⌃</kbd> + <kbd>0</kbd> (my Sublime Text shortcut to shift focus to the RIGHT panel) |
 
-## Function Keys
+## jhelvy Function Keys
 |     Key      |    Action    |
 |:-------------|:-------------|
 |  <kbd>f1</kbd>  | Brightness Decrease |
