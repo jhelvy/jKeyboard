@@ -11,7 +11,7 @@ This repository contains the files for creating my custom keyboard:
 My [WASD keyboard](http://www.wasdkeyboards.com/) looks like this:
 ![alt text](https://raw.github.com/jhelvy/jKeyboard/master/wasd_files/keyboard_preview.jpg "Keyboard Layout")
 
-In addition to adding a bunch of customized icons (e.g. the function keys), I changed the  `caps lock` key to a blue `hyper` key that when held down (with the help of [Karabiner-Elements](https://pqrs.org/osx/karabiner/)) essentially creates another keyboard with an entirely different functionality (indicated by the small blue icons in the lower-right corners of each key).
+In addition to adding a bunch of customized icons (e.g. the function keys), I changed the  <kbd>caps lock</kbd> key to a blue <kbd>hyper</kbd> key that when held down (with the help of [Karabiner-Elements](https://pqrs.org/osx/karabiner/)) essentially creates another keyboard with an entirely different functionality (indicated by the small blue icons in the lower-right corners of each key).
 
 # Karabiner-Elements Settings
 The [Karabiner-Elements](https://pqrs.org/osx/karabiner/) json settings files can be found in the `./karabiner` folder. There are two versions:
@@ -36,71 +36,71 @@ open ~/.config
 ### Navigation
 |   Key Combination  |    Maps to    |   Description  |
 |:-------------------|:--------------|:---------------|
-| `caps lock` + `J` / `I` / `K` / `L` | `←` / `↑` / `↓` / `→` | Arrow Keys |
-|caps lock + ⌘ + I / K | ⌘ + ↑ / ↓ | Home / End |
-|`caps lock` + `⌘` + `J` / `L` | `⌘` + `←` / `→` | Go to Start / End of Line |
-|`caps lock` + `U` / `O` | `⌘` + `←` / `→` | Go to Start / End of Line |
-|`caps lock` + `spacebar` | `fn` | Function key |
-|`caps lock` + `spacebar` + `I` / `K` | `⇞` / `⇟` | Page Up / Page Down |
-|`caps lock` + `spacebar` + `J` / `L` | `⌃` + `←` / `→` | Go to Start / End of Next Word |
+| <kbd>caps lock</kbd> + <kbd>J</kbd> / <kbd>I</kbd> / <kbd>K</kbd> / <kbd>L</kbd> | <kbd>←</kbd> / <kbd>↑</kbd> / <kbd>↓</kbd> / <kbd>→</kbd> | Arrow Keys |
+|<kbd>caps lock</kbd> + <kbd>⌘</kbd> + <kbd>I</kbd> / <kbd>K</kbd> | <kbd>⌘</kbd> + <kbd>↑</kbd> / <kbd>↓</kbd> | Home / End |
+|<kbd>caps lock</kbd> + <kbd>⌘</kbd> + <kbd>J</kbd> / <kbd>L</kbd> | <kbd>⌘</kbd> + <kbd>←</kbd> / <kbd>→</kbd> | Go to Start / End of Line |
+|<kbd>caps lock</kbd> + <kbd>U</kbd> / <kbd>O</kbd> | <kbd>⌘</kbd> + <kbd>←</kbd> / <kbd>→</kbd> | Go to Start / End of Line |
+|<kbd>caps lock</kbd> + <kbd>spacebar</kbd> | <kbd>fn</kbd> | Function key |
+|<kbd>caps lock</kbd> + <kbd>spacebar</kbd> + <kbd>I</kbd> / <kbd>K</kbd> | <kbd>⇞</kbd> / <kbd>⇟</kbd> | Page Up / Page Down |
+|<kbd>caps lock</kbd> + <kbd>spacebar</kbd> + <kbd>J</kbd> / <kbd>L</kbd> | <kbd>⌃</kbd> + <kbd>←</kbd> / <kbd>→</kbd> | Go to Start / End of Next Word |
 
 ### Selecting Text
 |   Key Combination  |    Maps to    |   Description  |
 |:-------------------|:--------------|:---------------|
-|`caps lock` + `A` + `J` / `I` / `K` / `L` | `⇧` + `←` / `↑` / `↓` / `→` | Select Text |
-|`caps lock` + `A` + `U` / `O` | `⌘` + `⇧` + `←` / `→` | Select until Start / End of Line |
-|`caps lock` + `A` + `,` / `.` | `⌃` + `⇧` + `←` / `→` | Select until Start / End of Next Word |
-|`caps lock` + `A` + `[` / `]` | `⌥` + `⇧` + `↑` / `↓` | Select until Start / End of Paragraph |
+|<kbd>caps lock</kbd> + <kbd>A</kbd> + <kbd>J</kbd> / <kbd>I</kbd> / <kbd>K</kbd> / <kbd>L</kbd> | <kbd>⇧</kbd> + <kbd>←</kbd> / <kbd>↑</kbd> / <kbd>↓</kbd> / <kbd>→</kbd> | Select Text |
+|<kbd>caps lock</kbd> + <kbd>A</kbd> + <kbd>U</kbd> / <kbd>O</kbd> | <kbd>⌘</kbd> + <kbd>⇧</kbd> + <kbd>←</kbd> / <kbd>→</kbd> | Select until Start / End of Line |
+|<kbd>caps lock</kbd> + <kbd>A</kbd> + <kbd>,</kbd> / <kbd>.</kbd> | <kbd>⌃</kbd> + <kbd>⇧</kbd> + <kbd>←</kbd> / <kbd>→</kbd> | Select until Start / End of Next Word |
+|<kbd>caps lock</kbd> + <kbd>A</kbd> + <kbd>[</kbd> / <kbd>]</kbd> | <kbd>⌥</kbd> + <kbd>⇧</kbd> + <kbd>↑</kbd> / <kbd>↓</kbd> | Select until Start / End of Paragraph |
 
 ### Common Shortcuts
 |   Key Combination  |    Maps to    |   Description  |
 |:-------------------|:--------------|:---------------|
-|`caps lock` + `N` | `⌫` | Backspace / Delete |
-|`caps lock` + `H` | `⌦` | Forward Delete |
-|`caps lock` + `S` | `⌘` + `X` | Cut |
-|`caps lock` + `D` | `⌘` + `C` | Copy |
-|`caps lock` + `F` | `⌘` + `V` | Paste |
-|`caps lock` + `R` | `⌘` + `Z` | Undo |
-|`caps lock` + `T` | `⌘` + `Y` | Redo |
-|`caps lock` + `M` | `⌘` + `F` | Find |
-|`caps lock` + `.` | `⌘` + `G` | Find Next |
-|`caps lock` + `,` | `⌘` + `⇧` + `G` | Find Previous |
-|`caps lock` + `E` | `⎋` | Escape |
+|<kbd>caps lock</kbd> + <kbd>N</kbd> | <kbd>⌫</kbd> | Backspace / Delete |
+|<kbd>caps lock</kbd> + <kbd>H</kbd> | <kbd>⌦</kbd> | Forward Delete |
+|<kbd>caps lock</kbd> + <kbd>S</kbd> | <kbd>⌘</kbd> + <kbd>X</kbd> | Cut |
+|<kbd>caps lock</kbd> + <kbd>D</kbd> | <kbd>⌘</kbd> + <kbd>C</kbd> | Copy |
+|<kbd>caps lock</kbd> + <kbd>F</kbd> | <kbd>⌘</kbd> + <kbd>V</kbd> | Paste |
+|<kbd>caps lock</kbd> + <kbd>R</kbd> | <kbd>⌘</kbd> + <kbd>Z</kbd> | Undo |
+|<kbd>caps lock</kbd> + <kbd>T</kbd> | <kbd>⌘</kbd> + <kbd>Y</kbd> | Redo |
+|<kbd>caps lock</kbd> + <kbd>M</kbd> | <kbd>⌘</kbd> + <kbd>F</kbd> | Find |
+|<kbd>caps lock</kbd> + <kbd>.</kbd> | <kbd>⌘</kbd> + <kbd>G</kbd> | Find Next |
+|<kbd>caps lock</kbd> + <kbd>,</kbd> | <kbd>⌘</kbd> + <kbd>⇧</kbd> + <kbd>G</kbd> | Find Previous |
+|<kbd>caps lock</kbd> + <kbd>E</kbd> | <kbd>⎋</kbd> | Escape |
 
 ### Other Shortcuts
 |     Key Combination     |    Action    |
 |:------------------------|:-------------|
-|`caps lock` + `C` | Open Google Chrome |
-|`caps lock` + `Z` | Open the file `'foo.txt'` in my Dropbox Folder |
-|`caps lock` + `8` | Open Terminal |
-|`caps lock` + `2` | `⌘` + `⌃` + `2` (my Sublime Text shortcut to split into two windows)|
-|`caps lock` + `G` | Type my usual email send off ("Cheers, John") |
-|`caps lock` + `Y` |`⌃` + `Y` (my Sublime Text shortcut to send selected text to a REPL) |
-|`caps lock` + `9` |`⌃` + `9` (my Sublime Text shortcut to shift focus to the LEFT panel) |
-|`caps lock` + `0` |`⌃` + `0` (my Sublime Text shortcut to shift focus to the RIGHT panel) |
+|<kbd>caps lock</kbd> + <kbd>C</kbd> | Open Google Chrome |
+|<kbd>caps lock</kbd> + <kbd>Z</kbd> | Open the file `'foo.txt'` in my Dropbox Folder |
+|<kbd>caps lock</kbd> + <kbd>8</kbd> | Open Terminal |
+|<kbd>caps lock</kbd> + <kbd>2</kbd> | <kbd>⌘</kbd> + <kbd>⌃</kbd> + <kbd>2</kbd> (my Sublime Text shortcut to split into two windows)|
+|<kbd>caps lock</kbd> + <kbd>G</kbd> | Type my usual email send off ("Cheers, John") |
+|<kbd>caps lock</kbd> + <kbd>Y</kbd> |<kbd>⌃</kbd> + <kbd>Y</kbd> (my Sublime Text shortcut to send selected text to a REPL) |
+|<kbd>caps lock</kbd> + <kbd>9</kbd> |<kbd>⌃</kbd> + <kbd>9</kbd> (my Sublime Text shortcut to shift focus to the LEFT panel) |
+|<kbd>caps lock</kbd> + <kbd>0</kbd> |<kbd>⌃</kbd> + <kbd>0</kbd> (my Sublime Text shortcut to shift focus to the RIGHT panel) |
 
 ## jhelvy function keys
 |     Key      |    Action    |
 |:-------------|:-------------|
-|  `f1`  | Brightness Decrease |
-|  `f2`  | Brightness Increase |
-|  `f3`  | Mission Control |
-|  `f4`  | Dashboard |
-|  `f5`  | Open Gmail in Google Chrome |
-|  `f6`  | Open Google Calendar in Google Chrome |
-|  `f7`  | Open Facebook in Google Chrome |
-|  `f8`  | Open Intellicast Weather in Google Chrome |
-|  `f9`  | `⌘` + `⇧` + `3` (Screen Shot) |
-|  `f10` | Mute |
-|  `f11` | Volume Decrease |
-|  `f12` | Volume Increase |
+|  <kbd>f1</kbd>  | Brightness Decrease |
+|  <kbd>f2</kbd>  | Brightness Increase |
+|  <kbd>f3</kbd>  | Mission Control |
+|  <kbd>f4</kbd>  | Dashboard |
+|  <kbd>f5</kbd>  | Open Gmail in Google Chrome |
+|  <kbd>f6</kbd>  | Open Google Calendar in Google Chrome |
+|  <kbd>f7</kbd>  | Open Facebook in Google Chrome |
+|  <kbd>f8</kbd>  | Open Intellicast Weather in Google Chrome |
+|  <kbd>f9</kbd>  | <kbd>⌘</kbd> + <kbd>⇧</kbd> + <kbd>3</kbd> (Screen Shot) |
+|  <kbd>f10</kbd> | Mute |
+|  <kbd>f11</kbd> | Volume Decrease |
+|  <kbd>f12</kbd> | Volume Increase |
 
 ## Other Custom Commands
 |     Key      |    Action    |
 |:-------------|:-------------|
-| Tap `Left ⇧`  | `(` |
-| Tap `Right ⇧` | `)` |
-| Hold `Esc  ⎋`   | `⌘` + `W` (Close Window) |
+| Tap <kbd>Left ⇧</kbd>  | <kbd>(</kbd> |
+| Tap <kbd>Right ⇧</kbd> | <kbd>)</kbd> |
+| Hold `Esc  ⎋`   | <kbd>⌘</kbd> + <kbd>W</kbd> (Close Window) |
 
 ## WASD-Specific Keys
 These only work on my WASD keyboard (not a standard Apple keyboard):
