@@ -4,31 +4,33 @@ This repository contains the files for creating my custom keyboard:
 - The `./karabiner` folder contains all the files for my [Karabiner-Elements](https://pqrs.org/osx/karabiner/) settings.
 
 # Table of Contents
-- [Customized WASD Keyboard](#customized-wasd-keyboard)
-- [Karabiner-Elements Settings](#karabiner-elements-settings)
-- [The jhelvy Keyboard](#the-jhelvy-keyboard)
-  - [Navigation](#navigation)
-  - [Selecting Text](#selecting-text)
-  - [Common Shortcuts](#common-shortcuts)
-  - [Other Shortcuts](#other-shortcuts)
-  - [Function Keys](#function-keys)
-- [Symbol Reference](#symbol-reference)
-- [Inspiration](#inspiration)
-- [License](#license)
+
 
 # Customized WASD Keyboard
-The keyboard looks like this:
+My WASD keyboard looks like this:
 ![alt text](https://raw.github.com/jhelvy/jKeyboard/master/wasd_files/keyboard_preview.jpg "Keyboard Layout")
 
-The most significant thing about this design is the blue <kbd>hyper</kbd> key that is in place of the <kbd>caps lock</kbd> key. I use [Karabiner-Elements](https://pqrs.org/osx/karabiner/) to modify the keyboard such that when <kbd>caps lock</kbd> is held down it essentially creates another keyboard where the keys have entirely different functionalities, which is indicated by the small blue icons in the lower-right corners of each key.
+In addition to adding a bunch of customized icons (e.g. the function keys), I changed the  <kbd>caps lock</kbd> key to a blue <kbd>hyper</kbd> key that when held down (with the help of [Karabiner-Elements](https://pqrs.org/osx/karabiner/)) essentially creates another keyboard with an entirely different functionality (indicated by the small blue icons in the lower-right corners of each key). The json files in the `./karabiner` folder are the settings to create this keyboard.
 
 # Karabiner-Elements Settings
-The Karabiner-Elements settings can be found in the `karabiner` folder. There are two versions:
-1. The `jSettings` file contains the settings for my WASD custom keyboard, which I use with a Mac Mini
-2. The `jSettings_macbook` file contains the settings for my Macbook. The only difference between the two is that the main `jSettings` has a couple extra shortcuts (toggle the `finder` and `Alfred` windows, and moving the <kbd>caps lock</kbd> key to .
+The [Karabiner-Elements](https://pqrs.org/osx/karabiner/) json settings files can be found in the `./karabiner` folder. There are two versions:
 
-## The jhelvy Keyboard
-Using my [Karabiner-Elements](https://pqrs.org/osx/karabiner/) settings, holding down the <kbd>caps lock</kbd> key essentially creates another keyboard with the following functionality:
+1. The `jKeyboard_wasd.json` file contains the settings for my WASD custom keyboard, which I use with a Mac Mini
+2. The `jKeyboard_mac.json` file contains the settings for my Macbook.
+
+The only difference between the two is that the main `jKeyboard_wasd.json` has a couple [extra shortcuts](#wasd-specific-keys) that work with my WASD keyboard. Otherwise, I use the `jKeyboard_mac.json` settings for my laptop or any standard Apple keyboard.
+
+## Installation (mac)
+1. Download [Karabiner-Elements](https://pqrs.org/osx/karabiner/) and Install.
+2. Open the `karabiner.json` configuration file by typing the following into Terminal (obviously, replace [USER NAME] with your user name):
+```
+open ~/.config
+/Users/[USER NAME]/.config/karabiner/karabiner.json
+```
+
+3. Copy-paste the settings in one of the json files in the `./karabiner/` folder in this repo to overwrite the default karabiner.json file.
+
+## Functionality
 
 ### Navigation
 |   Key Combination  |    Maps to    |   Description  |
@@ -45,9 +47,9 @@ Using my [Karabiner-Elements](https://pqrs.org/osx/karabiner/) settings, holding
 |   Key Combination  |    Maps to    |   Description  |
 |:-------------------|:--------------|:---------------|
 |<kbd>caps lock</kbd> + <kbd>A</kbd> + <kbd>J</kbd> / <kbd>I</kbd> / <kbd>K</kbd> / <kbd>L</kbd> | <kbd>⇧</kbd> + <kbd>←</kbd> / <kbd>↑</kbd> / <kbd>↓</kbd> / <kbd>→</kbd> | Select Text |
-|<kbd>caps lock</kbd> + <kbd>A</kbd> + <kbd>U</kbd> / <kbd>O</kbd> | <kbd>⌘</kbd> + <kbd>⇧</kbd> + <kbd>←</kbd> / <kbd>→</kbd> | Select until Start /End of Line |
-|<kbd>caps lock</kbd> + <kbd>A</kbd> + <kbd>,</kbd> / <kbd>.</kbd> | <kbd>⌃</kbd> + <kbd>⇧</kbd> + <kbd>←</kbd> / <kbd>→</kbd> | Select until Start /End of Next Word |
-|<kbd>caps lock</kbd> + <kbd>A</kbd> + <kbd>[</kbd> / <kbd>]</kbd> | <kbd>⌥</kbd> + <kbd>⇧</kbd> + <kbd>↑</kbd> / <kbd>↓</kbd> | Select until Start /End of Paragraph |
+|<kbd>caps lock</kbd> + <kbd>A</kbd> + <kbd>U</kbd> / <kbd>O</kbd> | <kbd>⌘</kbd> + <kbd>⇧</kbd> + <kbd>←</kbd> / <kbd>→</kbd> | Select until Start / End of Line |
+|<kbd>caps lock</kbd> + <kbd>A</kbd> + <kbd>,</kbd> / <kbd>.</kbd> | <kbd>⌃</kbd> + <kbd>⇧</kbd> + <kbd>←</kbd> / <kbd>→</kbd> | Select until Start / End of Next Word |
+|<kbd>caps lock</kbd> + <kbd>A</kbd> + <kbd>[</kbd> / <kbd>]</kbd> | <kbd>⌥</kbd> + <kbd>⇧</kbd> + <kbd>↑</kbd> / <kbd>↓</kbd> | Select until Start / End of Paragraph |
 
 ### Common Shortcuts
 |   Key Combination  |    Maps to    |   Description  |
@@ -92,6 +94,8 @@ Using my [Karabiner-Elements](https://pqrs.org/osx/karabiner/) settings, holding
 |  <kbd>f11</kbd> | Volume Decrease |
 |  <kbd>f12</kbd> | Volume Increase |
 
+## WASD-Specific Keys
+These only work on my WASD keyboard (not a standard Apple keyboard)
 
 ## Symbol Reference
 
