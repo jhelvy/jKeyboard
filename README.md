@@ -95,11 +95,12 @@ open ~/.config
 |  <kbd>f11</kbd> | Volume Decrease |
 |  <kbd>f12</kbd> | Volume Increase |
 
-## Other Custom Keys
+## Other Custom Commands
 |     Key      |    Action    |
 |:-------------|:-------------|
-|  Tap <kbd>Left ⇧</kbd>  | <kbd>(</kbd> |
-|  Tap <kbd>Right ⇧</kbd> | <kbd>)</kbd> |
+| Tap <kbd>Left ⇧</kbd>  | <kbd>(</kbd> |
+| Tap <kbd>Right ⇧</kbd> | <kbd>)</kbd> |
+| Hold <kbd>Esc ⎋<kbd>   | <kbd>⌘</kbd> + <kbd>W</kbd> (Close Window) |
 
 ## WASD-Specific Keys
 These only work on my WASD keyboard (not a standard Apple keyboard):
@@ -112,6 +113,7 @@ These only work on my WASD keyboard (not a standard Apple keyboard):
 | ⌥      | Option  |
 | ⇧      | Shift   |
 | ⌘      | Command |
+| ⎋      | Escape |
 
 # Inspiration
 📣 Shout-out to [@jasonrudolph](https://github.com/jasonrudolph/keyboard),  [@Vonng](https://github.com/Vonng/Capslock), and the [Karabiner Vi Mode Setting](https://pqrs.org/osx/karabiner/complex_modifications/#vi_mode) for inspiration - I learned a lot by copying a lot of their json code!
