@@ -37,7 +37,7 @@ open ~/.config
 |   Key Combination  |    Maps to    |   Description  |
 |:-------------------|:--------------|:---------------|
 | `caps lock` + `J` / `I` / `K` / `L` | `←` / `↑` / `↓` / `→` | Arrow Keys |
-|`caps lock` + `⌘` + `I` / `K` | `⌘` + `↑` / `↓` | Home / End |
+|caps lock + ⌘ + I / K | ⌘ + ↑ / ↓ | Home / End |
 |`caps lock` + `⌘` + `J` / `L` | `⌘` + `←` / `→` | Go to Start / End of Line |
 |`caps lock` + `U` / `O` | `⌘` + `←` / `→` | Go to Start / End of Line |
 |`caps lock` + `spacebar` | `fn` | Function key |
