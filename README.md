@@ -20,10 +20,10 @@ The Karabiner-Elements settings can be found in the `karabiner` folder. There ar
 | <kbd>caps lock</kbd> |Trigger Key|
 | <kbd>caps lock</kbd> + <kbd>J</kbd> / <kbd>I</kbd> / <kbd>K</kbd> / <kbd>L</kbd> | <kbd>←</kbd> / <kbd>↑</kbd> / <kbd>↓</kbd> / <kbd>→</kbd> |
 |<kbd>caps lock</kbd> + <kbd>Left ⌘</kbd> + <kbd>J</kbd> / <kbd>I</kbd> / <kbd>K</kbd> / <kbd>L</kbd> | <kbd>Left ⌘</kbd> + <kbd>←</kbd> / <kbd>↑</kbd> / <kbd>↓</kbd> / <kbd>→</kbd>|
-|<kbd>caps lock</kbd> + <kbd>U</kbd> / <kbd>O</kbd> |Go to Start / End of Line|
+|<kbd>caps lock</kbd> + <kbd>U</kbd> / <kbd>O</kbd> | <kbd>Left ⌘</kbd> + <kbd>←</kbd> / <kbd>→</kbd> (Go to Start / End of Line)|
 |<kbd>caps lock</kbd> + <kbd>spacebar</kbd> | <kbd>fn</kbd> |
-|<kbd>caps lock</kbd> + <kbd>spacebar</kbd> + <kbd>I</kbd> / <kbd>K</kbd> |Page Up / Page Down|
-|<kbd>caps lock</kbd> + <kbd>spacebar</kbd> + <kbd>J</kbd> / <kbd>L</kbd> |Go to Start / End of Next Word|
+|<kbd>caps lock</kbd> + <kbd>spacebar</kbd> + <kbd>I</kbd> / <kbd>K</kbd> | <kbd>⇞</kbd> / <kbd>⇟</kbd> (Page Up / Page Down)|
+|<kbd>caps lock</kbd> + <kbd>spacebar</kbd> + <kbd>J</kbd> / <kbd>L</kbd> | <kbd>Left ⌃</kbd> + <kbd>←</kbd> / <kbd>→</kbd>(Go to Start / End of Next Word)|
 
 ## Selecting Text
 |           Key Combination              |    Action    |
