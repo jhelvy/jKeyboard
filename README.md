@@ -20,9 +20,9 @@ Using my [Karabiner-Elements](https://pqrs.org/osx/karabiner/) settings, holding
 ### Navigation
 |           Key Combination            |    Action    |
 |:-------------------------------------|:-------------|
-| <kbd>caps lock</kbd> |Trigger Key|
 | <kbd>caps lock</kbd> + <kbd>J</kbd> / <kbd>I</kbd> / <kbd>K</kbd> / <kbd>L</kbd> | <kbd>←</kbd> / <kbd>↑</kbd> / <kbd>↓</kbd> / <kbd>→</kbd> |
-|<kbd>caps lock</kbd> + <kbd>⌘</kbd> + <kbd>J</kbd> / <kbd>I</kbd> / <kbd>K</kbd> / <kbd>L</kbd> | <kbd>⌘</kbd> + <kbd>←</kbd> / <kbd>↑</kbd> / <kbd>↓</kbd> / <kbd>→</kbd> |
+|<kbd>caps lock</kbd> + <kbd>⌘</kbd> + <kbd>I</kbd> / <kbd>K</kbd> | <kbd>⌘</kbd> + <kbd>↑</kbd> / <kbd>↓</kbd> (Home / End) |
+|<kbd>caps lock</kbd> + <kbd>⌘</kbd> + <kbd>J</kbd> / <kbd>L</kbd> | <kbd>⌘</kbd> + <kbd>←</kbd> / <kbd>→</kbd> (Go to Start / End of Line) |
 |<kbd>caps lock</kbd> + <kbd>U</kbd> / <kbd>O</kbd> | <kbd>⌘</kbd> + <kbd>←</kbd> / <kbd>→</kbd> (Go to Start / End of Line) |
 |<kbd>caps lock</kbd> + <kbd>spacebar</kbd> | <kbd>fn</kbd> |
 |<kbd>caps lock</kbd> + <kbd>spacebar</kbd> + <kbd>I</kbd> / <kbd>K</kbd> | <kbd>⇞</kbd> / <kbd>⇟</kbd> (Page Up / Page Down) |
