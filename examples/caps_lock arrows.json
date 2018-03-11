@@ -1,5 +1,5 @@
                     {
-                        "description": "caps_lock j/i/k/l arrows",
+                        "description": "caps_lock + j/i/k/l = arrows",
                         "manipulators": [
                             {
                                 "from": {
@@ -37,7 +37,12 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "j"
+                                    "key_code": "j",
+                                    "modifiers": {
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
                                 },
                                 "to": [
                                     {
@@ -55,7 +60,12 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "k"
+                                    "key_code": "k",
+                                    "modifiers": {
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
                                 },
                                 "to": [
                                     {
@@ -73,7 +83,12 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "i"
+                                    "key_code": "i",
+                                    "modifiers": {
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
                                 },
                                 "to": [
                                     {
@@ -91,11 +106,42 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "l"
+                                    "key_code": "l",
+                                    "modifiers": {
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
                                 },
                                 "to": [
                                     {
                                         "key_code": "right_arrow"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "nav_mode",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "u",
+                                    "modifiers": {
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "left_arrow",
+                                        "modifiers": [
+                                            "left_command"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
