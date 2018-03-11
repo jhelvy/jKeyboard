@@ -39,7 +39,7 @@
                                 ],
                                 "to_if_alone": [
                                     {
-                                        "key_code": "f19"
+                                        "key_code": "vk_none"
                                     }
                                 ],
                                 "type": "basic"
