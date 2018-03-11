@@ -22,7 +22,7 @@ This repository contains the files for creating my custom keyboard:
 My [WASD keyboard](http://www.wasdkeyboards.com/) looks like this:
 ![alt text](https://raw.github.com/jhelvy/jKeyboard/master/wasd_files/keyboard_preview.jpg "Keyboard Layout")
 
-In addition to adding a bunch of customized icons (e.g. the function keys), I changed the  <kbd>caps lock</kbd> key to a blue <kbd>hyper</kbd> key that when held down (with the help of [Karabiner-Elements](https://pqrs.org/osx/karabiner/)) essentially creates another keyboard with an entirely different functionality (indicated by the small blue icons in the lower-right corners of each key).
+All I did to create this was edit the Adobe Illustrator keyboard file (`./wasd_files/keyboard_layout_104.ai`). In addition to adding a bunch of customized icons (e.g. the function keys), I changed the  <kbd>caps lock</kbd> key to a blue <kbd>hyper</kbd> key that when held down (with the help of [Karabiner-Elements](https://pqrs.org/osx/karabiner/)) essentially creates another keyboard with an entirely different functionality (indicated by the small blue icons in the lower-right corners of each key).
 
 # Karabiner-Elements Settings
 The [Karabiner-Elements](https://pqrs.org/osx/karabiner/) json settings files can be found in the `./karabiner` folder. There are two versions:
@@ -34,15 +34,11 @@ The only difference between the two is that the main `jKeyboard_wasd.json` has a
 
 ## Installation (mac)
 1. Download [Karabiner-Elements](https://pqrs.org/osx/karabiner/) and Install.
-2. Open the `karabiner.json` configuration file by typing the following into Terminal (obviously, replace [USER NAME] with your user name):
-```
-open ~/.config
-/Users/[USER NAME]/.config/karabiner/karabiner.json
-```
-
+2. Open the `karabiner.json` configuration file. To find it, open Terminal.app and type `open ~/.config`, which will open the hidden .config directory in a new Finder window. There you can navigate to `karabiner/karabiner.json` and open/edit that file.
 3. Copy-paste the settings in one of the json files in the `./karabiner/` folder in this repo to overwrite the default karabiner.json file.
 
 ## jhelvy caps_lock keyboard
+One of the primary things my `jKeyboard` settings does is modify the <kbd>caps lock</kbd> key such that when held down it essentially creates another keyboard with an entirely different functionality. Here is a summary of the current settings:
 
 ### Navigation
 |   Key Combination  |    Maps to    |   Description  |
@@ -91,6 +87,8 @@ open ~/.config
 |<kbd>caps lock</kbd> + <kbd>0</kbd> |<kbd>control</kbd> + <kbd>0</kbd> (my Sublime Text shortcut to shift focus to the RIGHT panel) |
 
 ## jhelvy function keys
+I also changed my function keys to do certain things. While <kbd>f1</kbd> to <kbd>f4</kbd> and <kbd>f10</kbd> to <kbd>f12</kbd> are the standard mac settings, I made substantial changes to <kbd>f5</kbd> to <kbd>f9</kbd>:
+
 |     Key      |    Action    |
 |:-------------|:-------------|
 |  <kbd>f1</kbd>  | Brightness Decrease |
@@ -107,6 +105,8 @@ open ~/.config
 |  <kbd>f12</kbd> | Volume Increase |
 
 ## Other Custom Commands
+These are a few other tricks that I find particularly useful:
+
 |     Key      |    Action    |
 |:-------------|:-------------|
 | Tap <kbd>Left shift</kbd>  | <kbd>(</kbd> |
