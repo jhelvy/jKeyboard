@@ -66,8 +66,8 @@ open ~/.config
 ### Common Shortcuts
 |   Key Combination  |    Maps to    |   Description  |
 |:-------------------|:--------------|:---------------|
-|<kbd>caps lock</kbd> + <kbd>N</kbd> | Backspace / Delete |  |
-|<kbd>caps lock</kbd> + <kbd>H</kbd> | Forward Delete |  |
+|<kbd>caps lock</kbd> + <kbd>N</kbd> | <kbd>backspace</kbd> | Backspace / Delete |
+|<kbd>caps lock</kbd> + <kbd>H</kbd> | <kbd>del</kbd> | Forward Delete |
 |<kbd>caps lock</kbd> + <kbd>S</kbd> | <kbd>command</kbd> + <kbd>X</kbd> | Cut |
 |<kbd>caps lock</kbd> + <kbd>D</kbd> | <kbd>command</kbd> + <kbd>C</kbd> | Copy |
 |<kbd>caps lock</kbd> + <kbd>F</kbd> | <kbd>command</kbd> + <kbd>V</kbd> | Paste |

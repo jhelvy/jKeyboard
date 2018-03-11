@@ -39,7 +39,7 @@
                                 ],
                                 "to_if_alone": [
                                     {
-                                        "key_code": ""
+                                        "key_code": "f19"
                                     }
                                 ],
                                 "type": "basic"
