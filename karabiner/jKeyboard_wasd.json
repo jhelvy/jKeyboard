@@ -1852,7 +1852,7 @@
                     }
                 }
             ],
-            "name": "Default profile",
+            "name": "jhelvy_wasd",
             "selected": true,
             "simple_modifications": [],
             "virtual_hid_keyboard": {
