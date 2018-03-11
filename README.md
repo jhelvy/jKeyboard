@@ -7,13 +7,13 @@ This repository contains the files for creating my custom keyboard:
 - [Customized WASD Keyboard](#customized-wasd-keyboard)
 - [Karabiner-Elements Settings](#karabiner-elements-settings)
   - [Installation (mac)](#installation-mac)
-  - [jhelvy caps_lock keyboard](#jhelvy-caps_lock-keyboard)
+  - [Caps_lock Keyboard](#caps_lock-keyboard)
     - [Navigation](#navigation)
     - [Selecting Text](#selecting-text)
     - [Common Shortcuts](#common-shortcuts)
     - [Other Shortcuts](#other-shortcuts)
-  - [jhelvy function keys](#jhelvy-function-keys)
-  - [Other Custom Commands](#other-custom-commands)
+  - [Custom Function Keys](#custom-function-keys)
+  - [Other Commands](#other-commands)
   - [WASD-Specific Keys](#wasd-specific-keys)
 - [Example json Settings](#example-json-settings)
 - [License](#license)
@@ -37,7 +37,7 @@ The only difference between the two is that the main `jKeyboard_wasd.json` has a
 2. Open the `karabiner.json` configuration file. To find it, open Terminal.app and type `open ~/.config`, which will open the hidden .config directory in a new Finder window. There you can navigate to `karabiner/karabiner.json` and open/edit that file.
 3. Copy-paste the settings in one of the json files in the `./karabiner/` folder in this repo to overwrite the default karabiner.json file.
 
-## jhelvy caps_lock keyboard
+## Caps_lock Keyboard
 One of the primary things my `jKeyboard` settings does is modify the <kbd>caps lock</kbd> key such that when held down it essentially creates another keyboard with an entirely different functionality. Here is a summary of the current settings:
 
 ### Navigation
@@ -86,7 +86,7 @@ One of the primary things my `jKeyboard` settings does is modify the <kbd>caps l
 |<kbd>caps lock</kbd> + <kbd>9</kbd> |<kbd>control</kbd> + <kbd>9</kbd> (my Sublime Text shortcut to shift focus to the LEFT panel) |
 |<kbd>caps lock</kbd> + <kbd>0</kbd> |<kbd>control</kbd> + <kbd>0</kbd> (my Sublime Text shortcut to shift focus to the RIGHT panel) |
 
-## jhelvy function keys
+## Custom Function Keys
 I also changed my function keys to do certain things. While <kbd>f1</kbd> to <kbd>f4</kbd> and <kbd>f10</kbd> to <kbd>f12</kbd> are the standard mac settings, I made substantial changes to <kbd>f5</kbd> to <kbd>f9</kbd>:
 
 |     Key      |    Action    |
@@ -104,7 +104,7 @@ I also changed my function keys to do certain things. While <kbd>f1</kbd> to <kb
 |  <kbd>f11</kbd> | Volume Decrease |
 |  <kbd>f12</kbd> | Volume Increase |
 
-## Other Custom Commands
+## Other Commands
 These are a few other tricks that I find particularly useful:
 
 |     Key      |    Action    |
