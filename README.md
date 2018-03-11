@@ -122,7 +122,8 @@ These only work on my WASD keyboard (not a standard Apple keyboard):
 | <kbd>Menu</kbd> | Open Finder |
 
 # Example json Settings
-I learned a lot about how to write json settings to get Karabiner-Elements to do different things. I included a few examples in the `./karabiner/json_examples` folder.
+I learned a lot about how to write json settings to get Karabiner-Elements to do different things. I included the following examples in the `./karabiner/json_examples` folder.
+
 |     File      |    Description    |
 |:--------------|:------------------|
 | caps_lock arrows.json | Hold the <kbd>caps lock</kbd> key to turn the <kbd>J</kbd> / <kbd>I</kbd> / <kbd>K</kbd> / <kbd>L</kbd> keys into the <kbd>←</kbd> / <kbd>↑</kbd> / <kbd>↓</kbd> / <kbd>→</kbd> keys |
