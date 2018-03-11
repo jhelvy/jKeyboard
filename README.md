@@ -3,6 +3,13 @@ This repository contains the files for creating my custom keyboard:
 - The `./wasd_files` folder contains all the Adobe Illustrator files for making my customized [WASD keyboard](http://www.wasdkeyboards.com/).
 - The `./karabiner` folder contains the json files for my [Karabiner-Elements](https://pqrs.org/osx/karabiner/) settings.
 
+I use [Karabiner-Elements](https://pqrs.org/osx/karabiner/) for all sorts of keyboard modifications, including:
+- Use <kbd>J</kbd> / <kbd>I</kbd> / <kbd>K</kbd> / <kbd>L</kbd> as arrow keys for [navigating the cursor](#navigation) and [selecting text](#selecting-text).
+- Create more convenient and comfortable shortcuts for [common commands](#common-shortcuts), like `cut`, `copy`, `paste`, `undo`, `redo`, `find`, and `escape`.
+- [Launch applications](#other-shortcuts), like Google Chrome or Terminal.
+- Open Google Chrome to [specific pages](#custom-function-keys) (e.g. gmail).
+- Type my usual email send off ("Cheers, John").
+
 # Table of Contents
 - [Customized WASD Keyboard](#customized-wasd-keyboard)
 - [Karabiner-Elements Settings](#karabiner-elements-settings)
