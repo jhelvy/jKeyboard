@@ -8,7 +8,7 @@ I use [Karabiner-Elements](https://pqrs.org/osx/karabiner/) for all sorts of key
 - Create more convenient and comfortable shortcuts for [common commands](#common-shortcuts), like `cut`, `copy`, `paste`, `undo`, `redo`, `find`, and `escape`.
 - [Launch applications](#other-shortcuts), like Google Chrome or Terminal.
 - Open Google Chrome to [specific pages](#custom-function-keys) (e.g. gmail).
-- Type my usual email send off ("Cheers, John").
+- Type my usual email send off ("Cheers, John") with a single command.
 
 # Table of Contents
 - [Customized WASD Keyboard](#customized-wasd-keyboard)
