@@ -1,4 +1,3 @@
-
 # jKeyboard
 This repository contains the files for creating my custom keyboard:
 - The `./wasd_files` folder contains all the Adobe Illustrator files for making my customized [WASD keyboard](http://www.wasdkeyboards.com/).
@@ -16,6 +15,7 @@ This repository contains the files for creating my custom keyboard:
   - [jhelvy function keys](#jhelvy-function-keys)
   - [Other Custom Commands](#other-custom-commands)
   - [WASD-Specific Keys](#wasd-specific-keys)
+- [Example json Settings](#example-json-settings)
 - [License](#license)
 
 # Customized WASD Keyboard
@@ -120,6 +120,13 @@ These only work on my WASD keyboard (not a standard Apple keyboard):
 |:-------------|:-------------|
 | <kbd>Right control</kbd> | <kbd>option</kbd> + <kbd>A</kbd> (My Alfred Shortcut) |
 | <kbd>Menu</kbd> | Open Finder |
+
+# Example json Settings
+I learned a lot about how to write json settings to get Karabiner-Elements to do different things. I included a few examples in the `./karabiner/json_examples` folder.
+|     File      |    Description    |
+|:--------------|:------------------|
+| caps_lock arrows.json | Hold the <kbd>caps lock</kbd> key to turn the <kbd>J</kbd> / <kbd>I</kbd> / <kbd>K</kbd> / <kbd>L</kbd> keys into the <kbd>←</kbd> / <kbd>↑</kbd> / <kbd>↓</kbd> / <kbd>→</kbd> keys |
+| open application.json | Launch an Application (in this case Google Chrome) by holding <kbd>right option</kbd> + <kbd>C</kbd>
 
 # License
  GPL-3
