@@ -8,7 +8,7 @@ I use [Karabiner-Elements](https://pqrs.org/osx/karabiner/) for all sorts of key
 - Create more convenient and comfortable shortcuts for [common commands](#common-shortcuts), like `cut`, `copy`, `paste`, `undo`, `redo`, `find`, and `escape`.
 - [Launch applications](#other-shortcuts), like Google Chrome or Terminal.
 - Open Google Chrome to [specific pages](#custom-function-keys) (e.g. gmail).
-- Type my usual email send off ("Cheers, John") with a single command.
+- Type my usual email send off ("Cheers, John") with a single hotkey.
 
 # Table of Contents
 - [Customized WASD Keyboard](#customized-wasd-keyboard)
@@ -86,6 +86,8 @@ One of the primary things my `jKeyboard` settings does is modify the <kbd>caps l
 |:------------------------|:-------------|
 |<kbd>caps lock</kbd> + <kbd>C</kbd> | Open Google Chrome |
 |<kbd>caps lock</kbd> + <kbd>Z</kbd> | Open the file `'foo.txt'` in my Dropbox Folder |
+|<kbd>caps lock</kbd> + <kbd>/</kbd> | Open my Downloads folder |
+|<kbd>caps lock</kbd> + <kbd>/</kbd> | Open my pCloud Drive folder |
 |<kbd>caps lock</kbd> + <kbd>8</kbd> | Open Terminal |
 |<kbd>caps lock</kbd> + <kbd>2</kbd> | <kbd>command</kbd> + <kbd>control</kbd> + <kbd>2</kbd> (my Sublime Text shortcut to split into two windows)|
 |<kbd>caps lock</kbd> + <kbd>G</kbd> | Type my usual email send off ("Cheers, John") |
