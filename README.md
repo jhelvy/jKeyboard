@@ -10,9 +10,9 @@ Well, as someone who types literally [millions](http://whatpulse.org/jhelvy) of 
 My [Karabiner-Elements](https://pqrs.org/osx/karabiner/) settings enable all sorts of keyboard modifications, including:
 - Use <kbd>J</kbd> / <kbd>I</kbd> / <kbd>K</kbd> / <kbd>L</kbd> as arrow keys for [navigating the cursor](#navigation) and [selecting text](#selecting-text).
 - Create more convenient and comfortable shortcuts for [common commands](#common-shortcuts), like `cut`, `copy`, `paste`, `undo`, `redo`, `find`, and `escape`.
-- [Launch applications](#other-shortcuts), like Google Chrome or Terminal.
-- Open Google Chrome to [specific pages](#custom-function-keys) (e.g. gmail).
-- Type my usual email send off ("Cheers, John") with a single hotkey.
+- [Launch applications](#other-shortcuts), like `Google Chrome` or `Terminal`.
+- Open `Google Chrome` to [specific pages](#custom-function-keys) (e.g. `gmail`).
+- Type my usual email send off (`"Cheers, John"`) with a single hotkey.
 
 # Table of Contents
 - [Customized WASD Keyboard](#customized-wasd-keyboard)
