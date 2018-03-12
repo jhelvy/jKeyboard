@@ -88,13 +88,13 @@ One of the primary things my `jKeyboard` settings does is modify the <kbd>caps l
 ### Other Shortcuts
 |     Key Combination     |    Action    |
 |:------------------------|:-------------|
-|<kbd>caps lock</kbd> + <kbd>C</kbd> | Open Google Chrome |
+|<kbd>caps lock</kbd> + <kbd>C</kbd> | Open `Google Chrome` |
 |<kbd>caps lock</kbd> + <kbd>Z</kbd> | Open the file `'foo.txt'` in my Dropbox Folder |
-|<kbd>caps lock</kbd> + <kbd>/</kbd> | Open my Downloads folder |
-|<kbd>caps lock</kbd> + <kbd>/</kbd> | Open my pCloud Drive folder |
-|<kbd>caps lock</kbd> + <kbd>8</kbd> | Open Terminal |
+|<kbd>caps lock</kbd> + <kbd>/</kbd> | Open my `Downloads` folder |
+|<kbd>caps lock</kbd> + <kbd>/</kbd> | Open my `pCloud Drive` folder |
+|<kbd>caps lock</kbd> + <kbd>8</kbd> | Open `Terminal` |
 |<kbd>caps lock</kbd> + <kbd>2</kbd> | <kbd>command</kbd> + <kbd>control</kbd> + <kbd>2</kbd> (my Sublime Text shortcut to split into two windows)|
-|<kbd>caps lock</kbd> + <kbd>G</kbd> | Type my usual email send off ("Cheers, John") |
+|<kbd>caps lock</kbd> + <kbd>G</kbd> | Type my usual email send off (`"Cheers, John"`) |
 |<kbd>caps lock</kbd> + <kbd>Y</kbd> |<kbd>control</kbd> + <kbd>Y</kbd> (my Sublime Text shortcut to send selected text to a REPL) |
 |<kbd>caps lock</kbd> + <kbd>9</kbd> |<kbd>control</kbd> + <kbd>9</kbd> (my Sublime Text shortcut to shift focus to the LEFT panel) |
 |<kbd>caps lock</kbd> + <kbd>0</kbd> |<kbd>control</kbd> + <kbd>0</kbd> (my Sublime Text shortcut to shift focus to the RIGHT panel) |
@@ -108,10 +108,10 @@ I also changed my function keys to do certain things. While <kbd>f1</kbd> to <kb
 |  <kbd>f2</kbd>  | Brightness Increase |
 |  <kbd>f3</kbd>  | Mission Control |
 |  <kbd>f4</kbd>  | Dashboard |
-|  <kbd>f5</kbd>  | Open Gmail in Google Chrome |
-|  <kbd>f6</kbd>  | Open Google Calendar in Google Chrome |
-|  <kbd>f7</kbd>  | Open Facebook in Google Chrome |
-|  <kbd>f8</kbd>  | Open Intellicast Weather in Google Chrome |
+|  <kbd>f5</kbd>  | Open `Gmail` in Google Chrome |
+|  <kbd>f6</kbd>  | Open `Google Calendar` in Google Chrome |
+|  <kbd>f7</kbd>  | Open `Facebook` in Google Chrome |
+|  <kbd>f8</kbd>  | Open `Intellicast Weather` in Google Chrome |
 |  <kbd>f9</kbd>  | <kbd>command</kbd> + <kbd>shift</kbd> + <kbd>3</kbd> (Screen Shot) |
 |  <kbd>f10</kbd> | Mute |
 |  <kbd>f11</kbd> | Volume Decrease |
@@ -132,7 +132,7 @@ These only work on my WASD keyboard (not a standard Apple keyboard):
 |     Key      |    Action    |
 |:-------------|:-------------|
 | <kbd>Right control</kbd> | <kbd>option</kbd> + <kbd>A</kbd> (My Alfred Shortcut) |
-| <kbd>Menu</kbd> | Open Finder |
+| <kbd>Menu</kbd> | Open `Finder` |
 
 # Example json Settings
 I learned a lot about how to write json settings to get Karabiner-Elements to do different things. I included the following examples in the `./karabiner/json_examples` folder.
