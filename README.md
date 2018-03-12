@@ -1,9 +1,13 @@
 # jKeyboard
-This repository contains the files for creating my custom keyboard:
-- The `./wasd_files` folder contains all the Adobe Illustrator files for making my customized [WASD keyboard](http://www.wasdkeyboards.com/).
-- The `./karabiner` folder contains the json files for my [Karabiner-Elements](https://pqrs.org/osx/karabiner/) settings.
+If you were a professional guitarist, wouldn't you play on premium guitar?
 
-I use [Karabiner-Elements](https://pqrs.org/osx/karabiner/) for all sorts of keyboard modifications, including:
+If you were a chef, wouldn't you invest in a premium chef knife?
+
+Well, as someone who types literally [millions](http://whatpulse.org/jhelvy) of keystrokes a year for my profession, I decided to invest in a premium keyboard by combining [Karabiner-Elements](https://pqrs.org/osx/karabiner/) with a customized [WASD Keyboard](http://www.wasdkeyboards.com/). This repository contains the files for creating my custom keyboard:
+- The `./karabiner` folder contains the json files for my [Karabiner-Elements](https://pqrs.org/osx/karabiner/) settings.
+- The `./wasd_files` folder contains the Adobe Illustrator file used to make my customized [WASD keyboard](http://www.wasdkeyboards.com/).
+
+My [Karabiner-Elements](https://pqrs.org/osx/karabiner/) settings enable all sorts of keyboard modifications, including:
 - Use <kbd>J</kbd> / <kbd>I</kbd> / <kbd>K</kbd> / <kbd>L</kbd> as arrow keys for [navigating the cursor](#navigation) and [selecting text](#selecting-text).
 - Create more convenient and comfortable shortcuts for [common commands](#common-shortcuts), like `cut`, `copy`, `paste`, `undo`, `redo`, `find`, and `escape`.
 - [Launch applications](#other-shortcuts), like Google Chrome or Terminal.
