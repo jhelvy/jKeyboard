@@ -1,17 +1,17 @@
 # jKeyboard
-If you were a professional guitarist, wouldn't you play on premium guitar?
+If you were a professional guitarist, wouldn't you play on a premium guitar?
 
 If you were a chef, wouldn't you invest in a premium chef knife?
 
 Well, as someone who types literally [millions](http://whatpulse.org/jhelvy) of keystrokes a year for my profession, I decided to invest in a premium keyboard by combining [Karabiner-Elements](https://pqrs.org/osx/karabiner/) with a customized [WASD Keyboard](http://www.wasdkeyboards.com/). This repository contains the files for creating my custom keyboard:
-- The `./karabiner` folder contains the json files for my [Karabiner-Elements](https://pqrs.org/osx/karabiner/) settings.
-- The `./wasd_files` folder contains the Adobe Illustrator file used to make my customized [WASD keyboard](http://www.wasdkeyboards.com/).
+- The `karabiner` folder contains the json files for my [Karabiner-Elements](https://pqrs.org/osx/karabiner/) settings.
+- The `wasd_files` folder contains the Adobe Illustrator file used to make my customized [WASD keyboard](http://www.wasdkeyboards.com/).
 
 My [Karabiner-Elements](https://pqrs.org/osx/karabiner/) settings enable all sorts of keyboard modifications, including:
 - Use <kbd>J</kbd> / <kbd>I</kbd> / <kbd>K</kbd> / <kbd>L</kbd> as arrow keys for [navigating the cursor](#navigation) and [selecting text](#selecting-text).
-- Create more convenient and comfortable shortcuts for [common commands](#common-shortcuts), like `cut`, `copy`, `paste`, `undo`, `redo`, `find`, and `escape`.
-- [Launch applications](#other-shortcuts), like `Google Chrome` or `Terminal`.
-- Open `Google Chrome` to [specific pages](#custom-function-keys) (e.g. `gmail`).
+- Create more convenient and comfortable shortcuts for [common commands](#common-shortcuts), like `cut`, `copy`, `paste`, `delete`, `backspace`, `undo`, `redo`, `find`, and `escape`.
+- [Launch applications](#other-shortcuts) like `Google Chrome` or `Terminal` with a single hotkey.
+- Open `Google Chrome` to a webpage (e.g. gmail) with a single hotkey
 - Type my usual email send off (`"Cheers, John"`) with a single hotkey.
 
 # Table of Contents
@@ -34,6 +34,8 @@ My [WASD keyboard](http://www.wasdkeyboards.com/) looks like this:
 ![alt text](https://raw.github.com/jhelvy/jKeyboard/master/wasd_files/keyboard_preview.jpg "Keyboard Layout")
 
 All I did to create this was edit the Adobe Illustrator keyboard file (`./wasd_files/keyboard_layout_104.ai`). In addition to adding a bunch of customized icons (e.g. the function keys), I changed the  <kbd>caps lock</kbd> key to a blue <kbd>hyper</kbd> key that when held down (with the help of [Karabiner-Elements](https://pqrs.org/osx/karabiner/)) essentially creates another keyboard with an entirely different functionality (indicated by the small blue icons in the lower-right corners of each key).
+
+For those curious, the Chinese text on the spacebar is the idiom "晴耕雨读", which literally means "Sunny farm rain read." The meaning is to farm on sunny days and read on rainy days. In other words, work hard, life a simple life, and enjoy each present moment.
 
 # Karabiner-Elements Settings
 The [Karabiner-Elements](https://pqrs.org/osx/karabiner/) json settings files can be found in the `./karabiner` folder. There are two versions:
