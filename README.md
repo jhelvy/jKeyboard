@@ -139,6 +139,7 @@ I learned a lot about how to write json settings to get Karabiner-Elements to do
 | caps_lock_arrows.json | Hold the <kbd>caps lock</kbd> key to turn the <kbd>J</kbd> / <kbd>I</kbd> / <kbd>K</kbd> / <kbd>L</kbd> keys into the <kbd>←</kbd> / <kbd>↑</kbd> / <kbd>↓</kbd> / <kbd>→</kbd> keys |
 | launch_application.json | Launch an Application (in this case Google Chrome) by typing <kbd>right option</kbd> + <kbd>C</kbd> |
 | open_browser_to_page.json | Open Google Chrome to www.google.com by typing <kbd>right option</kbd> + <kbd>C</kbd> |
+| tap_shift_keys_for_parentheses.json | Tap <kbd>left_shift</kbd> / <kbd>right_shift</kbd> to get <kbd>(</kbd> / <kbd>)</kbd> |
 
 # License
  GPL-3
