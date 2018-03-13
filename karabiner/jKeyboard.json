@@ -949,9 +949,6 @@
                                         "modifiers": [
                                             "left_command"
                                         ]
-                                    },
-                                    {
-                                        "key_code": "vk_none"
                                     }
                                 ],
                                 "type": "basic"
@@ -978,9 +975,6 @@
                                         "modifiers": [
                                             "left_command"
                                         ]
-                                    },
-                                    {
-                                        "key_code": "vk_none"
                                     }
                                 ],
                                 "type": "basic"
@@ -1007,9 +1001,6 @@
                                         "modifiers": [
                                             "left_command"
                                         ]
-                                    },
-                                    {
-                                        "key_code": "vk_none"
                                     }
                                 ],
                                 "type": "basic"
@@ -1036,9 +1027,6 @@
                                         "modifiers": [
                                             "left_command"
                                         ]
-                                    },
-                                    {
-                                        "key_code": "vk_none"
                                     }
                                 ],
                                 "type": "basic"
@@ -1065,9 +1053,6 @@
                                         "modifiers": [
                                             "left_command"
                                         ]
-                                    },
-                                    {
-                                        "key_code": "vk_none"
                                     }
                                 ],
                                 "type": "basic"
@@ -1094,9 +1079,6 @@
                                         "modifiers": [
                                             "left_command"
                                         ]
-                                    },
-                                    {
-                                        "key_code": "vk_none"
                                     }
                                 ],
                                 "type": "basic"
@@ -1123,9 +1105,6 @@
                                         "modifiers": [
                                             "left_command"
                                         ]
-                                    },
-                                    {
-                                        "key_code": "vk_none"
                                     }
                                 ],
                                 "type": "basic"
@@ -1153,9 +1132,6 @@
                                             "left_command",
                                             "left_shift"
                                         ]
-                                    },
-                                    {
-                                        "key_code": "vk_none"
                                     }
                                 ],
                                 "type": "basic"
@@ -1179,9 +1155,6 @@
                                 "to": [
                                     {
                                         "key_code": "escape"
-                                    },
-                                    {
-                                        "key_code": "vk_none"
                                     }
                                 ],
                                 "type": "basic"
@@ -1349,9 +1322,6 @@
                                         "modifiers": [
                                             "left_control"
                                         ]
-                                    },
-                                    {
-                                        "key_code": "vk_none"
                                     }
                                 ],
                                 "type": "basic"
@@ -1378,9 +1348,6 @@
                                         "modifiers": [
                                             "left_control"
                                         ]
-                                    },
-                                    {
-                                        "key_code": "vk_none"
                                     }
                                 ],
                                 "type": "basic"
@@ -1408,9 +1375,6 @@
                                             "left_command",
                                             "left_option"
                                         ]
-                                    },
-                                    {
-                                        "key_code": "vk_none"
                                     }
                                 ],
                                 "type": "basic"

@@ -51,17 +51,19 @@ One of the primary things my `jKeyboard` settings does is modify the <kbd>caps l
 ### Navigation
 |   Key Combination  |    Maps to    |   Description  |
 |:-------------------|:--------------|:---------------|
+| <kbd>caps lock</kbd> | Nothing | Trigger for "hyper" keyboard |
 | <kbd>caps lock</kbd> + <kbd>J</kbd> / <kbd>I</kbd> / <kbd>K</kbd> / <kbd>L</kbd> | <kbd>←</kbd> / <kbd>↑</kbd> / <kbd>↓</kbd> / <kbd>→</kbd> | Arrow Keys |
 |<kbd>caps lock</kbd> + <kbd>command</kbd> + <kbd>I</kbd> / <kbd>K</kbd> | <kbd>command</kbd> + <kbd>↑</kbd> / <kbd>↓</kbd> | Home / End |
 |<kbd>caps lock</kbd> + <kbd>command</kbd> + <kbd>J</kbd> / <kbd>L</kbd> | <kbd>command</kbd> + <kbd>←</kbd> / <kbd>→</kbd> | Go to Start / End of Line |
 |<kbd>caps lock</kbd> + <kbd>U</kbd> / <kbd>O</kbd> | <kbd>command</kbd> + <kbd>←</kbd> / <kbd>→</kbd> | Go to Start / End of Line |
-|<kbd>caps lock</kbd> + <kbd>spacebar</kbd> | <kbd>fn</kbd> | Function key |
+|<kbd>caps lock</kbd> + <kbd>spacebar</kbd> | <kbd>control</kbd> | Control key |
 |<kbd>caps lock</kbd> + <kbd>spacebar</kbd> + <kbd>I</kbd> / <kbd>K</kbd> | <kbd>⇞</kbd> / <kbd>⇟</kbd> | Page Up / Page Down |
 |<kbd>caps lock</kbd> + <kbd>spacebar</kbd> + <kbd>J</kbd> / <kbd>L</kbd> | <kbd>control</kbd> + <kbd>←</kbd> / <kbd>→</kbd> | Go to Start / End of Next Word |
 
 ### Selecting Text
 |   Key Combination  |    Maps to    |   Description  |
 |:-------------------|:--------------|:---------------|
+|<kbd>caps lock</kbd> + <kbd>A</kbd> | <kbd>shift</kbd> | Shift key |
 |<kbd>caps lock</kbd> + <kbd>A</kbd> + <kbd>J</kbd> / <kbd>I</kbd> / <kbd>K</kbd> / <kbd>L</kbd> | <kbd>shift</kbd> + <kbd>←</kbd> / <kbd>↑</kbd> / <kbd>↓</kbd> / <kbd>→</kbd> | Select Text |
 |<kbd>caps lock</kbd> + <kbd>A</kbd> + <kbd>U</kbd> / <kbd>O</kbd> | <kbd>command</kbd> + <kbd>shift</kbd> + <kbd>←</kbd> / <kbd>→</kbd> | Select until Start / End of Line |
 |<kbd>caps lock</kbd> + <kbd>A</kbd> + <kbd>,</kbd> / <kbd>.</kbd> | <kbd>control</kbd> + <kbd>shift</kbd> + <kbd>←</kbd> / <kbd>→</kbd> | Select until Start / End of Next Word |
