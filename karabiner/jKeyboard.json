@@ -15,7 +15,7 @@
                 },
                 "rules": [
                     {
-                        "description": "jhelvy caps_lock keyboard",
+                        "description": "caps_lock hyper keyboard",
                         "manipulators": [
                             {
                                 "from": {
@@ -24,7 +24,7 @@
                                 "to": [
                                     {
                                         "set_variable": {
-                                            "name": "nav_mode",
+                                            "name": "hyper_mode",
                                             "value": 1
                                         }
                                     }
@@ -32,7 +32,7 @@
                                 "to_after_key_up": [
                                     {
                                         "set_variable": {
-                                            "name": "nav_mode",
+                                            "name": "hyper_mode",
                                             "value": 0
                                         }
                                     }
@@ -47,14 +47,55 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "nav_mode",
+                                        "name": "hyper_mode",
                                         "type": "variable_if",
                                         "value": 1
-                                    },
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "a",
+                                    "modifiers": {
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
+                                },
+                                "to": [
                                     {
-                                        "name": "select_mode",
+                                        "key_code": "left_shift"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "hyper_mode",
                                         "type": "variable_if",
-                                        "value": 0
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "spacebar",
+                                    "modifiers": {
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "right_control"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "hyper_mode",
+                                        "type": "variable_if",
+                                        "value": 1
                                     }
                                 ],
                                 "from": {
@@ -75,21 +116,16 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "nav_mode",
+                                        "name": "hyper_mode",
                                         "type": "variable_if",
                                         "value": 1
-                                    },
-                                    {
-                                        "name": "select_mode",
-                                        "type": "variable_if",
-                                        "value": 0
                                     }
                                 ],
                                 "from": {
                                     "key_code": "j",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_command"
+                                            "command"
                                         ],
                                         "optional": [
                                             "caps_lock"
@@ -100,7 +136,7 @@
                                     {
                                         "key_code": "left_arrow",
                                         "modifiers": [
-                                            "left_command"
+                                            "command"
                                         ]
                                     }
                                 ],
@@ -109,14 +145,69 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "nav_mode",
+                                        "name": "hyper_mode",
                                         "type": "variable_if",
                                         "value": 1
-                                    },
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "j",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "shift"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
+                                },
+                                "to": [
                                     {
-                                        "name": "select_mode",
+                                        "key_code": "left_arrow",
+                                        "modifiers": [
+                                            "shift"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "hyper_mode",
                                         "type": "variable_if",
-                                        "value": 0
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "j",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "command",
+                                            "shift"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "left_arrow",
+                                        "modifiers": [
+                                            "command",
+                                            "shift"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "hyper_mode",
+                                        "type": "variable_if",
+                                        "value": 1
                                     }
                                 ],
                                 "from": {
@@ -137,21 +228,16 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "nav_mode",
+                                        "name": "hyper_mode",
                                         "type": "variable_if",
                                         "value": 1
-                                    },
-                                    {
-                                        "name": "select_mode",
-                                        "type": "variable_if",
-                                        "value": 0
                                     }
                                 ],
                                 "from": {
                                     "key_code": "k",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_command"
+                                            "command"
                                         ],
                                         "optional": [
                                             "caps_lock"
@@ -162,7 +248,7 @@
                                     {
                                         "key_code": "down_arrow",
                                         "modifiers": [
-                                            "left_command"
+                                            "command"
                                         ]
                                     }
                                 ],
@@ -171,14 +257,69 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "nav_mode",
+                                        "name": "hyper_mode",
                                         "type": "variable_if",
                                         "value": 1
-                                    },
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "k",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "shift"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
+                                },
+                                "to": [
                                     {
-                                        "name": "select_mode",
+                                        "key_code": "down_arrow",
+                                        "modifiers": [
+                                            "shift"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "hyper_mode",
                                         "type": "variable_if",
-                                        "value": 0
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "k",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "command",
+                                            "shift"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "down_arrow",
+                                        "modifiers": [
+                                            "command",
+                                            "shift"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "hyper_mode",
+                                        "type": "variable_if",
+                                        "value": 1
                                     }
                                 ],
                                 "from": {
@@ -199,21 +340,16 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "nav_mode",
+                                        "name": "hyper_mode",
                                         "type": "variable_if",
                                         "value": 1
-                                    },
-                                    {
-                                        "name": "select_mode",
-                                        "type": "variable_if",
-                                        "value": 0
                                     }
                                 ],
                                 "from": {
                                     "key_code": "i",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_command"
+                                            "command"
                                         ],
                                         "optional": [
                                             "caps_lock"
@@ -224,7 +360,7 @@
                                     {
                                         "key_code": "up_arrow",
                                         "modifiers": [
-                                            "left_command"
+                                            "command"
                                         ]
                                     }
                                 ],
@@ -233,14 +369,69 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "nav_mode",
+                                        "name": "hyper_mode",
                                         "type": "variable_if",
                                         "value": 1
-                                    },
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "i",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "shift"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
+                                },
+                                "to": [
                                     {
-                                        "name": "select_mode",
+                                        "key_code": "up_arrow",
+                                        "modifiers": [
+                                            "shift"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "hyper_mode",
                                         "type": "variable_if",
-                                        "value": 0
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "i",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "command",
+                                            "shift"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "up_arrow",
+                                        "modifiers": [
+                                            "command",
+                                            "shift"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "hyper_mode",
+                                        "type": "variable_if",
+                                        "value": 1
                                     }
                                 ],
                                 "from": {
@@ -261,21 +452,16 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "nav_mode",
+                                        "name": "hyper_mode",
                                         "type": "variable_if",
                                         "value": 1
-                                    },
-                                    {
-                                        "name": "select_mode",
-                                        "type": "variable_if",
-                                        "value": 0
                                     }
                                 ],
                                 "from": {
                                     "key_code": "l",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_command"
+                                            "command"
                                         ],
                                         "optional": [
                                             "caps_lock"
@@ -286,7 +472,7 @@
                                     {
                                         "key_code": "right_arrow",
                                         "modifiers": [
-                                            "left_command"
+                                            "command"
                                         ]
                                     }
                                 ],
@@ -295,14 +481,69 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "nav_mode",
+                                        "name": "hyper_mode",
                                         "type": "variable_if",
                                         "value": 1
-                                    },
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "l",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "shift"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
+                                },
+                                "to": [
                                     {
-                                        "name": "select_mode",
+                                        "key_code": "right_arrow",
+                                        "modifiers": [
+                                            "shift"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "hyper_mode",
                                         "type": "variable_if",
-                                        "value": 0
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "l",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "command",
+                                            "shift"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "right_arrow",
+                                        "modifiers": [
+                                            "command",
+                                            "shift"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "hyper_mode",
+                                        "type": "variable_if",
+                                        "value": 1
                                     }
                                 ],
                                 "from": {
@@ -317,7 +558,7 @@
                                     {
                                         "key_code": "left_arrow",
                                         "modifiers": [
-                                            "left_command"
+                                            "command"
                                         ]
                                     }
                                 ],
@@ -326,14 +567,39 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "nav_mode",
+                                        "name": "hyper_mode",
                                         "type": "variable_if",
                                         "value": 1
-                                    },
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "u",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "shift"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
+                                },
+                                "to": [
                                     {
-                                        "name": "select_mode",
+                                        "key_code": "left_arrow",
+                                        "modifiers": [
+                                            "command",
+                                            "shift"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "hyper_mode",
                                         "type": "variable_if",
-                                        "value": 0
+                                        "value": 1
                                     }
                                 ],
                                 "from": {
@@ -348,7 +614,7 @@
                                     {
                                         "key_code": "right_arrow",
                                         "modifiers": [
-                                            "left_command"
+                                            "command"
                                         ]
                                     }
                                 ],
@@ -357,49 +623,16 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "nav_mode",
+                                        "name": "hyper_mode",
                                         "type": "variable_if",
                                         "value": 1
-                                    },
-                                    {
-                                        "name": "select_mode",
-                                        "type": "variable_if",
-                                        "value": 0
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "spacebar",
-                                    "modifiers": {
-                                        "optional": [
-                                            "caps_lock"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "fn"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "nav_mode",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    },
-                                    {
-                                        "name": "select_mode",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "k",
+                                    "key_code": "o",
                                     "modifiers": {
                                         "mandatory": [
-                                            "fn"
+                                            "shift"
                                         ],
                                         "optional": [
                                             "caps_lock"
@@ -408,7 +641,11 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "page_down"
+                                        "key_code": "right_arrow",
+                                        "modifiers": [
+                                            "command",
+                                            "shift"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
@@ -416,21 +653,16 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "nav_mode",
+                                        "name": "hyper_mode",
                                         "type": "variable_if",
                                         "value": 1
-                                    },
-                                    {
-                                        "name": "select_mode",
-                                        "type": "variable_if",
-                                        "value": 0
                                     }
                                 ],
                                 "from": {
                                     "key_code": "i",
                                     "modifiers": {
                                         "mandatory": [
-                                            "fn"
+                                            "right_control"
                                         ],
                                         "optional": [
                                             "caps_lock"
@@ -447,152 +679,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "nav_mode",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    },
-                                    {
-                                        "name": "select_mode",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "j",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "fn"
-                                        ],
-                                        "optional": [
-                                            "caps_lock"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "left_arrow",
-                                        "modifiers": [
-                                            "left_control"
-                                        ]
-                                    },
-                                    {
-                                        "key_code": "vk_none"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "nav_mode",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    },
-                                    {
-                                        "name": "select_mode",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "l",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "fn"
-                                        ],
-                                        "optional": [
-                                            "caps_lock",
-                                            "shift"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "right_arrow",
-                                        "modifiers": [
-                                            "left_control"
-                                        ]
-                                    },
-                                    {
-                                        "key_code": "vk_none"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "nav_mode",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "a",
-                                    "modifiers": {
-                                        "optional": [
-                                            "caps_lock"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "set_variable": {
-                                            "name": "select_mode",
-                                            "value": 1
-                                        }
-                                    }
-                                ],
-                                "to_after_key_up": [
-                                    {
-                                        "set_variable": {
-                                            "name": "select_mode",
-                                            "value": 0
-                                        }
-                                    }
-                                ],
-                                "to_if_alone": [
-                                    {
-                                        "key_code": "vk_none"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "select_mode",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "j",
-                                    "modifiers": {
-                                        "optional": [
-                                            "caps_lock"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "left_arrow",
-                                        "modifiers": [
-                                            "left_shift"
-                                        ]
-                                    }
-                                ],
-                                "to_after_key_up": [
-                                    {
-                                        "key_code": "vk_none"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "select_mode",
+                                        "name": "hyper_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -600,6 +687,9 @@
                                 "from": {
                                     "key_code": "k",
                                     "modifiers": {
+                                        "mandatory": [
+                                            "right_control"
+                                        ],
                                         "optional": [
                                             "caps_lock"
                                         ]
@@ -607,15 +697,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "down_arrow",
-                                        "modifiers": [
-                                            "left_shift"
-                                        ]
-                                    }
-                                ],
-                                "to_after_key_up": [
-                                    {
-                                        "key_code": "vk_none"
+                                        "key_code": "page_down"
                                     }
                                 ],
                                 "type": "basic"
@@ -623,14 +705,17 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "select_mode",
+                                        "name": "hyper_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "i",
+                                    "key_code": "j",
                                     "modifiers": {
+                                        "mandatory": [
+                                            "right_control"
+                                        ],
                                         "optional": [
                                             "caps_lock"
                                         ]
@@ -638,15 +723,10 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "up_arrow",
+                                        "key_code": "left_arrow",
                                         "modifiers": [
-                                            "left_shift"
+                                            "left_control"
                                         ]
-                                    }
-                                ],
-                                "to_after_key_up": [
-                                    {
-                                        "key_code": "vk_none"
                                     }
                                 ],
                                 "type": "basic"
@@ -654,7 +734,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "select_mode",
+                                        "name": "hyper_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -662,67 +742,9 @@
                                 "from": {
                                     "key_code": "l",
                                     "modifiers": {
-                                        "optional": [
-                                            "caps_lock"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "right_arrow",
-                                        "modifiers": [
-                                            "left_shift"
-                                        ]
-                                    }
-                                ],
-                                "to_after_key_up": [
-                                    {
-                                        "key_code": "vk_none"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "select_mode",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "u",
-                                    "modifiers": {
-                                        "optional": [
-                                            "caps_lock"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "left_arrow",
-                                        "modifiers": [
-                                            "left_shift",
-                                            "left_command"
-                                        ]
-                                    },
-                                    {
-                                        "key_code": "vk_none"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "select_mode",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "o",
-                                    "modifiers": {
+                                        "mandatory": [
+                                            "right_control"
+                                        ],
                                         "optional": [
                                             "caps_lock",
                                             "shift"
@@ -733,12 +755,8 @@
                                     {
                                         "key_code": "right_arrow",
                                         "modifiers": [
-                                            "left_shift",
-                                            "left_command"
+                                            "left_control"
                                         ]
-                                    },
-                                    {
-                                        "key_code": "vk_none"
                                     }
                                 ],
                                 "type": "basic"
@@ -746,7 +764,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "select_mode",
+                                        "name": "hyper_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -754,6 +772,9 @@
                                 "from": {
                                     "key_code": "comma",
                                     "modifiers": {
+                                        "mandatory": [
+                                            "left_shift"
+                                        ],
                                         "optional": [
                                             "caps_lock"
                                         ]
@@ -768,17 +789,12 @@
                                         ]
                                     }
                                 ],
-                                "to_after_key_up": [
-                                    {
-                                        "key_code": "vk_none"
-                                    }
-                                ],
                                 "type": "basic"
                             },
                             {
                                 "conditions": [
                                     {
-                                        "name": "select_mode",
+                                        "name": "hyper_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -786,6 +802,9 @@
                                 "from": {
                                     "key_code": "period",
                                     "modifiers": {
+                                        "mandatory": [
+                                            "left_shift"
+                                        ],
                                         "optional": [
                                             "caps_lock"
                                         ]
@@ -800,17 +819,12 @@
                                         ]
                                     }
                                 ],
-                                "to_after_key_up": [
-                                    {
-                                        "key_code": "vk_none"
-                                    }
-                                ],
                                 "type": "basic"
                             },
                             {
                                 "conditions": [
                                     {
-                                        "name": "select_mode",
+                                        "name": "hyper_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -818,9 +832,11 @@
                                 "from": {
                                     "key_code": "open_bracket",
                                     "modifiers": {
+                                        "mandatory": [
+                                            "left_shift"
+                                        ],
                                         "optional": [
-                                            "caps_lock",
-                                            "shift"
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -833,17 +849,12 @@
                                         ]
                                     }
                                 ],
-                                "to_after_key_up": [
-                                    {
-                                        "key_code": "vk_none"
-                                    }
-                                ],
                                 "type": "basic"
                             },
                             {
                                 "conditions": [
                                     {
-                                        "name": "select_mode",
+                                        "name": "hyper_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -851,9 +862,11 @@
                                 "from": {
                                     "key_code": "close_bracket",
                                     "modifiers": {
+                                        "mandatory": [
+                                            "left_shift"
+                                        ],
                                         "optional": [
-                                            "caps_lock",
-                                            "shift"
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -866,47 +879,14 @@
                                         ]
                                     }
                                 ],
-                                "to_after_key_up": [
-                                    {
-                                        "key_code": "vk_none"
-                                    }
-                                ],
                                 "type": "basic"
                             },
                             {
                                 "conditions": [
                                     {
-                                        "name": "select_mode",
+                                        "name": "hyper_mode",
                                         "type": "variable_if",
                                         "value": 1
-                                    }
-                                ],
-                                "from": {
-                                    "any": "key_code",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "vk_none"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "nav_mode",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    },
-                                    {
-                                        "name": "select_mode",
-                                        "type": "variable_if",
-                                        "value": 0
                                     }
                                 ],
                                 "from": {
@@ -927,14 +907,9 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "nav_mode",
+                                        "name": "hyper_mode",
                                         "type": "variable_if",
                                         "value": 1
-                                    },
-                                    {
-                                        "name": "select_mode",
-                                        "type": "variable_if",
-                                        "value": 0
                                     }
                                 ],
                                 "from": {
@@ -955,14 +930,9 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "nav_mode",
+                                        "name": "hyper_mode",
                                         "type": "variable_if",
                                         "value": 1
-                                    },
-                                    {
-                                        "name": "select_mode",
-                                        "type": "variable_if",
-                                        "value": 0
                                     }
                                 ],
                                 "from": {
@@ -989,14 +959,9 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "nav_mode",
+                                        "name": "hyper_mode",
                                         "type": "variable_if",
                                         "value": 1
-                                    },
-                                    {
-                                        "name": "select_mode",
-                                        "type": "variable_if",
-                                        "value": 0
                                     }
                                 ],
                                 "from": {
@@ -1023,14 +988,9 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "nav_mode",
+                                        "name": "hyper_mode",
                                         "type": "variable_if",
                                         "value": 1
-                                    },
-                                    {
-                                        "name": "select_mode",
-                                        "type": "variable_if",
-                                        "value": 0
                                     }
                                 ],
                                 "from": {
@@ -1057,14 +1017,9 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "nav_mode",
+                                        "name": "hyper_mode",
                                         "type": "variable_if",
                                         "value": 1
-                                    },
-                                    {
-                                        "name": "select_mode",
-                                        "type": "variable_if",
-                                        "value": 0
                                     }
                                 ],
                                 "from": {
@@ -1091,14 +1046,9 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "nav_mode",
+                                        "name": "hyper_mode",
                                         "type": "variable_if",
                                         "value": 1
-                                    },
-                                    {
-                                        "name": "select_mode",
-                                        "type": "variable_if",
-                                        "value": 0
                                     }
                                 ],
                                 "from": {
@@ -1125,14 +1075,9 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "nav_mode",
+                                        "name": "hyper_mode",
                                         "type": "variable_if",
                                         "value": 1
-                                    },
-                                    {
-                                        "name": "select_mode",
-                                        "type": "variable_if",
-                                        "value": 0
                                     }
                                 ],
                                 "from": {
@@ -1159,14 +1104,9 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "nav_mode",
+                                        "name": "hyper_mode",
                                         "type": "variable_if",
                                         "value": 1
-                                    },
-                                    {
-                                        "name": "select_mode",
-                                        "type": "variable_if",
-                                        "value": 0
                                     }
                                 ],
                                 "from": {
@@ -1193,14 +1133,9 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "nav_mode",
+                                        "name": "hyper_mode",
                                         "type": "variable_if",
                                         "value": 1
-                                    },
-                                    {
-                                        "name": "select_mode",
-                                        "type": "variable_if",
-                                        "value": 0
                                     }
                                 ],
                                 "from": {
@@ -1228,14 +1163,9 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "nav_mode",
+                                        "name": "hyper_mode",
                                         "type": "variable_if",
                                         "value": 1
-                                    },
-                                    {
-                                        "name": "select_mode",
-                                        "type": "variable_if",
-                                        "value": 0
                                     }
                                 ],
                                 "from": {
@@ -1259,14 +1189,9 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "nav_mode",
+                                        "name": "hyper_mode",
                                         "type": "variable_if",
                                         "value": 1
-                                    },
-                                    {
-                                        "name": "select_mode",
-                                        "type": "variable_if",
-                                        "value": 0
                                     }
                                 ],
                                 "from": {
@@ -1287,14 +1212,9 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "nav_mode",
+                                        "name": "hyper_mode",
                                         "type": "variable_if",
                                         "value": 1
-                                    },
-                                    {
-                                        "name": "select_mode",
-                                        "type": "variable_if",
-                                        "value": 0
                                     }
                                 ],
                                 "from": {
@@ -1315,14 +1235,9 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "nav_mode",
+                                        "name": "hyper_mode",
                                         "type": "variable_if",
                                         "value": 1
-                                    },
-                                    {
-                                        "name": "select_mode",
-                                        "type": "variable_if",
-                                        "value": 0
                                     }
                                 ],
                                 "from": {
@@ -1343,14 +1258,9 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "nav_mode",
+                                        "name": "hyper_mode",
                                         "type": "variable_if",
                                         "value": 1
-                                    },
-                                    {
-                                        "name": "select_mode",
-                                        "type": "variable_if",
-                                        "value": 0
                                     }
                                 ],
                                 "from": {
@@ -1371,14 +1281,9 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "nav_mode",
+                                        "name": "hyper_mode",
                                         "type": "variable_if",
                                         "value": 1
-                                    },
-                                    {
-                                        "name": "select_mode",
-                                        "type": "variable_if",
-                                        "value": 0
                                     }
                                 ],
                                 "from": {
@@ -1399,14 +1304,9 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "nav_mode",
+                                        "name": "hyper_mode",
                                         "type": "variable_if",
                                         "value": 1
-                                    },
-                                    {
-                                        "name": "select_mode",
-                                        "type": "variable_if",
-                                        "value": 0
                                     }
                                 ],
                                 "from": {
@@ -1423,9 +1323,6 @@
                                         "modifiers": [
                                             "left_control"
                                         ]
-                                    },
-                                    {
-                                        "key_code": "vk_none"
                                     }
                                 ],
                                 "type": "basic"
@@ -1433,14 +1330,9 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "nav_mode",
+                                        "name": "hyper_mode",
                                         "type": "variable_if",
                                         "value": 1
-                                    },
-                                    {
-                                        "name": "select_mode",
-                                        "type": "variable_if",
-                                        "value": 0
                                     }
                                 ],
                                 "from": {
@@ -1467,14 +1359,9 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "nav_mode",
+                                        "name": "hyper_mode",
                                         "type": "variable_if",
                                         "value": 1
-                                    },
-                                    {
-                                        "name": "select_mode",
-                                        "type": "variable_if",
-                                        "value": 0
                                     }
                                 ],
                                 "from": {
@@ -1501,14 +1388,9 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "nav_mode",
+                                        "name": "hyper_mode",
                                         "type": "variable_if",
                                         "value": 1
-                                    },
-                                    {
-                                        "name": "select_mode",
-                                        "type": "variable_if",
-                                        "value": 0
                                     }
                                 ],
                                 "from": {
@@ -1536,14 +1418,9 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "nav_mode",
+                                        "name": "hyper_mode",
                                         "type": "variable_if",
                                         "value": 1
-                                    },
-                                    {
-                                        "name": "select_mode",
-                                        "type": "variable_if",
-                                        "value": 0
                                     }
                                 ],
                                 "from": {
@@ -1908,7 +1785,7 @@
                     }
                 }
             ],
-            "name": "jhelvy_wasd",
+            "name": "jhelvy",
             "selected": true,
             "simple_modifications": [],
             "virtual_hid_keyboard": {

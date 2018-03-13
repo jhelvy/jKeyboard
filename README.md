@@ -12,7 +12,7 @@ My [Karabiner-Elements](https://pqrs.org/osx/karabiner/) settings enable all sor
 - Create more convenient and comfortable shortcuts for [common commands](#common-shortcuts), like `cut`, `copy`, `paste`, `delete`, `backspace`, `undo`, `redo`, `find`, and `escape`.
 - [Launch applications](#other-shortcuts) like `Google Chrome` or `Terminal` with a single hotkey.
 - Open `Google Chrome` to a webpage (e.g. gmail) with a single hotkey
-- Type my usual email send off (`"Cheers, John"`) with a single hotkey.
+- Type my email send off (`"Cheers, John"`) with a single hotkey.
 
 # Table of Contents
 - [Customized WASD Keyboard](#customized-wasd-keyboard)
@@ -38,12 +38,7 @@ All I did to create this was edit the Adobe Illustrator keyboard file (`./wasd_f
 For those curious, the Chinese text on the spacebar is the idiom "晴耕雨读", which literally means "Sunny farm rain read." The meaning is to farm on sunny days and read on rainy days. In other words, work hard, life a simple life, and enjoy each present moment.
 
 # Karabiner-Elements Settings
-The [Karabiner-Elements](https://pqrs.org/osx/karabiner/) json settings files can be found in the `./karabiner` folder. There are two versions:
-
-1. The `jKeyboard_wasd.json` file contains the settings for my WASD custom keyboard, which I use with a Mac Mini
-2. The `jKeyboard_mac.json` file contains the settings for my Macbook.
-
-The only difference between the two is that the main `jKeyboard_wasd.json` has a couple [extra custom commands](#wasd-specific-keys) that are specific to my WASD keyboard. Otherwise, I use the `jKeyboard_mac.json` settings for my laptop or any standard Apple keyboard.
+The [Karabiner-Elements](https://pqrs.org/osx/karabiner/) json settings are in the `./karabiner` folder. The settings are for my WASD keyboard, but they work fine on a normal Apple keyboard as well, and the few [commands specific to my WASD keyboard](#wasd-specific-keys) can be turned off in the Karabiner-Elements preference window.
 
 ## Installation (mac)
 1. Download [Karabiner-Elements](https://pqrs.org/osx/karabiner/) and Install.
