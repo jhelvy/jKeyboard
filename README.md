@@ -90,16 +90,16 @@ One of the primary things my `jKeyboard` settings does is modify the <kbd>caps l
 |<kbd>caps lock</kbd> + <kbd>C</kbd> | Open `Google Chrome` |
 |<kbd>caps lock</kbd> + <kbd>Z</kbd> | Open the file `'foo.txt'` in my Dropbox Folder |
 |<kbd>caps lock</kbd> + <kbd>/</kbd> | Open my `Downloads` folder |
-|<kbd>caps lock</kbd> + <kbd>/</kbd> | Open my `pCloud Drive` folder |
+|<kbd>caps lock</kbd> + <kbd>P</kbd> | Open my `pCloud Drive` folder |
 |<kbd>caps lock</kbd> + <kbd>8</kbd> | Open `Terminal` |
 |<kbd>caps lock</kbd> + <kbd>2</kbd> | <kbd>command</kbd> + <kbd>control</kbd> + <kbd>2</kbd> (my Sublime Text shortcut to split into two windows)|
-|<kbd>caps lock</kbd> + <kbd>G</kbd> | Type my usual email send off (`"Cheers, John"`) |
+|<kbd>caps lock</kbd> + <kbd>G</kbd> | Type my email send off ("`Cheers, John`") |
 |<kbd>caps lock</kbd> + <kbd>Y</kbd> |<kbd>control</kbd> + <kbd>Y</kbd> (my Sublime Text shortcut to send selected text to a REPL) |
 |<kbd>caps lock</kbd> + <kbd>9</kbd> |<kbd>control</kbd> + <kbd>9</kbd> (my Sublime Text shortcut to shift focus to the LEFT panel) |
 |<kbd>caps lock</kbd> + <kbd>0</kbd> |<kbd>control</kbd> + <kbd>0</kbd> (my Sublime Text shortcut to shift focus to the RIGHT panel) |
 
 ## Custom Function Keys
-I also changed my function keys to do certain things. While <kbd>f1</kbd> to <kbd>f4</kbd> and <kbd>f10</kbd> to <kbd>f12</kbd> are the standard mac settings, I made substantial changes to <kbd>f5</kbd> to <kbd>f9</kbd>:
+I also changed my function keys to do certain things. While <kbd>f1</kbd> to <kbd>f4</kbd> and <kbd>f10</kbd> to <kbd>f12</kbd> are the standard mac settings, the keys <kbd>f5</kbd> to <kbd>f8</kbd> open specific web pages, and <kbd>f9</kbd> takes a screen shot:
 
 |     Key      |    Action    |
 |:-------------|:-------------|
@@ -111,7 +111,7 @@ I also changed my function keys to do certain things. While <kbd>f1</kbd> to <kb
 |  <kbd>f6</kbd>  | Open `Google Calendar` in Google Chrome |
 |  <kbd>f7</kbd>  | Open `Facebook` in Google Chrome |
 |  <kbd>f8</kbd>  | Open `Intellicast Weather` in Google Chrome |
-|  <kbd>f9</kbd>  | <kbd>command</kbd> + <kbd>shift</kbd> + <kbd>3</kbd> (Screen Shot) |
+|  <kbd>f9</kbd>  | <kbd>command</kbd> + <kbd>shift</kbd> + <kbd>3</kbd> (Save screen shot to Desktop) |
 |  <kbd>f10</kbd> | Mute |
 |  <kbd>f11</kbd> | Volume Decrease |
 |  <kbd>f12</kbd> | Volume Increase |
