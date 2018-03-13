@@ -65,6 +65,8 @@ One of the primary things my `jKeyboard` settings does is modify the <kbd>caps l
 |:-------------------|:--------------|:---------------|
 |<kbd>caps lock</kbd> + <kbd>A</kbd> | <kbd>shift</kbd> | Shift key |
 |<kbd>caps lock</kbd> + <kbd>A</kbd> + <kbd>J</kbd> / <kbd>I</kbd> / <kbd>K</kbd> / <kbd>L</kbd> | <kbd>shift</kbd> + <kbd>←</kbd> / <kbd>↑</kbd> / <kbd>↓</kbd> / <kbd>→</kbd> | Select Text |
+|<kbd>caps lock</kbd> + <kbd>A</kbd> + <kbd>command</kbd> + <kbd>I</kbd> / <kbd>K</kbd> | <kbd>command</kbd> + <kbd>shift</kbd> + <kbd>↑</kbd> / <kbd>↓</kbd> | Select all to top / bottom |
+|<kbd>caps lock</kbd> + <kbd>A</kbd> + <kbd>command</kbd> + <kbd>J</kbd> / <kbd>L</kbd> | <kbd>command</kbd> + <kbd>shift</kbd> + <kbd>←</kbd> / <kbd>→</kbd> | Select until Start / End of Line |
 |<kbd>caps lock</kbd> + <kbd>A</kbd> + <kbd>U</kbd> / <kbd>O</kbd> | <kbd>command</kbd> + <kbd>shift</kbd> + <kbd>←</kbd> / <kbd>→</kbd> | Select until Start / End of Line |
 |<kbd>caps lock</kbd> + <kbd>A</kbd> + <kbd>,</kbd> / <kbd>.</kbd> | <kbd>control</kbd> + <kbd>shift</kbd> + <kbd>←</kbd> / <kbd>→</kbd> | Select until Start / End of Next Word |
 |<kbd>caps lock</kbd> + <kbd>A</kbd> + <kbd>[</kbd> / <kbd>]</kbd> | <kbd>option</kbd> + <kbd>shift</kbd> + <kbd>↑</kbd> / <kbd>↓</kbd> | Select until Start / End of Paragraph |
