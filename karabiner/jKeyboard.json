@@ -1959,7 +1959,7 @@
                         "key_code": "f10"
                     },
                     "to": {
-                        "consumer_key_code": "rewind"
+                        "consumer_key_code": "mute"
                     }
                 },
                 {
@@ -1967,7 +1967,7 @@
                         "key_code": "f11"
                     },
                     "to": {
-                        "consumer_key_code": "play_or_pause"
+                        "consumer_key_code": "volume_decrement"
                     }
                 },
                 {
@@ -1975,7 +1975,7 @@
                         "key_code": "f12"
                     },
                     "to": {
-                        "consumer_key_code": "fastforward"
+                        "consumer_key_code": "volume_increment"
                     }
                 }
             ],
