@@ -38,7 +38,7 @@ All I did to create this was edit the Adobe Illustrator keyboard file (`./wasd_f
 For those curious, the Chinese text on the spacebar is the idiom "晴耕雨读", which literally means "Sunny farm rain read." The meaning is to farm on sunny days and read on rainy days. In other words, work hard, life a simple life, and enjoy each present moment.
 
 # Karabiner-Elements Settings
-The [Karabiner-Elements](https://pqrs.org/osx/karabiner/) json settings are in the `./karabiner` folder. The settings are for my WASD keyboard, but they work fine on a normal Apple keyboard as well, and the few [commands specific to my WASD keyboard](#wasd-specific-keys) can be turned off in the Karabiner-Elements preference window.
+The [Karabiner-Elements](https://pqrs.org/osx/karabiner/) json settings are in the `./karabiner` folder. The settings are for my WASD keyboard, but they work fine on a normal Apple keyboard as well, and the few [commands specific to my WASD keyboard](#wasd-specific-keys) can be turned off in the Karabiner-Elements preference window (click "remove" on the "WASD-specific keys" setting).
 
 ## Installation (mac)
 1. Download [Karabiner-Elements](https://pqrs.org/osx/karabiner/) and Install.
