@@ -1200,7 +1200,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Users/jhelvy/Dropbox/foo.txt'"
+                                        "shell_command": "open '/Users/jhelvy/Dropbox/misc/foo.txt'"
                                     }
                                 ],
                                 "type": "basic"
