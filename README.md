@@ -25,7 +25,6 @@ My [Karabiner-Elements](https://pqrs.org/osx/karabiner/) settings enable all sor
     - [Other Shortcuts](#other-shortcuts)
   - [Custom Function Keys](#custom-function-keys)
   - [Other Commands](#other-commands)
-  - [WASD-Specific Keys](#wasd-specific-keys)
 - [Example json Settings](#example-json-settings)
 - [License](#license)
 
@@ -38,7 +37,7 @@ All I did to create this was edit the Adobe Illustrator keyboard file (`./wasd_f
 For those curious, the Chinese text on the spacebar is the idiom "晴耕雨读", which literally means "Sunny farm rain read." The meaning is to farm on sunny days and read on rainy days. In other words, work hard, life a simple life, and enjoy each present moment.
 
 # Karabiner-Elements Settings
-The [Karabiner-Elements](https://pqrs.org/osx/karabiner/) json settings are in the `./karabiner` folder. The settings are for my WASD keyboard, but they work fine on a normal Apple keyboard as well, and the few [commands specific to my WASD keyboard](#wasd-specific-keys) can be turned off in the Karabiner-Elements preference window (click "remove" on the "WASD-specific keys" setting).
+The [Karabiner-Elements](https://pqrs.org/osx/karabiner/) json settings are found in `./karabiner/jKeyboard.json`. These particular settings include three separate "profiles", which you can select in the Karabiner preference window: 1) jKeyboard-MBP, 2) jKeyboard-WASD, and 3) jKeyboard-CM. The main profile is "jKeyboard-MBP" (Macbook Pro), which includes all the settings described on this page. The other two have additional functionality that is specific to my [WASD keyboard](http://www.wasdkeyboards.com/) and Cooler Master keyboard, which I use on different Mac machines.
 
 ## Installation (mac)
 1. Download [Karabiner-Elements](https://pqrs.org/osx/karabiner/) and Install.
@@ -126,14 +125,6 @@ These are a few other tricks that I find particularly useful:
 | Tap <kbd>Left shift</kbd>  | <kbd>(</kbd> |
 | Tap <kbd>Right shift</kbd> | <kbd>)</kbd> |
 | Hold <kbd>Esc</kbd>   | <kbd>command</kbd> + <kbd>W</kbd> (Close Window) |
-
-## WASD-Specific Keys
-These only work on my WASD keyboard (not a standard Apple keyboard):
-
-|     Key      |    Action    |
-|:-------------|:-------------|
-| <kbd>Right control</kbd> | <kbd>option</kbd> + <kbd>A</kbd> (My Alfred Shortcut) |
-| <kbd>Menu</kbd> | Open `Finder` |
 
 # Example json Settings
 I learned a lot about how to write json settings to get Karabiner-Elements to do different things. I included the following examples in the `./karabiner/json_examples` folder.
