@@ -3977,7 +3977,7 @@
                 }
             ],
             "name": "jKeyboard-WASD",
-            "selected": false,
+            "selected": true,
             "simple_modifications": [],
             "virtual_hid_keyboard": {
                 "caps_lock_delay_milliseconds": 0,
