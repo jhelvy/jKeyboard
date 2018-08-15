@@ -37,7 +37,7 @@ All I did to create this was edit the Adobe Illustrator keyboard file (`./wasd_f
 For those curious, the Chinese text on the spacebar is the idiom "晴耕雨读", which literally means "Sunny farm rain read." The meaning is to farm on sunny days and read on rainy days. In other words, work hard, life a simple life, and enjoy each present moment.
 
 # Karabiner-Elements Settings
-The [Karabiner-Elements](https://pqrs.org/osx/karabiner/) json settings are found in `./karabiner/jKeyboard.json`. These particular settings include three separate "profiles", which you can select in the Karabiner preference window: 1) jKeyboard-MBP, 2) jKeyboard-WASD, and 3) jKeyboard-CM. The main profile is "jKeyboard-MBP" (Macbook Pro), which includes all the settings described on this page. The other two have additional functionality that is specific to my [WASD keyboard](http://www.wasdkeyboards.com/) and Cooler Master keyboard, which I use on different Mac machines.
+The [Karabiner-Elements](https://pqrs.org/osx/karabiner/) json settings are found in `./karabiner/jKeyboard.json`. These particular settings include three separate "profiles" that you can select in the Karabiner preference window: 1) jKeyboard-Apple, 2) jKeyboard-WASD, and 3) jKeyboard-CM. The main profile is "jKeyboard-Apple," which is configured for a standard Apple keyboard and includes all the settings described on this page. The other two profiles have additional functionality that is specific to my [WASD keyboard](http://www.wasdkeyboards.com/) and another keyboard by Cooler Master, which I use on different Mac machines.
 
 ## Installation (mac)
 1. Download [Karabiner-Elements](https://pqrs.org/osx/karabiner/) and Install.
@@ -90,8 +90,10 @@ One of the primary things my `jKeyboard` settings does is modify the <kbd>caps l
 |:------------------------|:-------------|
 |<kbd>caps lock</kbd> + <kbd>C</kbd> | Open `Google Chrome` |
 |<kbd>caps lock</kbd> + <kbd>Z</kbd> | Open the file `'foo.txt'` in my Dropbox Folder |
+|<kbd>caps lock</kbd> + <kbd>Quote (')</kbd> | Open my `Dropbox` folder |
 |<kbd>caps lock</kbd> + <kbd>/</kbd> | Open my `Downloads` folder |
 |<kbd>caps lock</kbd> + <kbd>P</kbd> | Open my `pCloud Drive` folder |
+|<kbd>caps lock</kbd> + <kbd>A</kbd> + <kbd>P</kbd> | Open my `pCloud Sync` folder |
 |<kbd>caps lock</kbd> + <kbd>8</kbd> | Open `Terminal` |
 |<kbd>caps lock</kbd> + <kbd>2</kbd> | <kbd>command</kbd> + <kbd>control</kbd> + <kbd>2</kbd> (my Sublime Text shortcut to split into two windows)|
 |<kbd>caps lock</kbd> + <kbd>G</kbd> | Type my email send off ("`Cheers, John`") |

@@ -1191,6 +1191,29 @@
                                     }
                                 ],
                                 "from": {
+                                    "key_code": "quote",
+                                    "modifiers": {
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open '/Users/jhelvy/Dropbox'"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "hyper_mode",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
                                     "key_code": "z",
                                     "modifiers": {
                                         "optional": [
@@ -1223,7 +1246,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Users/jhelvy/Desktop/downloads'"
+                                        "shell_command": "open '/Users/jhelvy/downloads'"
                                     }
                                 ],
                                 "type": "basic"
@@ -1247,6 +1270,32 @@
                                 "to": [
                                     {
                                         "shell_command": "open '/Users/jhelvy/pCloud Drive'"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "hyper_mode",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "p",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "shift"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open '/Users/jhelvy/sync'"
                                     }
                                 ],
                                 "type": "basic"
@@ -1866,8 +1915,8 @@
                     }
                 }
             ],
-            "name": "jKeyboard-MBP",
-            "selected": false,
+            "name": "jKeyboard-Apple",
+            "selected": true,
             "simple_modifications": [],
             "virtual_hid_keyboard": {
                 "caps_lock_delay_milliseconds": 0,
@@ -3061,6 +3110,29 @@
                                     }
                                 ],
                                 "from": {
+                                    "key_code": "quote",
+                                    "modifiers": {
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open '/Users/jhelvy/Dropbox'"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "hyper_mode",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
                                     "key_code": "z",
                                     "modifiers": {
                                         "optional": [
@@ -3093,7 +3165,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Users/jhelvy/Desktop/downloads'"
+                                        "shell_command": "open '/Users/jhelvy/downloads'"
                                     }
                                 ],
                                 "type": "basic"
@@ -3117,6 +3189,32 @@
                                 "to": [
                                     {
                                         "shell_command": "open '/Users/jhelvy/pCloud Drive'"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "hyper_mode",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "p",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "shift"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open '/Users/jhelvy/sync'"
                                     }
                                 ],
                                 "type": "basic"
@@ -5073,6 +5171,29 @@
                                     }
                                 ],
                                 "from": {
+                                    "key_code": "quote",
+                                    "modifiers": {
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open '/Users/jhelvy/Dropbox'"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "hyper_mode",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
                                     "key_code": "z",
                                     "modifiers": {
                                         "optional": [
@@ -5105,7 +5226,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Users/jhelvy/Desktop/downloads'"
+                                        "shell_command": "open '/Users/jhelvy/downloads'"
                                     }
                                 ],
                                 "type": "basic"
@@ -5129,6 +5250,32 @@
                                 "to": [
                                     {
                                         "shell_command": "open '/Users/jhelvy/pCloud Drive'"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "hyper_mode",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "p",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "shift"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open '/Users/jhelvy/sync'"
                                     }
                                 ],
                                 "type": "basic"
@@ -5957,7 +6104,7 @@
                 }
             ],
             "name": "jKeyboard-CM",
-            "selected": true,
+            "selected": false,
             "simple_modifications": [],
             "virtual_hid_keyboard": {
                 "caps_lock_delay_milliseconds": 0,
