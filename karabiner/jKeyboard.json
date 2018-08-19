@@ -1223,7 +1223,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Users/jhelvy/Dropbox/misc/foo.txt'"
+                                        "shell_command": "open '/Users/jhelvy/pCloud Drive/sync/foo/foo.txt'"
                                     }
                                 ],
                                 "type": "basic"
