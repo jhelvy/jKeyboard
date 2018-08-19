@@ -1177,7 +1177,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Applications/Safari.app'"
+                                        "shell_command": "open '/Applications/Google Chrome.app'"
                                     }
                                 ],
                                 "type": "basic"
@@ -1506,7 +1506,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Applications/Safari.app' 'https://mail.google.com/mail/'"
+                                        "shell_command": "open '/Applications/Google Chrome.app' 'https://mail.google.com/mail/'"
                                     }
                                 ],
                                 "type": "basic"
@@ -1522,7 +1522,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Applications/Safari.app' 'https://calendar.google.com/calendar/r'"
+                                        "shell_command": "open '/Applications/Google Chrome.app' 'https://calendar.google.com/calendar/r'"
                                     }
                                 ],
                                 "type": "basic"
@@ -1538,7 +1538,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Applications/Safari.app' 'https://www.facebook.com/'"
+                                        "shell_command": "open '/Applications/Google Chrome.app' 'https://www.facebook.com/'"
                                     }
                                 ],
                                 "type": "basic"
@@ -1554,7 +1554,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Applications/Safari.app' 'http://www.intellicast.com/Local/Hourly.aspx?location=USMD0018'"
+                                        "shell_command": "open '/Applications/Google Chrome.app' 'http://www.intellicast.com/Local/Hourly.aspx?location=USMD0018'"
                                     }
                                 ],
                                 "type": "basic"
@@ -3096,7 +3096,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Applications/Safari.app'"
+                                        "shell_command": "open '/Applications/Google Chrome.app'"
                                     }
                                 ],
                                 "type": "basic"
@@ -3425,7 +3425,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Applications/Safari.app' 'https://mail.google.com/mail/'"
+                                        "shell_command": "open '/Applications/Google Chrome.app' 'https://mail.google.com/mail/'"
                                     }
                                 ],
                                 "type": "basic"
@@ -3441,7 +3441,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Applications/Safari.app' 'https://calendar.google.com/calendar/r'"
+                                        "shell_command": "open '/Applications/Google Chrome.app' 'https://calendar.google.com/calendar/r'"
                                     }
                                 ],
                                 "type": "basic"
@@ -3457,7 +3457,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Applications/Safari.app' 'https://www.facebook.com/'"
+                                        "shell_command": "open '/Applications/Google Chrome.app' 'https://www.facebook.com/'"
                                     }
                                 ],
                                 "type": "basic"
@@ -3473,7 +3473,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Applications/Safari.app' 'http://www.intellicast.com/Local/Hourly.aspx?location=USMD0018'"
+                                        "shell_command": "open '/Applications/Google Chrome.app' 'http://www.intellicast.com/Local/Hourly.aspx?location=USMD0018'"
                                     }
                                 ],
                                 "type": "basic"
@@ -5157,7 +5157,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Applications/Safari.app'"
+                                        "shell_command": "open '/Applications/Google Chrome.app'"
                                     }
                                 ],
                                 "type": "basic"
@@ -5486,7 +5486,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Applications/Safari.app' 'https://mail.google.com/mail/'"
+                                        "shell_command": "open '/Applications/Google Chrome.app' 'https://mail.google.com/mail/'"
                                     }
                                 ],
                                 "type": "basic"
@@ -5502,7 +5502,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Applications/Safari.app' 'https://calendar.google.com/calendar/r'"
+                                        "shell_command": "open '/Applications/Google Chrome.app' 'https://calendar.google.com/calendar/r'"
                                     }
                                 ],
                                 "type": "basic"
@@ -5518,7 +5518,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Applications/Safari.app' 'https://www.facebook.com/'"
+                                        "shell_command": "open '/Applications/Google Chrome.app' 'https://www.facebook.com/'"
                                     }
                                 ],
                                 "type": "basic"
@@ -5534,7 +5534,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Applications/Safari.app' 'http://www.intellicast.com/Local/Hourly.aspx?location=USMD0018'"
+                                        "shell_command": "open '/Applications/Google Chrome.app' 'http://www.intellicast.com/Local/Hourly.aspx?location=USMD0018'"
                                     }
                                 ],
                                 "type": "basic"
