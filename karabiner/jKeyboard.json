@@ -1223,7 +1223,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Users/jhelvy/pCloud Drive/sync/foo/foo.txt'"
+                                        "shell_command": "open '/Users/jhelvy/sync/foo/foo.txt'"
                                     }
                                 ],
                                 "type": "basic"
@@ -3142,7 +3142,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Users/jhelvy/pCloud Drive/sync/foo/foo.txt'"
+                                        "shell_command": "open '/Users/jhelvy/sync/foo/foo.txt'"
                                     }
                                 ],
                                 "type": "basic"
@@ -3977,7 +3977,7 @@
                 }
             ],
             "name": "jKeyboard-WASD",
-            "selected": false,
+            "selected": true,
             "simple_modifications": [],
             "virtual_hid_keyboard": {
                 "caps_lock_delay_milliseconds": 0,
@@ -5203,7 +5203,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Users/jhelvy/pCloud Drive/sync/foo/foo.txt'"
+                                        "shell_command": "open '/Users/jhelvy/sync/foo/foo.txt'"
                                     }
                                 ],
                                 "type": "basic"
@@ -6104,7 +6104,7 @@
                 }
             ],
             "name": "jKeyboard-CM",
-            "selected": true,
+            "selected": false,
             "simple_modifications": [],
             "virtual_hid_keyboard": {
                 "caps_lock_delay_milliseconds": 0,
