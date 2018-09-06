@@ -11,7 +11,7 @@
                     "basic.simultaneous_threshold_milliseconds": 50,
                     "basic.to_delayed_action_delay_milliseconds": 100,
                     "basic.to_if_alone_timeout_milliseconds": 200,
-                    "basic.to_if_held_down_threshold_milliseconds": 100
+                    "basic.to_if_held_down_threshold_milliseconds": 250
                 },
                 "rules": [
                     {
@@ -1930,7 +1930,7 @@
                     "basic.simultaneous_threshold_milliseconds": 50,
                     "basic.to_delayed_action_delay_milliseconds": 100,
                     "basic.to_if_alone_timeout_milliseconds": 200,
-                    "basic.to_if_held_down_threshold_milliseconds": 100
+                    "basic.to_if_held_down_threshold_milliseconds": 250
                 },
                 "rules": [
                     {
@@ -3977,7 +3977,7 @@
                 }
             ],
             "name": "jKeyboard-WASD",
-            "selected": true,
+            "selected": false,
             "simple_modifications": [],
             "virtual_hid_keyboard": {
                 "caps_lock_delay_milliseconds": 0,
@@ -3991,7 +3991,7 @@
                     "basic.simultaneous_threshold_milliseconds": 50,
                     "basic.to_delayed_action_delay_milliseconds": 100,
                     "basic.to_if_alone_timeout_milliseconds": 200,
-                    "basic.to_if_held_down_threshold_milliseconds": 100
+                    "basic.to_if_held_down_threshold_milliseconds": 250
                 },
                 "rules": [
                     {
@@ -5961,6 +5961,34 @@
                                 "type": "basic"
                             }
                         ]
+                    },
+                    {
+                        "description": "Quit application by holding command-q",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "q",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "command"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
+                                },
+                                "to_if_held_down": [
+                                    {
+                                        "key_code": "q",
+                                        "modifiers": [
+                                            "left_command"
+                                        ],
+                                        "repeat": false
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
                     }
                 ]
             },
@@ -6104,7 +6132,7 @@
                 }
             ],
             "name": "jKeyboard-CM",
-            "selected": false,
+            "selected": true,
             "simple_modifications": [],
             "virtual_hid_keyboard": {
                 "caps_lock_delay_milliseconds": 0,
