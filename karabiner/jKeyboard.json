@@ -1200,7 +1200,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Users/jhelvy/Dropbox'"
+                                        "shell_command": "open '/Users/jhelvy/gh'"
                                     }
                                 ],
                                 "type": "basic"
@@ -1269,7 +1269,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Users/jhelvy/pCloud Drive'"
+                                        "shell_command": "open '/Users/jhelvy/sync'"
                                     }
                                 ],
                                 "type": "basic"
@@ -1295,7 +1295,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Users/jhelvy/sync'"
+                                        "shell_command": "open '/Users/jhelvy/pCloud Drive'"
                                     }
                                 ],
                                 "type": "basic"
@@ -3309,7 +3309,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Users/jhelvy/Dropbox'"
+                                        "shell_command": "open '/Users/jhelvy/gh'"
                                     }
                                 ],
                                 "type": "basic"
@@ -3378,7 +3378,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Users/jhelvy/pCloud Drive'"
+                                        "shell_command": "open '/Users/jhelvy/sync'"
                                     }
                                 ],
                                 "type": "basic"
@@ -3404,7 +3404,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Users/jhelvy/sync'"
+                                        "shell_command": "open '/Users/jhelvy/pCloud Drive'"
                                     }
                                 ],
                                 "type": "basic"
@@ -5534,7 +5534,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Users/jhelvy/Dropbox'"
+                                        "shell_command": "open '/Users/jhelvy/gh'"
                                     }
                                 ],
                                 "type": "basic"
@@ -5603,7 +5603,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Users/jhelvy/pCloud Drive'"
+                                        "shell_command": "open '/Users/jhelvy/sync'"
                                     }
                                 ],
                                 "type": "basic"
@@ -5629,7 +5629,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Users/jhelvy/sync'"
+                                        "shell_command": "open '/Users/jhelvy/pCloud Drive'"
                                     }
                                 ],
                                 "type": "basic"
