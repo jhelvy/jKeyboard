@@ -1420,6 +1420,9 @@
                                 },
                                 "to": [
                                     {
+                                        "key_code": "spacebar"
+                                    },
+                                    {
                                         "key_code": "comma",
                                         "modifiers": [
                                             "left_shift"
@@ -1427,6 +1430,53 @@
                                     },
                                     {
                                         "key_code": "hyphen"
+                                    },
+                                    {
+                                        "key_code": "spacebar"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "hyper_mode",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "equal_sign",
+                                    "modifiers": {
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "spacebar"
+                                    },
+                                    {
+                                        "key_code": "5",
+                                        "modifiers": [
+                                            "left_shift"
+                                        ]
+                                    },
+                                    {
+                                        "key_code": "period",
+                                        "modifiers": [
+                                            "left_shift"
+                                        ]
+                                    },
+                                    {
+                                        "key_code": "5",
+                                        "modifiers": [
+                                            "left_shift"
+                                        ]
+                                    },
+                                    {
+                                        "key_code": "spacebar"
                                     }
                                 ],
                                 "type": "basic"
@@ -3559,6 +3609,9 @@
                                 },
                                 "to": [
                                     {
+                                        "key_code": "spacebar"
+                                    },
+                                    {
                                         "key_code": "comma",
                                         "modifiers": [
                                             "left_shift"
@@ -3566,6 +3619,53 @@
                                     },
                                     {
                                         "key_code": "hyphen"
+                                    },
+                                    {
+                                        "key_code": "spacebar"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "hyper_mode",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "equal_sign",
+                                    "modifiers": {
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "spacebar"
+                                    },
+                                    {
+                                        "key_code": "5",
+                                        "modifiers": [
+                                            "left_shift"
+                                        ]
+                                    },
+                                    {
+                                        "key_code": "period",
+                                        "modifiers": [
+                                            "left_shift"
+                                        ]
+                                    },
+                                    {
+                                        "key_code": "5",
+                                        "modifiers": [
+                                            "left_shift"
+                                        ]
+                                    },
+                                    {
+                                        "key_code": "spacebar"
                                     }
                                 ],
                                 "type": "basic"
@@ -5796,7 +5896,7 @@
                                 ],
                                 "type": "basic"
                             },
-{
+                            {
                                 "conditions": [
                                     {
                                         "name": "hyper_mode",
@@ -5814,6 +5914,9 @@
                                 },
                                 "to": [
                                     {
+                                        "key_code": "spacebar"
+                                    },
+                                    {
                                         "key_code": "comma",
                                         "modifiers": [
                                             "left_shift"
@@ -5821,6 +5924,53 @@
                                     },
                                     {
                                         "key_code": "hyphen"
+                                    },
+                                    {
+                                        "key_code": "spacebar"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "hyper_mode",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "equal_sign",
+                                    "modifiers": {
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "spacebar"
+                                    },
+                                    {
+                                        "key_code": "5",
+                                        "modifiers": [
+                                            "left_shift"
+                                        ]
+                                    },
+                                    {
+                                        "key_code": "period",
+                                        "modifiers": [
+                                            "left_shift"
+                                        ]
+                                    },
+                                    {
+                                        "key_code": "5",
+                                        "modifiers": [
+                                            "left_shift"
+                                        ]
+                                    },
+                                    {
+                                        "key_code": "spacebar"
                                     }
                                 ],
                                 "type": "basic"
