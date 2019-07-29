@@ -1780,7 +1780,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Applications/Google Chrome.app' 'https://www.facebook.com/'"
+                                        "shell_command": "open '/Applications/Google Chrome.app' 'https://keep.google.com/'"
                                     }
                                 ],
                                 "type": "basic"
@@ -3943,7 +3943,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Applications/Google Chrome.app' 'https://www.facebook.com/'"
+                                        "shell_command": "open '/Applications/Google Chrome.app' 'https://keep.google.com/'"
                                     }
                                 ],
                                 "type": "basic"
@@ -6248,7 +6248,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Applications/Google Chrome.app' 'https://www.facebook.com/'"
+                                        "shell_command": "open '/Applications/Google Chrome.app' 'https://keep.google.com/'"
                                     }
                                 ],
                                 "type": "basic"
