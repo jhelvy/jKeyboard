@@ -1345,6 +1345,9 @@
                                 },
                                 "to": [
                                     {
+                                        "shell_command": "open '/Users/jhelvy/sync/foo/foo.txt'"
+                                    },
+                                    {
                                         "shell_command": "open '/Applications/Google Chrome.app' 'https://mail.google.com/mail/'"
                                     },
                                     {
@@ -1355,9 +1358,6 @@
                                     },
                                     {
                                         "shell_command": "open '/Applications/GitHub Desktop.app'"
-                                    },
-                                    {
-                                        "shell_command": "open '/Users/jhelvy/sync/foo/foo.txt'"
                                     }
                                 ],
                                 "type": "basic"
@@ -3573,6 +3573,9 @@
                                 },
                                 "to": [
                                     {
+                                        "shell_command": "open '/Users/jhelvy/sync/foo/foo.txt'"
+                                    },
+                                    {
                                         "shell_command": "open '/Applications/Google Chrome.app' 'https://mail.google.com/mail/'"
                                     },
                                     {
@@ -3583,9 +3586,6 @@
                                     },
                                     {
                                         "shell_command": "open '/Applications/GitHub Desktop.app'"
-                                    },
-                                    {
-                                        "shell_command": "open '/Users/jhelvy/sync/foo/foo.txt'"
                                     }
                                 ],
                                 "type": "basic"
@@ -5917,6 +5917,9 @@
                                 },
                                 "to": [
                                     {
+                                        "shell_command": "open '/Users/jhelvy/sync/foo/foo.txt'"
+                                    },
+                                    {
                                         "shell_command": "open '/Applications/Google Chrome.app' 'https://mail.google.com/mail/'"
                                     },
                                     {
@@ -5927,9 +5930,6 @@
                                     },
                                     {
                                         "shell_command": "open '/Applications/GitHub Desktop.app'"
-                                    },
-                                    {
-                                        "shell_command": "open '/Users/jhelvy/sync/foo/foo.txt'"
                                     }
                                 ],
                                 "type": "basic"
