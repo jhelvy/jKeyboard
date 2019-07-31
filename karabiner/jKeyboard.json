@@ -1336,6 +1336,41 @@
                                     }
                                 ],
                                 "from": {
+                                    "key_code": "6",
+                                    "modifiers": {
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open '/Applications/Google Chrome.app' 'https://mail.google.com/mail/'"
+                                    },
+                                    {
+                                        "shell_command": "open '/Applications/Google Chrome.app' 'https://keep.google.com/'"
+                                    },
+                                    {
+                                        "shell_command": "open '/Applications/Google Chrome.app' 'https://calendar.google.com/calendar/r'"
+                                    },
+                                    {
+                                        "shell_command": "open '/Applications/GitHub Desktop.app'"
+                                    },
+                                    {
+                                        "shell_command": "open '/Users/jhelvy/sync/foo/foo.txt'"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "hyper_mode",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
                                     "key_code": "8",
                                     "modifiers": {
                                         "optional": [
@@ -1402,7 +1437,7 @@
                                 ],
                                 "type": "basic"
                             },
-{
+                            {
                                 "conditions": [
                                     {
                                         "name": "hyper_mode",
@@ -1796,7 +1831,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Applications/Google Chrome.app' 'http://www.intellicast.com/Local/Hourly.aspx?location=USMD0018'"
+                                        "shell_command": "open '/Applications/GitHub Desktop.app'"
                                     }
                                 ],
                                 "type": "basic"
@@ -2186,12 +2221,16 @@
                 }
             ],
             "name": "jKeyboard-Apple",
+            "parameters": {
+                "delay_milliseconds_before_open_device": 1000
+            },
             "selected": false,
             "simple_modifications": [],
             "virtual_hid_keyboard": {
                 "caps_lock_delay_milliseconds": 0,
                 "country_code": 0,
-                "keyboard_type": "ansi"
+                "keyboard_type": "ansi",
+                "mouse_key_xy_scale": 100
             }
         },
         {
@@ -3525,6 +3564,41 @@
                                     }
                                 ],
                                 "from": {
+                                    "key_code": "6",
+                                    "modifiers": {
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open '/Applications/Google Chrome.app' 'https://mail.google.com/mail/'"
+                                    },
+                                    {
+                                        "shell_command": "open '/Applications/Google Chrome.app' 'https://keep.google.com/'"
+                                    },
+                                    {
+                                        "shell_command": "open '/Applications/Google Chrome.app' 'https://calendar.google.com/calendar/r'"
+                                    },
+                                    {
+                                        "shell_command": "open '/Applications/GitHub Desktop.app'"
+                                    },
+                                    {
+                                        "shell_command": "open '/Users/jhelvy/sync/foo/foo.txt'"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "hyper_mode",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
                                     "key_code": "8",
                                     "modifiers": {
                                         "optional": [
@@ -3591,7 +3665,7 @@
                                 ],
                                 "type": "basic"
                             },
-{
+                            {
                                 "conditions": [
                                     {
                                         "name": "hyper_mode",
@@ -3959,7 +4033,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Applications/Google Chrome.app' 'http://www.intellicast.com/Local/Hourly.aspx?location=USMD0018'"
+                                        "shell_command": "open '/Applications/GitHub Desktop.app'"
                                     }
                                 ],
                                 "type": "basic"
@@ -4491,12 +4565,16 @@
                 }
             ],
             "name": "jKeyboard-WASD",
-            "selected": true,
+            "parameters": {
+                "delay_milliseconds_before_open_device": 1000
+            },
+            "selected": false,
             "simple_modifications": [],
             "virtual_hid_keyboard": {
                 "caps_lock_delay_milliseconds": 0,
                 "country_code": 0,
-                "keyboard_type": "ansi"
+                "keyboard_type": "ansi",
+                "mouse_key_xy_scale": 100
             }
         },
         {
@@ -5830,6 +5908,41 @@
                                     }
                                 ],
                                 "from": {
+                                    "key_code": "6",
+                                    "modifiers": {
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open '/Applications/Google Chrome.app' 'https://mail.google.com/mail/'"
+                                    },
+                                    {
+                                        "shell_command": "open '/Applications/Google Chrome.app' 'https://keep.google.com/'"
+                                    },
+                                    {
+                                        "shell_command": "open '/Applications/Google Chrome.app' 'https://calendar.google.com/calendar/r'"
+                                    },
+                                    {
+                                        "shell_command": "open '/Applications/GitHub Desktop.app'"
+                                    },
+                                    {
+                                        "shell_command": "open '/Users/jhelvy/sync/foo/foo.txt'"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "hyper_mode",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
                                     "key_code": "8",
                                     "modifiers": {
                                         "optional": [
@@ -6264,7 +6377,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Applications/Google Chrome.app' 'http://www.intellicast.com/Local/Hourly.aspx?location=USMD0018'"
+                                        "shell_command": "open '/Applications/GitHub Desktop.app'"
                                     }
                                 ],
                                 "type": "basic"
@@ -6862,12 +6975,16 @@
                 }
             ],
             "name": "jKeyboard-CM",
-            "selected": false,
+            "parameters": {
+                "delay_milliseconds_before_open_device": 1000
+            },
+            "selected": true,
             "simple_modifications": [],
             "virtual_hid_keyboard": {
                 "caps_lock_delay_milliseconds": 0,
                 "country_code": 0,
-                "keyboard_type": "ansi"
+                "keyboard_type": "ansi",
+                "mouse_key_xy_scale": 100
             }
         }
     ]
