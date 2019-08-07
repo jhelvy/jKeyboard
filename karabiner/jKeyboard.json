@@ -1371,7 +1371,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "8",
+                                    "key_code": "7",
                                     "modifiers": {
                                         "optional": [
                                             "caps_lock"
@@ -3599,7 +3599,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "8",
+                                    "key_code": "7",
                                     "modifiers": {
                                         "optional": [
                                             "caps_lock"
@@ -5943,7 +5943,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "8",
+                                    "key_code": "7",
                                     "modifiers": {
                                         "optional": [
                                             "caps_lock"
