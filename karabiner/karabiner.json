@@ -10969,6 +10969,15 @@
                                         "key_code": "t"
                                     },
                                     {
+                                        "key_code": "c"
+                                    },
+                                    {
+                                        "key_code": "o"
+                                    },
+                                    {
+                                        "key_code": "l"
+                                    },
+                                    {
                                         "key_code": "open_bracket"
                                     },
                                     {
@@ -10976,7 +10985,7 @@
                                     },
                                     {
                                         "key_code": "close_bracket"
-                                    }
+                                    },
                                     {
                                         "key_code": "return_or_enter"
                                     },
@@ -10999,6 +11008,15 @@
                                         "key_code": "t"
                                     },
                                     {
+                                        "key_code": "c"
+                                    },
+                                    {
+                                        "key_code": "o"
+                                    },
+                                    {
+                                        "key_code": "l"
+                                    },
+                                    {
                                         "key_code": "open_bracket"
                                     },
                                     {
@@ -11006,7 +11024,7 @@
                                     },
                                     {
                                         "key_code": "close_bracket"
-                                    }
+                                    },
                                     {
                                         "key_code": "return_or_enter"
                                     }
@@ -11047,7 +11065,7 @@
                                     }
                                 ],
                                 "type": "basic"
-                            }
+                            },
                             {
                                 "from": {
                                     "key_code": "f24"
