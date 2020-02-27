@@ -1224,7 +1224,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Users/jhelvy/sync/foo/foo.txt'"
+                                        "shell_command": "open '/Users/jhelvy/gh/staging/foo/foo.txt'"
                                     }
                                 ],
                                 "type": "basic"
@@ -1345,7 +1345,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Users/jhelvy/sync/foo/foo.txt'"
+                                        "shell_command": "open '/Users/jhelvy/gh/staging/foo/foo.txt'"
                                     },
                                     {
                                         "shell_command": "open '/Applications/Google Chrome.app' 'https://mail.google.com/mail/'"
@@ -3452,7 +3452,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Users/jhelvy/sync/foo/foo.txt'"
+                                        "shell_command": "open '/Users/jhelvy/gh/staging/foo/foo.txt'"
                                     }
                                 ],
                                 "type": "basic"
@@ -3573,7 +3573,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Users/jhelvy/sync/foo/foo.txt'"
+                                        "shell_command": "open '/Users/jhelvy/gh/staging/foo/foo.txt'"
                                     },
                                     {
                                         "shell_command": "open '/Applications/Google Chrome.app' 'https://mail.google.com/mail/'"
@@ -7106,7 +7106,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Users/jhelvy/sync/foo/foo.txt'"
+                                        "shell_command": "open '/Users/jhelvy/gh/staging/foo/foo.txt'"
                                     }
                                 ],
                                 "type": "basic"
@@ -7227,7 +7227,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Users/jhelvy/sync/foo/foo.txt'"
+                                        "shell_command": "open '/Users/jhelvy/gh/staging/foo/foo.txt'"
                                     },
                                     {
                                         "shell_command": "open '/Applications/Google Chrome.app' 'https://mail.google.com/mail/'"
@@ -9516,7 +9516,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Users/jhelvy/sync/foo/foo.txt'"
+                                        "shell_command": "open '/Users/jhelvy/gh/staging/foo/foo.txt'"
                                     }
                                 ],
                                 "type": "basic"
@@ -9637,7 +9637,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Users/jhelvy/sync/foo/foo.txt'"
+                                        "shell_command": "open '/Users/jhelvy/gh/staging/foo/foo.txt'"
                                     },
                                     {
                                         "shell_command": "open '/Applications/Google Chrome.app' 'https://mail.google.com/mail/'"
@@ -10592,7 +10592,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Users/jhelvy/sync/foo/foo.txt'"
+                                        "shell_command": "open '/Users/jhelvy/gh/staging/foo/foo.txt'"
                                     },
                                     {
                                         "shell_command": "open '/Applications/Google Chrome.app' 'https://mail.google.com/mail/'"
@@ -11072,7 +11072,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Users/jhelvy/sync/foo/foo.txt'"
+                                        "shell_command": "open '/Users/jhelvy/gh/staging/foo/foo.txt'"
                                     }
                                 ],
                                 "type": "basic"
