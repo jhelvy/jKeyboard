@@ -10751,327 +10751,6 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "c",
-                                        "modifiers": [
-                                            "left_shift"
-                                        ]
-                                    },
-                                    {
-                                        "key_code": "h"
-                                    },
-                                    {
-                                        "key_code": "e"
-                                    },
-                                    {
-                                        "key_code": "e"
-                                    },
-                                    {
-                                        "key_code": "r"
-                                    },
-                                    {
-                                        "key_code": "s"
-                                    },
-                                    {
-                                        "key_code": "comma"
-                                    },
-                                    {
-                                        "key_code": "return_or_enter"
-                                    },
-                                    {
-                                        "key_code": "j",
-                                        "modifiers": [
-                                            "left_shift"
-                                        ]
-                                    },
-                                    {
-                                        "key_code": "o"
-                                    },
-                                    {
-                                        "key_code": "h"
-                                    },
-                                    {
-                                        "key_code": "n"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "f19"
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "c",
-                                        "modifiers": [
-                                            "left_shift"
-                                        ]
-                                    },
-                                    {
-                                        "key_code": "h"
-                                    },
-                                    {
-                                        "key_code": "e"
-                                    },
-                                    {
-                                        "key_code": "e"
-                                    },
-                                    {
-                                        "key_code": "r"
-                                    },
-                                    {
-                                        "key_code": "s"
-                                    },
-                                    {
-                                        "key_code": "comma"
-                                    },
-                                    {
-                                        "key_code": "return_or_enter"
-                                    },
-                                    {
-                                        "key_code": "p",
-                                        "modifiers": [
-                                            "left_shift"
-                                        ]
-                                    },
-                                    {
-                                        "key_code": "r"
-                                    },
-                                    {
-                                        "key_code": "o"
-                                    },
-                                    {
-                                        "key_code": "f"
-                                    },
-                                    {
-                                        "key_code": "e"
-                                    },
-                                    {
-                                        "key_code": "s"
-                                    },
-                                    {
-                                        "key_code": "s"
-                                    },
-                                    {
-                                        "key_code": "o"
-                                    },
-                                    {
-                                        "key_code": "r"
-                                    },
-                                    {
-                                        "key_code": "spacebar"
-                                    },
-                                    {
-                                        "key_code": "h",
-                                        "modifiers": [
-                                            "left_shift"
-                                        ]
-                                    },
-                                    {
-                                        "key_code": "e"
-                                    },
-                                    {
-                                        "key_code": "l"
-                                    },
-                                    {
-                                        "key_code": "v"
-                                    },
-                                    {
-                                        "key_code": "e"
-                                    },
-                                    {
-                                        "key_code": "s"
-                                    },
-                                    {
-                                        "key_code": "t"
-                                    },
-                                    {
-                                        "key_code": "o"
-                                    },
-                                    {
-                                        "key_code": "n"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "f20"
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "spacebar"
-                                    },
-                                    {
-                                        "key_code": "5",
-                                        "modifiers": [
-                                            "left_shift"
-                                        ]
-                                    },
-                                    {
-                                        "key_code": "period",
-                                        "modifiers": [
-                                            "left_shift"
-                                        ]
-                                    },
-                                    {
-                                        "key_code": "5",
-                                        "modifiers": [
-                                            "left_shift"
-                                        ]
-                                    },
-                                    {
-                                        "key_code": "spacebar"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "f21"
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "spacebar"
-                                    },
-                                    {
-                                        "key_code": "comma",
-                                        "modifiers": [
-                                            "left_shift"
-                                        ]
-                                    },
-                                    {
-                                        "key_code": "hyphen"
-                                    },
-                                    {
-                                        "key_code": "spacebar"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "f22"
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "period"
-                                    },
-                                    {
-                                        "key_code": "l"
-                                    },
-                                    {
-                                        "key_code": "e"
-                                    },
-                                    {
-                                        "key_code": "f"
-                                    },
-                                    {
-                                        "key_code": "t"
-                                    },
-                                    {
-                                        "key_code": "c"
-                                    },
-                                    {
-                                        "key_code": "o"
-                                    },
-                                    {
-                                        "key_code": "l"
-                                    },
-                                    {
-                                        "key_code": "open_bracket"
-                                    },
-                                    {
-                                        "key_code": "return_or_enter"
-                                    },
-                                    {
-                                        "key_code": "close_bracket"
-                                    },
-                                    {
-                                        "key_code": "return_or_enter"
-                                    },
-                                    {
-                                        "key_code": "period"
-                                    },
-                                    {
-                                        "key_code": "r"
-                                    },
-                                    {
-                                        "key_code": "i"
-                                    },
-                                    {
-                                        "key_code": "g"
-                                    },
-                                    {
-                                        "key_code": "h"
-                                    },
-                                    {
-                                        "key_code": "t"
-                                    },
-                                    {
-                                        "key_code": "c"
-                                    },
-                                    {
-                                        "key_code": "o"
-                                    },
-                                    {
-                                        "key_code": "l"
-                                    },
-                                    {
-                                        "key_code": "open_bracket"
-                                    },
-                                    {
-                                        "key_code": "return_or_enter"
-                                    },
-                                    {
-                                        "key_code": "close_bracket"
-                                    },
-                                    {
-                                        "key_code": "return_or_enter"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "f23"
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "backslash"
-                                    },
-                                    {
-                                        "key_code": "t"
-                                    },
-                                    {
-                                        "key_code": "e"
-                                    },
-                                    {
-                                        "key_code": "x"
-                                    },
-                                    {
-                                        "key_code": "t"
-                                    },
-                                    {
-                                        "key_code": "open_bracket",
-                                        "modifiers": [
-                                            "left_shift"
-                                        ]
-                                    },
-                                    {
-                                        "key_code": "close_bracket",
-                                        "modifiers": [
-                                            "left_shift"
-                                        ]
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "f24"
-                                },
-                                "to": [
-                                    {
                                         "shell_command": "open '/Users/jhelvy/gh/staging/foo/foo.txt'"
                                     }
                                 ],
@@ -11438,6 +11117,272 @@
                 "country_code": 0,
                 "keyboard_type": "ansi",
                 "mouse_key_xy_scale": 50
+            }
+        },
+        {
+            "complex_modifications": {
+                "parameters": {
+                    "basic.simultaneous_threshold_milliseconds": 50,
+                    "basic.to_delayed_action_delay_milliseconds": 500,
+                    "basic.to_if_alone_timeout_milliseconds": 1000,
+                    "basic.to_if_held_down_threshold_milliseconds": 500,
+                    "mouse_motion_to_scroll.speed": 100
+                },
+                "rules": []
+            },
+            "devices": [],
+            "fn_function_keys": [
+                {
+                    "from": {
+                        "key_code": "f1"
+                    },
+                    "to": {
+                        "consumer_key_code": "display_brightness_decrement"
+                    }
+                },
+                {
+                    "from": {
+                        "key_code": "f2"
+                    },
+                    "to": {
+                        "consumer_key_code": "display_brightness_increment"
+                    }
+                },
+                {
+                    "from": {
+                        "key_code": "f3"
+                    },
+                    "to": {
+                        "key_code": "mission_control"
+                    }
+                },
+                {
+                    "from": {
+                        "key_code": "f4"
+                    },
+                    "to": {
+                        "key_code": "launchpad"
+                    }
+                },
+                {
+                    "from": {
+                        "key_code": "f5"
+                    },
+                    "to": {
+                        "key_code": "illumination_decrement"
+                    }
+                },
+                {
+                    "from": {
+                        "key_code": "f6"
+                    },
+                    "to": {
+                        "key_code": "illumination_increment"
+                    }
+                },
+                {
+                    "from": {
+                        "key_code": "f7"
+                    },
+                    "to": {
+                        "consumer_key_code": "rewind"
+                    }
+                },
+                {
+                    "from": {
+                        "key_code": "f8"
+                    },
+                    "to": {
+                        "consumer_key_code": "play_or_pause"
+                    }
+                },
+                {
+                    "from": {
+                        "key_code": "f9"
+                    },
+                    "to": {
+                        "consumer_key_code": "fast_forward"
+                    }
+                },
+                {
+                    "from": {
+                        "key_code": "f10"
+                    },
+                    "to": {
+                        "consumer_key_code": "mute"
+                    }
+                },
+                {
+                    "from": {
+                        "key_code": "f11"
+                    },
+                    "to": {
+                        "consumer_key_code": "volume_decrement"
+                    }
+                },
+                {
+                    "from": {
+                        "key_code": "f12"
+                    },
+                    "to": {
+                        "consumer_key_code": "volume_increment"
+                    }
+                }
+            ],
+            "name": "split-colemak",
+            "parameters": {
+                "delay_milliseconds_before_open_device": 1000
+            },
+            "selected": false,
+            "simple_modifications": [
+                {
+                    "from": {
+                        "key_code": "b"
+                    },
+                    "to": {
+                        "key_code": "b"
+                    }
+                },
+                {
+                    "from": {
+                        "key_code": "d"
+                    },
+                    "to": {
+                        "key_code": "s"
+                    }
+                },
+                {
+                    "from": {
+                        "key_code": "e"
+                    },
+                    "to": {
+                        "key_code": "f"
+                    }
+                },
+                {
+                    "from": {
+                        "key_code": "f"
+                    },
+                    "to": {
+                        "key_code": "t"
+                    }
+                },
+                {
+                    "from": {
+                        "key_code": "g"
+                    },
+                    "to": {
+                        "key_code": "d"
+                    }
+                },
+                {
+                    "from": {
+                        "key_code": "i"
+                    },
+                    "to": {
+                        "key_code": "u"
+                    }
+                },
+                {
+                    "from": {
+                        "key_code": "j"
+                    },
+                    "to": {
+                        "key_code": "n"
+                    }
+                },
+                {
+                    "from": {
+                        "key_code": "k"
+                    },
+                    "to": {
+                        "key_code": "e"
+                    }
+                },
+                {
+                    "from": {
+                        "key_code": "l"
+                    },
+                    "to": {
+                        "key_code": "i"
+                    }
+                },
+                {
+                    "from": {
+                        "key_code": "n"
+                    },
+                    "to": {
+                        "key_code": "k"
+                    }
+                },
+                {
+                    "from": {
+                        "key_code": "o"
+                    },
+                    "to": {
+                        "key_code": "y"
+                    }
+                },
+                {
+                    "from": {
+                        "key_code": "p"
+                    },
+                    "to": {
+                        "key_code": "quote"
+                    }
+                },
+                {
+                    "from": {
+                        "key_code": "quote"
+                    },
+                    "to": {
+                        "key_code": "o"
+                    }
+                },
+                {
+                    "from": {
+                        "key_code": "r"
+                    },
+                    "to": {
+                        "key_code": "p"
+                    }
+                },
+                {
+                    "from": {
+                        "key_code": "s"
+                    },
+                    "to": {
+                        "key_code": "r"
+                    }
+                },
+                {
+                    "from": {
+                        "key_code": "t"
+                    },
+                    "to": {
+                        "key_code": "g"
+                    }
+                },
+                {
+                    "from": {
+                        "key_code": "u"
+                    },
+                    "to": {
+                        "key_code": "l"
+                    }
+                },
+                {
+                    "from": {
+                        "key_code": "y"
+                    },
+                    "to": {
+                        "key_code": "j"
+                    }
+                }
+            ],
+            "virtual_hid_keyboard": {
+                "country_code": 0,
+                "mouse_key_xy_scale": 100
             }
         }
     ]
