@@ -1178,7 +1178,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Applications/Google Chrome.app'"
+                                        "shell_command": "open '/Applications/Brave Browser.app'"
                                     }
                                 ],
                                 "type": "basic"
@@ -1348,13 +1348,13 @@
                                         "shell_command": "open '/Users/jhelvy/gh/staging/foo/foo.txt'"
                                     },
                                     {
-                                        "shell_command": "open '/Applications/Google Chrome.app' 'https://mail.google.com/mail/'"
+                                        "shell_command": "open '/Applications/Brave Browser.app' 'https://mail.google.com/mail/'"
                                     },
                                     {
-                                        "shell_command": "open '/Applications/Google Chrome.app' 'https://keep.google.com/'"
+                                        "shell_command": "open '/Applications/Brave Browser.app' 'https://keep.google.com/'"
                                     },
                                     {
-                                        "shell_command": "open '/Applications/Google Chrome.app' 'https://calendar.google.com/calendar/r'"
+                                        "shell_command": "open '/Applications/Brave Browser.app' 'https://calendar.google.com/calendar/r'"
                                     },
                                     {
                                         "shell_command": "open '/Applications/GitHub Desktop.app'"
@@ -1783,7 +1783,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Applications/Google Chrome.app' 'https://mail.google.com/mail/'"
+                                        "shell_command": "open '/Applications/Brave Browser.app' 'https://mail.google.com/mail/'"
                                     }
                                 ],
                                 "type": "basic"
@@ -1799,7 +1799,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Applications/Google Chrome.app' 'https://calendar.google.com/calendar/r'"
+                                        "shell_command": "open '/Applications/Brave Browser.app' 'https://calendar.google.com/calendar/r'"
                                     }
                                 ],
                                 "type": "basic"
@@ -1815,7 +1815,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Applications/Google Chrome.app' 'https://keep.google.com/'"
+                                        "shell_command": "open '/Applications/Brave Browser.app' 'https://keep.google.com/'"
                                     }
                                 ],
                                 "type": "basic"
@@ -3406,7 +3406,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Applications/Google Chrome.app'"
+                                        "shell_command": "open '/Applications/Brave Browser.app'"
                                     }
                                 ],
                                 "type": "basic"
@@ -3576,13 +3576,13 @@
                                         "shell_command": "open '/Users/jhelvy/gh/staging/foo/foo.txt'"
                                     },
                                     {
-                                        "shell_command": "open '/Applications/Google Chrome.app' 'https://mail.google.com/mail/'"
+                                        "shell_command": "open '/Applications/Brave Browser.app' 'https://mail.google.com/mail/'"
                                     },
                                     {
-                                        "shell_command": "open '/Applications/Google Chrome.app' 'https://keep.google.com/'"
+                                        "shell_command": "open '/Applications/Brave Browser.app' 'https://keep.google.com/'"
                                     },
                                     {
-                                        "shell_command": "open '/Applications/Google Chrome.app' 'https://calendar.google.com/calendar/r'"
+                                        "shell_command": "open '/Applications/Brave Browser.app' 'https://calendar.google.com/calendar/r'"
                                     },
                                     {
                                         "shell_command": "open '/Applications/GitHub Desktop.app'"
@@ -3985,7 +3985,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Applications/Google Chrome.app' 'https://mail.google.com/mail/'"
+                                        "shell_command": "open '/Applications/Brave Browser.app' 'https://mail.google.com/mail/'"
                                     }
                                 ],
                                 "type": "basic"
@@ -4001,7 +4001,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Applications/Google Chrome.app' 'https://calendar.google.com/calendar/r'"
+                                        "shell_command": "open '/Applications/Brave Browser.app' 'https://calendar.google.com/calendar/r'"
                                     }
                                 ],
                                 "type": "basic"
@@ -4017,7 +4017,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Applications/Google Chrome.app' 'https://keep.google.com/'"
+                                        "shell_command": "open '/Applications/Brave Browser.app' 'https://keep.google.com/'"
                                     }
                                 ],
                                 "type": "basic"
@@ -7060,7 +7060,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Applications/Google Chrome.app'"
+                                        "shell_command": "open '/Applications/Brave Browser.app'"
                                     }
                                 ],
                                 "type": "basic"
@@ -7230,13 +7230,13 @@
                                         "shell_command": "open '/Users/jhelvy/gh/staging/foo/foo.txt'"
                                     },
                                     {
-                                        "shell_command": "open '/Applications/Google Chrome.app' 'https://mail.google.com/mail/'"
+                                        "shell_command": "open '/Applications/Brave Browser.app' 'https://mail.google.com/mail/'"
                                     },
                                     {
-                                        "shell_command": "open '/Applications/Google Chrome.app' 'https://keep.google.com/'"
+                                        "shell_command": "open '/Applications/Brave Browser.app' 'https://keep.google.com/'"
                                     },
                                     {
-                                        "shell_command": "open '/Applications/Google Chrome.app' 'https://calendar.google.com/calendar/r'"
+                                        "shell_command": "open '/Applications/Brave Browser.app' 'https://calendar.google.com/calendar/r'"
                                     },
                                     {
                                         "shell_command": "open '/Applications/GitHub Desktop.app'"
@@ -7639,7 +7639,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Applications/Google Chrome.app' 'https://mail.google.com/mail/'"
+                                        "shell_command": "open '/Applications/Brave Browser.app' 'https://mail.google.com/mail/'"
                                     }
                                 ],
                                 "type": "basic"
@@ -7655,7 +7655,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Applications/Google Chrome.app' 'https://calendar.google.com/calendar/r'"
+                                        "shell_command": "open '/Applications/Brave Browser.app' 'https://calendar.google.com/calendar/r'"
                                     }
                                 ],
                                 "type": "basic"
@@ -7671,7 +7671,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Applications/Google Chrome.app' 'https://keep.google.com/'"
+                                        "shell_command": "open '/Applications/Brave Browser.app' 'https://keep.google.com/'"
                                     }
                                 ],
                                 "type": "basic"
@@ -9470,7 +9470,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Applications/Google Chrome.app'"
+                                        "shell_command": "open '/Applications/Brave Browser.app'"
                                     }
                                 ],
                                 "type": "basic"
@@ -9640,13 +9640,13 @@
                                         "shell_command": "open '/Users/jhelvy/gh/staging/foo/foo.txt'"
                                     },
                                     {
-                                        "shell_command": "open '/Applications/Google Chrome.app' 'https://mail.google.com/mail/'"
+                                        "shell_command": "open '/Applications/Brave Browser.app' 'https://mail.google.com/mail/'"
                                     },
                                     {
-                                        "shell_command": "open '/Applications/Google Chrome.app' 'https://keep.google.com/'"
+                                        "shell_command": "open '/Applications/Brave Browser.app' 'https://keep.google.com/'"
                                     },
                                     {
-                                        "shell_command": "open '/Applications/Google Chrome.app' 'https://calendar.google.com/calendar/r'"
+                                        "shell_command": "open '/Applications/Brave Browser.app' 'https://calendar.google.com/calendar/r'"
                                     },
                                     {
                                         "shell_command": "open '/Applications/GitHub Desktop.app'"
@@ -10049,7 +10049,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Applications/Google Chrome.app' 'https://mail.google.com/mail/'"
+                                        "shell_command": "open '/Applications/Brave Browser.app' 'https://mail.google.com/mail/'"
                                     }
                                 ],
                                 "type": "basic"
@@ -10065,7 +10065,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Applications/Google Chrome.app' 'https://calendar.google.com/calendar/r'"
+                                        "shell_command": "open '/Applications/Brave Browser.app' 'https://calendar.google.com/calendar/r'"
                                     }
                                 ],
                                 "type": "basic"
@@ -10081,7 +10081,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Applications/Google Chrome.app' 'https://keep.google.com/'"
+                                        "shell_command": "open '/Applications/Brave Browser.app' 'https://keep.google.com/'"
                                     }
                                 ],
                                 "type": "basic"
@@ -10554,7 +10554,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Applications/Google Chrome.app'"
+                                        "shell_command": "open '/Applications/Brave Browser.app'"
                                     }
                                 ],
                                 "type": "basic"
@@ -10595,13 +10595,13 @@
                                         "shell_command": "open '/Users/jhelvy/gh/staging/foo/foo.txt'"
                                     },
                                     {
-                                        "shell_command": "open '/Applications/Google Chrome.app' 'https://mail.google.com/mail/'"
+                                        "shell_command": "open '/Applications/Brave Browser.app' 'https://mail.google.com/mail/'"
                                     },
                                     {
-                                        "shell_command": "open '/Applications/Google Chrome.app' 'https://keep.google.com/'"
+                                        "shell_command": "open '/Applications/Brave Browser.app' 'https://keep.google.com/'"
                                     },
                                     {
-                                        "shell_command": "open '/Applications/Google Chrome.app' 'https://calendar.google.com/calendar/r'"
+                                        "shell_command": "open '/Applications/Brave Browser.app' 'https://calendar.google.com/calendar/r'"
                                     },
                                     {
                                         "shell_command": "open '/Applications/GitHub Desktop.app'"
@@ -10615,7 +10615,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Applications/Google Chrome.app' 'https://mail.google.com/mail/'"
+                                        "shell_command": "open '/Applications/Brave Browser.app' 'https://mail.google.com/mail/'"
                                     }
                                 ],
                                 "type": "basic"
@@ -10626,7 +10626,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Applications/Google Chrome.app' 'https://calendar.google.com/calendar/r'"
+                                        "shell_command": "open '/Applications/Brave Browser.app' 'https://calendar.google.com/calendar/r'"
                                     }
                                 ],
                                 "type": "basic"
@@ -10637,7 +10637,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Applications/Google Chrome.app' 'https://keep.google.com/'"
+                                        "shell_command": "open '/Applications/Brave Browser.app' 'https://keep.google.com/'"
                                     }
                                 ],
                                 "type": "basic"
