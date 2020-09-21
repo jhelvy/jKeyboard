@@ -10755,6 +10755,28 @@
                                     }
                                 ],
                                 "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "f19"
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open '/Users/jhelvy/gh/0class/P4A'"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "f20"
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open '/Users/jhelvy/gh/0class/EDA'"
+                                    }
+                                ],
+                                "type": "basic"
                             }
                         ]
                     },
