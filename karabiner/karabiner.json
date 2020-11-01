@@ -10762,7 +10762,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Users/jhelvy/gh/0class/P4A'"
+                                        "shell_command": "open '/Users/jhelvy/gh/0gw'"
                                     }
                                 ],
                                 "type": "basic"
@@ -10773,7 +10773,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Users/jhelvy/gh/0class/EDA'"
+                                        "shell_command": "open '/Users/jhelvy/gh/0research'"
                                     }
                                 ],
                                 "type": "basic"
