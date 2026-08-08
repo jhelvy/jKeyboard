@@ -2510,24 +2510,6 @@
                                     }
                                 ],
                                 "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "z",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "control",
-                                            "shift",
-                                            "option"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "open '/Users/jhelvy/gh/staging/foo/foo.txt'"
-                                    }
-                                ],
-                                "type": "basic"
                             }
                         ]
                     },
